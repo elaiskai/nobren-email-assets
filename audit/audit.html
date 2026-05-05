@@ -224,6 +224,43 @@ strong{color:var(--ink);font-weight:600}
 .plan-step .what{font-size:15px;color:var(--ink-2);margin:0;line-height:1.6}
 .plan-step ul{margin:8px 0 0 0;padding-left:18px;font-size:14.5px;color:var(--ink-2);line-height:1.7}
 
+/* JOURNEY */
+.journey{margin-top:32px}
+.stage{
+  display:grid;grid-template-columns:80px 1fr;gap:28px;
+  margin-bottom:40px;align-items:start;
+}
+.stage-num{
+  font-family:'Cormorant Garamond',serif;font-weight:600;font-size:38px;
+  color:var(--gold);line-height:1;
+  text-align:center;padding:10px 0 14px;
+  border-bottom:2px solid var(--gold);
+}
+.stage-title{
+  font-family:'Cormorant Garamond',serif;font-weight:500;font-size:24px;
+  margin-bottom:16px;color:var(--ink);line-height:1.2;
+}
+.auto-list{display:grid;grid-template-columns:1fr;gap:10px}
+.auto-card{
+  background:var(--bg-card);padding:22px 26px;border-radius:4px;
+  border:1px solid var(--line);
+}
+.auto-status{
+  display:inline-block;font-family:'Inter',sans-serif;
+  font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
+  padding:3px 9px;border-radius:3px;margin-bottom:10px;
+}
+.auto-status.ok{background:var(--green-soft);color:var(--green)}
+.auto-status.warn{background:var(--amber-soft);color:var(--amber)}
+.auto-status.crit{background:var(--red-soft);color:var(--red)}
+.auto-card h3{font-size:19px;margin-bottom:6px;line-height:1.3}
+.auto-card .meta{
+  font-family:'Inter',sans-serif;font-size:12px;
+  color:var(--gold-dk);font-weight:500;
+  margin-bottom:12px;line-height:1.5;letter-spacing:.02em;
+}
+.auto-card p{font-size:14.5px;line-height:1.6;margin:0;color:var(--ink-2)}
+
 .campaign-grid{
   display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin:24px 0 0;
 }
@@ -264,6 +301,8 @@ footer{padding:48px 0;border-top:1px solid var(--line);margin-top:80px;backgroun
   .plan-num{font-size:32px}
   .plan-intro{padding:32px 24px}
   .wrap{padding:0 22px}
+  .stage{grid-template-columns:1fr;gap:14px}
+  .stage-num{display:inline-block;width:60px;font-size:30px;padding:6px 0 10px}
 }
 
 @media print{
@@ -511,11 +550,118 @@ footer{padding:48px 0;border-top:1px solid var(--line);margin-top:80px;backgroun
   </div>
 </section>
 
-<!-- 6 · PLAN B -->
+<!-- 6 · BUYER JOURNEY (NEW PLAN B) -->
 <section style="background:#f3ecdc">
   <div class="wrap">
     <div class="kicker">06 · Planas, B dalis</div>
-    <h2>Antra — <em>pradedame siųsti</em></h2>
+    <h2>Antra — <em>pirkėjo kelionė</em></h2>
+    <p class="lead">9 automatiniai srautai, kurie veikia kartu kaip vientisas palydėjimas — nuo prenumeratos iki pakartotinio pirkimo. Vieną kartą pastatyti, jie dirba foniniame režime kiekvienai naujai prenumeratai.</p>
+
+    <div class="journey">
+
+      <div class="stage">
+        <div class="stage-num">01</div>
+        <div>
+          <div class="stage-title">Pirma pažintis</div>
+          <div class="auto-list">
+            <div class="auto-card">
+              <div class="auto-status warn">Pataisyti</div>
+              <h3>Welcome — pasveikinimo serija</h3>
+              <p class="meta">4 laiškai per 7 dienas · trigeris: prenumerata</p>
+              <p>Pristatomas brandas, mėginių rinkinio nuolaida, bestseleriai. Dabartinis 9 laiškų srautas sutrumpinamas iki 4 aiškiai apibrėžtų etapų: pasveikinimas + nuolaida → kvapo gidas → bestseleriai → paskutinis priminimas.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="stage">
+        <div class="stage-num">02</div>
+        <div>
+          <div class="stage-title">Pirkimo kelyje</div>
+          <div class="auto-list">
+            <div class="auto-card">
+              <div class="auto-status warn">Pabaigti</div>
+              <h3>Browse Abandonment</h3>
+              <p class="meta">2 laiškai · trigeris: peržiūrėjo prekę, nepridėjo į krepšelį</p>
+              <p>Pamatė konkretų kvapą, bet neperėjo į krepšelį. Pirmas priminimas po 2 val., antras — kitą rytą su 3 panašiais kvapais alternatyvai.</p>
+            </div>
+            <div class="auto-card">
+              <div class="auto-status ok">Atnaujinti turinį</div>
+              <h3>Abandoned Cart</h3>
+              <p class="meta">3 laiškai · trigeris: pridėjo į krepšelį, neapmokėjo</p>
+              <p>1 val. → priminimas su krepšelio turiniu. 24 val. → atsiliepimai ir socialinis įrodymas. 48 val. → nemokamo pristatymo paskata. Šiuo metu veikia, tik turinį atnaujinti pagal naują brand toną.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="stage">
+        <div class="stage-num">03</div>
+        <div>
+          <div class="stage-title">Po pirkimo</div>
+          <div class="auto-list">
+            <div class="auto-card">
+              <div class="auto-status crit">Naujas</div>
+              <h3>Post-Purchase Thank You</h3>
+              <p class="meta">1 laiškas · trigeris: užsakymas patvirtintas</p>
+              <p>Padėka + kvapo naudojimo gidas (kaip neutralizuoti, kiek purkšti, kur laikyti) + nemokamų mėginių pasiūlymas pakartotiniam užsakymui.</p>
+            </div>
+            <div class="auto-card">
+              <div class="auto-status crit">Naujas</div>
+              <h3>Atsiliepimo prašymas</h3>
+              <p class="meta">1 laiškas · trigeris: 10 dienų po pristatymo</p>
+              <p>Pirkėjas jau spėjo išbandyti kvapą — laikas paklausti atsiliepimo. Mainais — nemokami mėginiai kitam užsakymui (čia perka jau esamas Nobren'o pasiūlymas).</p>
+            </div>
+            <div class="auto-card">
+              <div class="auto-status crit">Naujas</div>
+              <h3>Replenishment — laikas papildyti</h3>
+              <p class="meta">1 laiškas · trigeris: 60 dienų po pirkimo</p>
+              <p>„Jūsų kvapas turbūt baigiasi" — tas pats kvapas + 2–3 panašūs naujovė. Subtilus priminimas, kuris veikia kaip antras pardavimas be reklamos jausmo.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="stage">
+        <div class="stage-num">04</div>
+        <div>
+          <div class="stage-title">Lojalumas ir grąžinimas</div>
+          <div class="auto-list">
+            <div class="auto-card">
+              <div class="auto-status crit">Naujas</div>
+              <h3>VIP / Lojalumo pasveikinimas</h3>
+              <p class="meta">1 laiškas · trigeris: 2-as ar daugiau pirkimas</p>
+              <p>Pasveikinimas su lojaliu klientu, ekskliuzyvinis priemoka (pvz. -15% kitam užsakymui) ir ankstyvas akcijų informavimas — VIP'ai gauna 24 val. anksčiau.</p>
+            </div>
+            <div class="auto-card">
+              <div class="auto-status warn">Pabaigti</div>
+              <h3>Customer Winback</h3>
+              <p class="meta">3 laiškai per 30 d. · trigeris: 90 dienų neaktyvumo</p>
+              <p>1: „Pasiilgom Jūsų" + naujienos. 2: bestseleriai + atsiliepimai. 3: paskutinis priminimas su nuolaida. Šiuo metu sustabdytas su vienu laišku — reikia užbaigti.</p>
+            </div>
+            <div class="auto-card">
+              <div class="auto-status crit">Naujas (jei renkam datą)</div>
+              <h3>Birthday — gimtadienio dovana</h3>
+              <p class="meta">1 laiškas · trigeris: dieną prieš gimtadienį</p>
+              <p>Asmeninė nuolaida arba dovanos rinkinukas. Veikia tik tuo atveju, jei prenumeratos formoje renkame gimtadienio datą — jei dar nerenkam, tai sprendimas atskiras.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="callout" style="margin-top:40px">
+      <p><strong>Visi šie srautai veikia kartu kaip vientisas pirkėjo kelionės palydėjimas.</strong> Klientui — natūralus, neįkyrus kontaktas. Verslui — automatinis pajamų generatorius, kuris dirba 24/7 be kasdienio rankinio darbo. Pastatomi vieną kartą, atnaujinami kas 6 mėnesius.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 7 · PLAN C (CAMPAIGNS) -->
+<section>
+  <div class="wrap">
+    <div class="kicker">07 · Planas, C dalis</div>
+    <h2>Trečia — <em>pradedame siųsti kampanijas</em></h2>
     <p class="lead">8 segmentuotos kampanijos per mėnesį. Kiekviena eina į konkretų segmentą — ne „visiems iš eilės".</p>
 
     <div class="campaign-grid">
@@ -535,10 +681,10 @@ footer{padding:48px 0;border-top:1px solid var(--line);margin-top:80px;backgroun
   </div>
 </section>
 
-<!-- 7 · QUESTIONS -->
-<section>
+<!-- 8 · QUESTIONS -->
+<section style="background:#f3ecdc">
   <div class="wrap">
-    <div class="kicker">07 · Klausimai jums</div>
+    <div class="kicker">08 · Klausimai jums</div>
     <h2>Pora dalykų, <em>kuriuos reikia patikslinti</em></h2>
     <p class="lead">Atsakę į šituos klausimus galėsime pradėti A dalies darbus.</p>
 
