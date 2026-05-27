@@ -1,0 +1,88 @@
+<!-- R1 · BLOCK 1: Logo + Hero + Copy + Review + Video offer -->
+<!-- Įdėk PIRMAS kaip "HTML" bloką Klaviyo editor'e -->
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&family=Roboto:wght@300;400;500&family=Sacramento&display=swap');
+</style>
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#ffffff;">
+
+  <!-- Logo -->
+  <tr>
+    <td style="padding:28px 48px 20px;text-align:center;">
+      <a href="https://nobrenparfum.lt/lt/">
+        <img src="https://nobrenparfum.lt/img/shop_logo.png" alt="Nobren Parfum" width="140" style="display:block;height:auto;margin:0 auto;">
+      </a>
+    </td>
+  </tr>
+
+  <!-- Hero -->
+  <tr>
+    <td style="padding:0;">
+      <img src="https://cdn.jsdelivr.net/gh/elaiskai/nobren-email-assets@main/flows/review/hero-r1.png"
+           alt="Nobren Parfum" width="600" style="display:block;width:100%;height:auto;">
+    </td>
+  </tr>
+
+  <!-- Intro -->
+  <tr>
+    <td style="padding:40px 48px 32px;">
+      <p style="font-family:'Sacramento',cursive;font-size:22px;color:#ff6c8d;margin:0 0 12px;line-height:1.3;">2 savaitės vėliau</p>
+      <h1 style="font-family:'Oswald',Arial,sans-serif;font-size:26px;font-weight:500;color:#1e1e1e;margin:0 0 20px;line-height:1.35;text-transform:uppercase;letter-spacing:0.5px;">Praėjo jau 2 savaitės — kaip Jums sekasi su {{ event.ProductName }}?</h1>
+      <p style="font-family:'Roboto',Arial,sans-serif;font-size:15px;font-weight:300;color:#444444;line-height:1.7;margin:0;">Per šį laiką kvapas jau turėjo progą atsiskleisti ant Jūsų odos ir tapti kasdienybės dalimi. Mums labai smalsu sužinoti, kaip Jums su juo sekasi.</p>
+    </td>
+  </tr>
+
+  <!-- Review sekcija -->
+  <tr>
+    <td style="padding:0 48px 16px;">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td style="padding:28px 28px 28px;background:#fdf5f7;border-radius:4px;text-align:center;">
+            <p style="font-family:'Oswald',Arial,sans-serif;font-size:17px;font-weight:500;color:#1e1e1e;text-transform:uppercase;letter-spacing:0.5px;margin:0 0 12px;">Palikite atsiliepimą svetainėje</p>
+            <p style="font-family:'Roboto',Arial,sans-serif;font-size:14px;font-weight:300;color:#666666;line-height:1.7;margin:0 0 22px;">Jūsų patirtis padeda kitiems žmonėms lengviau apsispręsti renkantis kvapą. O tas „Kuo tu kvepi?" efektas dažnai būna geriausias įrodymas, kad kvapas tikrai atrastas.</p>
+            <a href="{{ event.ProductURL }}" style="display:inline-block;background:#ff6c8d;color:#ffffff;text-decoration:none;font-family:'Oswald',Arial,sans-serif;font-size:13px;font-weight:500;letter-spacing:1.5px;text-transform:uppercase;text-align:center;padding:14px 32px;border-radius:2px;">
+              Palikti atsiliepimą
+            </a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+
+  <!-- Divider -->
+  <tr>
+    <td style="padding:24px 48px;text-align:center;">
+      <span style="font-family:'Sacramento',cursive;font-size:20px;color:#aaaaaa;">O jei norite padaryti kažką ypatingesnio...</span>
+    </td>
+  </tr>
+
+  <!-- Video atsiliepimo sekcija -->
+  <tr>
+    <td style="padding:0 48px 40px;">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td style="padding:28px;background:#1e1e1e;border-radius:4px;text-align:center;">
+            <p style="font-family:'Sacramento',cursive;font-size:20px;color:#ff6c8d;margin:0 0 10px;line-height:1.3;">dovana už video</p>
+            <p style="font-family:'Oswald',Arial,sans-serif;font-size:17px;font-weight:500;color:#ffffff;text-transform:uppercase;letter-spacing:0.5px;margin:0 0 14px;">Video atsiliepimas = namų kvapas dovanų</p>
+            <p style="font-family:'Roboto',Arial,sans-serif;font-size:14px;font-weight:300;color:#aaaaaa;line-height:1.7;margin:0 0 22px;">Nufilmuokite trumpą video apie tai, kaip kvepiate su {{ event.ProductName }} ir kokius komplimentus gaunate. Atsiųskite jį mums ir padovanosime Jums namų kvapą.</p>
+            <a href="mailto:info@nobrenparfum.lt?subject=Video%20atsiliepimas" style="display:inline-block;background:#ff6c8d;color:#ffffff;text-decoration:none;font-family:'Oswald',Arial,sans-serif;font-size:13px;font-weight:500;letter-spacing:1.5px;text-transform:uppercase;text-align:center;padding:14px 32px;border-radius:2px;">
+              Siųsti video
+            </a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+
+  <!-- Recommendations antraštė -->
+  <tr>
+    <td style="padding:0 48px 20px;">
+      <hr style="border:none;border-top:1px solid #ebebeb;margin:0 0 28px;">
+      <p style="font-family:'Oswald',Arial,sans-serif;font-size:18px;font-weight:500;color:#1e1e1e;text-transform:uppercase;letter-spacing:0.5px;margin:0 0 6px;text-align:center;">Gal Jums taip pat patiks</p>
+      <p style="font-family:'Sacramento',cursive;font-size:18px;color:#ff6c8d;margin:0;text-align:center;line-height:1.3;">kiti mūsų klientų mėgstami kvapai</p>
+    </td>
+  </tr>
+
+</table>
+<!-- ↓ ČIA: įdėk Klaviyo "Product Recommendations" bloką (drag & drop) ↓ -->
+<!-- Nustatyk: kaina ✓, aprašymas ✓, mygtukas "Įsigyti" ✓ -->
