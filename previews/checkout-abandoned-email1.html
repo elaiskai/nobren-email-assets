@@ -5,7 +5,6 @@
 <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
-<!--[if mso]><noscript><xml><o:OfficeDocumentSettings><o:AllowPNG/><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml></noscript><![endif]-->
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&family=Roboto:wght@300;400;500&family=Sacramento&display=swap");
 a,a:link,a:visited,a:active,a:hover{color:#ff6c8d;text-decoration:underline}
@@ -20,7 +19,6 @@ p{margin:0;padding-bottom:1em;display:block}
   .cta-sec{padding:0 20px 28px!important}
   .note-sec{padding:0 20px 28px!important}
   .foot{padding:24px 20px!important}
-  .item-img{width:100%!important;text-align:center!important;padding-bottom:12px!important}
 }
 </style>
 </head>
@@ -38,77 +36,56 @@ p{margin:0;padding-bottom:1em;display:block}
 </a>
 </td></tr>
 
-<!-- Hero image -->
+<!-- Hero -->
 <tr><td style="padding:0;line-height:0;">
 <img alt="Nobren Parfum" src="https://cdn.jsdelivr.net/gh/elaiskai/nobren-email-assets@main/flows/checkout-abandoned/hero-ca1.png" width="600" style="display:block;width:100%;height:auto;"/>
 </td></tr>
 
-<!-- Headline copy -->
+<!-- Copy -->
 <tr><td class="sec" style="padding:36px 48px 24px;">
 <p style="font-family:'Sacramento',cursive;font-size:22px;color:#ff6c8d;margin:0 0 10px;line-height:1.3;padding-bottom:0;">jau visai netoli</p>
 <h1 style="font-family:'Oswald',Arial,sans-serif;font-size:26px;font-weight:500;color:#1e1e1e;margin:0 0 16px;line-height:1.35;text-transform:uppercase;letter-spacing:0.5px;">Tik vienas žingsnis liko</h1>
 <p style="font-family:'Roboto',Arial,sans-serif;font-size:15px;font-weight:300;color:#444;line-height:1.7;margin:0;padding-bottom:0;">Jūsų pasirinkta informacija išsaugota. Spustelėkite mygtuką ir galėsite lengvai užbaigti užsakymą.</p>
 </td></tr>
 
-<!-- ===== CART ITEMS ===== -->
+<!-- Cart items -->
 {% if event.extra.line_items %}
 <tr><td class="items-sec" style="padding:0 48px 28px;">
-  <p style="font-family:'Oswald',Arial,sans-serif;font-size:11px;font-weight:500;color:#aaa;text-transform:uppercase;letter-spacing:2px;margin:0 0 16px;padding-bottom:0;">Jūsų krepšelyje</p>
-  {% for item in event.extra.line_items %}
-  <table border="0" cellpadding="0" cellspacing="0" width="100%"
-         style="margin-bottom:12px;border:1px solid #ebebeb;border-radius:4px;background:#fafafa;">
-    <tbody><tr>
-      <td class="item-img" style="width:100px;padding:16px;vertical-align:middle;text-align:center;">
-        <a href="{{ item.ProductURL }}" style="color:#ff6c8d;text-decoration:none;">
-          <img alt="{{ item.ProductInfo.name }}" src="{{ item.Image }}"
-               width="72" height="72"
-               style="display:block;margin:0 auto;object-fit:contain;border-radius:2px;"/>
-        </a>
-      </td>
-      <td style="padding:16px 16px 16px 0;vertical-align:middle;">
-        <p style="font-family:'Oswald',Arial,sans-serif;font-size:14px;font-weight:500;color:#1e1e1e;text-transform:uppercase;letter-spacing:0.5px;margin:0 0 6px;padding-bottom:0;">
-          <a href="{{ item.ProductURL }}" style="color:#1e1e1e;text-decoration:none;">{{ item.ProductInfo.name }}</a>
-        </p>
-        <p style="font-family:'Roboto',Arial,sans-serif;font-size:13px;color:#888;margin:0 0 4px;padding-bottom:0;">Kiekis: {{ item.Quantity }} vnt.</p>
-        <p style="font-family:'Roboto',Arial,sans-serif;font-size:14px;color:#1e1e1e;margin:0;padding-bottom:0;">{{ item.ItemPrice }} €</p>
-      </td>
-    </tr></tbody>
-  </table>
-  {% endfor %}
+<p style="font-family:'Oswald',Arial,sans-serif;font-size:11px;font-weight:500;color:#aaa;text-transform:uppercase;letter-spacing:2px;margin:0 0 16px;padding-bottom:0;">Jūsų krepšelyje</p>
+{% for item in event.extra.line_items %}
+<table border="0" cellpadding="0" cellspacing="0" width="100%" style="margin-bottom:12px;border:1px solid #ebebeb;border-radius:4px;background:#fafafa;">
+<tbody><tr>
+<td style="width:100px;padding:16px;vertical-align:middle;text-align:center;">
+<a href="{{ item.ProductURL }}" style="color:#ff6c8d;text-decoration:none;">
+<img alt="{{ item.ProductInfo.name }}" src="{{ item.Image }}" width="72" height="72" style="display:block;margin:0 auto;object-fit:contain;"/>
+</a>
+</td>
+<td style="padding:16px 16px 16px 0;vertical-align:middle;">
+<p style="font-family:'Oswald',Arial,sans-serif;font-size:14px;font-weight:500;color:#1e1e1e;text-transform:uppercase;letter-spacing:0.5px;margin:0 0 6px;padding-bottom:0;"><a href="{{ item.ProductURL }}" style="color:#1e1e1e;text-decoration:none;">{{ item.ProductInfo.name }}</a></p>
+<p style="font-family:'Roboto',Arial,sans-serif;font-size:13px;color:#888;margin:0 0 4px;padding-bottom:0;">Kiekis: {{ item.Quantity }} vnt.</p>
+<p style="font-family:'Roboto',Arial,sans-serif;font-size:14px;color:#1e1e1e;margin:0;padding-bottom:0;">{{ item.ItemPrice }} €</p>
+</td>
+</tr></tbody>
+</table>
+{% endfor %}
 </td></tr>
 {% endif %}
-<!-- ===== END CART ITEMS ===== -->
 
-<!-- CTA button -->
+<!-- CTA -->
 <tr><td class="cta-sec" style="padding:0 48px 16px;text-align:center;">
-<a href="{{ event.CheckoutURL }}"
-   style="display:inline-block;background:#ff6c8d;color:#ffffff;
-          font-family:'Oswald',Arial,sans-serif;font-size:13px;font-weight:500;
-          letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;
-          padding:15px 52px;border-radius:2px;">
-  Baigti užsakymą
-</a>
+<a href="{{ event.CheckoutURL }}" style="display:inline-block;background:#ff6c8d;color:#ffffff;font-family:'Oswald',Arial,sans-serif;font-size:13px;font-weight:500;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;padding:15px 52px;border-radius:2px;">Baigti užsakymą</a>
 </td></tr>
 
-<!-- Shipping note -->
+<!-- Note -->
 <tr><td class="note-sec" style="padding:0 48px 36px;text-align:center;">
-<p style="font-family:'Roboto',Arial,sans-serif;font-size:12px;color:#bbb;margin:0;padding-bottom:0;">
-  Nemokamas pristatymas nuo 45&thinsp;€ &nbsp;&middot;&nbsp;
-  <a href="mailto:info@nobrenparfum.lt" style="color:#ff6c8d;text-decoration:none;">info@nobrenparfum.lt</a>
-</p>
+<p style="font-family:'Roboto',Arial,sans-serif;font-size:12px;color:#bbb;margin:0;padding-bottom:0;">Nemokamas pristatymas nuo 45&thinsp;€ &nbsp;&middot;&nbsp; <a href="mailto:info@nobrenparfum.lt" style="color:#ff6c8d;text-decoration:none;">info@nobrenparfum.lt</a></p>
 </td></tr>
 
 <!-- Footer -->
 <tr><td class="foot" style="padding:28px 48px;background:#1e1e1e;text-align:center;">
-<img alt="Nobren Parfum" src="https://nobrenparfum.lt/img/shop_logo.png" width="100"
-     style="display:block;margin:0 auto 16px;filter:invert(1);opacity:0.8;height:auto;"/>
-<p style="font-family:'Roboto',Arial,sans-serif;font-size:12px;color:#888;line-height:1.6;margin:0 0 10px;padding-bottom:0;">
-  Nobren Parfum &middot; nobrenparfum.lt<br/>info@nobrenparfum.lt
-</p>
-<p style="font-family:'Roboto',Arial,sans-serif;font-size:11px;color:#555;margin:0;padding-bottom:0;">
-  Šį laišką gavote, nes pradėjote užsakymą mūsų parduotuvėje.<br/>
-  <a href="{{ organization.unsubscribe_link }}" style="color:#888;text-decoration:underline;">Atsisakyti laiškų</a>
-</p>
+<img alt="Nobren Parfum" src="https://nobrenparfum.lt/img/shop_logo.png" width="100" style="display:block;margin:0 auto 16px;filter:invert(1);opacity:0.8;height:auto;"/>
+<p style="font-family:'Roboto',Arial,sans-serif;font-size:12px;color:#888;line-height:1.6;margin:0 0 10px;padding-bottom:0;">Nobren Parfum &middot; nobrenparfum.lt<br/>info@nobrenparfum.lt</p>
+<p style="font-family:'Roboto',Arial,sans-serif;font-size:11px;color:#555;margin:0;padding-bottom:0;">Šį laišką gavote, nes pradėjote užsakymą mūsų parduotuvėje.<br/><a href="{{ organization.unsubscribe_link }}" style="color:#888;text-decoration:underline;">Atsisakyti laiškų</a></p>
 </td></tr>
 
 </table>
