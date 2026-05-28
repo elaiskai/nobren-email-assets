@@ -20,9 +20,7 @@ p{margin:0;padding-bottom:1em;display:block}
   .cta-sec{padding:0 20px 28px!important}
   .note-sec{padding:0 20px 28px!important}
   .foot{padding:24px 20px!important}
-  .item-card td{display:block!important;width:100%!important}
   .item-img{width:100%!important;text-align:center!important;padding-bottom:12px!important}
-  .item-img img{width:100px!important;height:auto!important}
 }
 </style>
 </head>
@@ -52,19 +50,14 @@ p{margin:0;padding-bottom:1em;display:block}
 <p style="font-family:'Roboto',Arial,sans-serif;font-size:15px;font-weight:300;color:#444;line-height:1.7;margin:0;padding-bottom:0;">Jūsų pasirinkta informacija išsaugota. Spustelėkite mygtuką ir galėsite lengvai užbaigti užsakymą.</p>
 </td></tr>
 
-<!-- ===== CART ITEMS SECTION ===== -->
+<!-- ===== CART ITEMS ===== -->
 {% if event.extra.line_items %}
 <tr><td class="items-sec" style="padding:0 48px 28px;">
-
-  <!-- Section label -->
   <p style="font-family:'Oswald',Arial,sans-serif;font-size:11px;font-weight:500;color:#aaa;text-transform:uppercase;letter-spacing:2px;margin:0 0 16px;padding-bottom:0;">Jūsų krepšelyje</p>
-
-  <!-- Item cards loop -->
   {% for item in event.extra.line_items %}
-  <table class="item-card" border="0" cellpadding="0" cellspacing="0" width="100%"
+  <table border="0" cellpadding="0" cellspacing="0" width="100%"
          style="margin-bottom:12px;border:1px solid #ebebeb;border-radius:4px;background:#fafafa;">
     <tbody><tr>
-      <!-- Product image -->
       <td class="item-img" style="width:100px;padding:16px;vertical-align:middle;text-align:center;">
         <a href="{{ item.ProductURL }}" style="color:#ff6c8d;text-decoration:none;">
           <img alt="{{ item.ProductInfo.name }}" src="{{ item.Image }}"
@@ -72,18 +65,16 @@ p{margin:0;padding-bottom:1em;display:block}
                style="display:block;margin:0 auto;object-fit:contain;border-radius:2px;"/>
         </a>
       </td>
-      <!-- Product details -->
       <td style="padding:16px 16px 16px 0;vertical-align:middle;">
         <p style="font-family:'Oswald',Arial,sans-serif;font-size:14px;font-weight:500;color:#1e1e1e;text-transform:uppercase;letter-spacing:0.5px;margin:0 0 6px;padding-bottom:0;">
           <a href="{{ item.ProductURL }}" style="color:#1e1e1e;text-decoration:none;">{{ item.ProductInfo.name }}</a>
         </p>
         <p style="font-family:'Roboto',Arial,sans-serif;font-size:13px;color:#888;margin:0 0 4px;padding-bottom:0;">Kiekis: {{ item.Quantity }} vnt.</p>
-        <p style="font-family:'Roboto',Arial,sans-serif;font-size:14px;font-weight:400;color:#1e1e1e;margin:0;padding-bottom:0;">{{ item.ItemPrice }} €</p>
+        <p style="font-family:'Roboto',Arial,sans-serif;font-size:14px;color:#1e1e1e;margin:0;padding-bottom:0;">{{ item.ItemPrice }} €</p>
       </td>
     </tr></tbody>
   </table>
   {% endfor %}
-
 </td></tr>
 {% endif %}
 <!-- ===== END CART ITEMS ===== -->
