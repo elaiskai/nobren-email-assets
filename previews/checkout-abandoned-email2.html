@@ -13,58 +13,102 @@ a,a:link,a:visited,a:active,a:hover{color:#ff6c8d;text-decoration:underline}
 body{margin:0;padding:0;-webkit-text-size-adjust:100%;background:#F5F5F7;font-family:"Roboto",Arial,sans-serif}
 table,td{border-collapse:collapse;mso-table-lspace:0;mso-table-rspace:0}
 img{border:0;height:auto;line-height:100%;outline:none;text-decoration:none;max-width:100%}
-p{display:block;margin:0;padding-bottom:1em}
+p{margin:0;padding-bottom:1em;display:block}
 @media only screen and (max-width:480px){
-  .sec{padding:32px 24px!important}
-  .samples-sec{padding:32px 24px!important}
-  .foot{padding:24px!important}
-  .btn-wrap td{display:block!important;width:100%!important;padding:0 0 10px!important}
-  .btn-wrap td a{width:100%!important;box-sizing:border-box}
+  .sec{padding:28px 20px!important}
+  .items-sec{padding:0 20px 24px!important}
+  .cta-sec{padding:0 20px 28px!important}
+  .samples-sec{padding:28px 20px!important}
+  .foot{padding:24px 20px!important}
+  .item-card td{display:block!important;width:100%!important}
+  .item-img{width:100%!important;text-align:center!important;padding-bottom:12px!important}
+  .btn-row td{display:block!important;width:100%!important;padding:0 0 10px!important;text-align:center!important}
+  .btn-row td a{display:block!important}
 }
 </style>
 </head>
 <body style="background-color:#F5F5F7;word-spacing:normal;">
 <!-- TRACKING_PIXEL_TOP -->
 <div style="background:#F5F5F7;padding:20px 0 30px;">
-<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="max-width:600px;width:100%;margin:0 auto;">
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%;margin:0 auto;" role="presentation">
 <tbody><tr><td>
-
-<table border="0" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%;background:#ffffff;border-radius:4px;overflow:hidden;" align="center">
+<table border="0" cellpadding="0" cellspacing="0" style="width:100%;background:#ffffff;border-radius:4px;overflow:hidden;" align="center">
 
 <!-- Logo -->
-<tr><td style="padding:28px 48px 20px;text-align:center;background:#ffffff;">
+<tr><td style="padding:28px 48px 20px;text-align:center;">
 <a href="https://nobrenparfum.lt/lt/" style="color:#ff6c8d;text-decoration:none;">
 <img alt="Nobren Parfum" src="https://nobrenparfum.lt/img/shop_logo.png" width="140" style="display:block;height:auto;margin:0 auto;"/>
 </a>
 </td></tr>
 
 <!-- Hero -->
-<tr><td style="padding:0;">
+<tr><td style="padding:0;line-height:0;">
 <img alt="Nobren mėginėliai" src="https://cdn.jsdelivr.net/gh/elaiskai/nobren-email-assets@main/flows/checkout-abandoned/hero-ca2.png" width="600" style="display:block;width:100%;height:auto;"/>
 </td></tr>
 
 <!-- Copy -->
-<tr><td class="sec" style="padding:40px 48px 28px;">
-<p style="font-family:'Sacramento',cursive;font-size:22px;color:#ff6c8d;margin:0 0 12px;line-height:1.3;padding-bottom:0;">abejonė renkantis kvapą - visiškai normalu</p>
-<h1 style="font-family:'Oswald',Arial,sans-serif;font-size:26px;font-weight:500;color:#1e1e1e;margin:0 0 20px;line-height:1.35;text-transform:uppercase;letter-spacing:0.5px;">Galite pradėti nuo mėginėlių</h1>
+<tr><td class="sec" style="padding:36px 48px 24px;">
+<p style="font-family:'Sacramento',cursive;font-size:22px;color:#ff6c8d;margin:0 0 10px;line-height:1.3;padding-bottom:0;">abejonė renkantis kvapą - visiškai normalu</p>
+<h1 style="font-family:'Oswald',Arial,sans-serif;font-size:26px;font-weight:500;color:#1e1e1e;margin:0 0 16px;line-height:1.35;text-transform:uppercase;letter-spacing:0.5px;">Galite pradėti nuo mėginėlių</h1>
 <p style="font-family:'Roboto',Arial,sans-serif;font-size:15px;font-weight:300;color:#444;line-height:1.7;margin:0;padding-bottom:0;">Jei dar neapsisprendėte, mėginėliai leidžia išbandyti kvapus ant savo odos. Taip lengviau pajusti, kas tinka Jums, be rizikos.</p>
 </td></tr>
 
+<!-- ===== CART ITEMS ===== -->
+{% if event.extra.line_items %}
+<tr><td class="items-sec" style="padding:0 48px 28px;">
+  <p style="font-family:'Oswald',Arial,sans-serif;font-size:11px;font-weight:500;color:#aaa;text-transform:uppercase;letter-spacing:2px;margin:0 0 16px;padding-bottom:0;">Palikti užsakyme</p>
+  {% for item in event.extra.line_items %}
+  <table class="item-card" border="0" cellpadding="0" cellspacing="0" width="100%"
+         style="margin-bottom:12px;border:1px solid #ebebeb;border-radius:4px;background:#fafafa;">
+    <tbody><tr>
+      <td class="item-img" style="width:100px;padding:16px;vertical-align:middle;text-align:center;">
+        <a href="{{ item.ProductURL }}" style="color:#ff6c8d;text-decoration:none;">
+          <img alt="{{ item.ProductInfo.name }}" src="{{ item.Image }}"
+               width="72" height="72"
+               style="display:block;margin:0 auto;object-fit:contain;border-radius:2px;"/>
+        </a>
+      </td>
+      <td style="padding:16px 16px 16px 0;vertical-align:middle;">
+        <p style="font-family:'Oswald',Arial,sans-serif;font-size:14px;font-weight:500;color:#1e1e1e;text-transform:uppercase;letter-spacing:0.5px;margin:0 0 6px;padding-bottom:0;">
+          <a href="{{ item.ProductURL }}" style="color:#1e1e1e;text-decoration:none;">{{ item.ProductInfo.name }}</a>
+        </p>
+        <p style="font-family:'Roboto',Arial,sans-serif;font-size:13px;color:#888;margin:0 0 4px;padding-bottom:0;">Kiekis: {{ item.Quantity }} vnt.</p>
+        <p style="font-family:'Roboto',Arial,sans-serif;font-size:14px;color:#1e1e1e;margin:0;padding-bottom:0;">{{ item.ItemPrice }} €</p>
+      </td>
+    </tr></tbody>
+  </table>
+  {% endfor %}
+</td></tr>
+{% endif %}
+<!-- ===== END CART ITEMS ===== -->
+
 <!-- Dual CTA -->
-<tr><td style="padding:0 48px 32px;text-align:center;">
-<table border="0" cellpadding="0" cellspacing="0" class="btn-wrap" style="margin:0 auto;">
+<tr><td class="cta-sec" style="padding:0 48px 32px;text-align:center;">
+<table border="0" cellpadding="0" cellspacing="0" class="btn-row" style="margin:0 auto;">
 <tbody><tr>
-<td style="padding-right:10px;">
-<a href="https://nobrenparfum.lt/lt/megineliu-rinkiniai" style="display:inline-block;background:#ff6c8d;color:#ffffff;font-family:'Oswald',Arial,sans-serif;font-size:13px;font-weight:500;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;padding:14px 32px;border-radius:2px;">Rinktis mėginėlius</a>
-</td>
-<td>
-<a href="{{ event.CheckoutURL }}" style="display:inline-block;background:transparent;color:#1e1e1e;font-family:'Oswald',Arial,sans-serif;font-size:13px;font-weight:500;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;padding:13px 32px;border-radius:2px;border:1px solid #1e1e1e;">Baigti užsakymą</a>
-</td>
+  <td style="padding-right:10px;">
+    <a href="https://nobrenparfum.lt/lt/megineliu-rinkiniai"
+       style="display:inline-block;background:#ff6c8d;color:#ffffff;
+              font-family:'Oswald',Arial,sans-serif;font-size:13px;font-weight:500;
+              letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;
+              padding:14px 28px;border-radius:2px;">
+      Rinktis mėginėlius
+    </a>
+  </td>
+  <td>
+    <a href="{{ event.CheckoutURL }}"
+       style="display:inline-block;background:transparent;color:#1e1e1e;
+              font-family:'Oswald',Arial,sans-serif;font-size:13px;font-weight:500;
+              letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;
+              padding:13px 28px;border-radius:2px;border:1px solid #1e1e1e;">
+      Baigti užsakymą
+    </a>
+  </td>
 </tr></tbody>
 </table>
 </td></tr>
 
-<!-- Samples info -->
+<!-- Samples info box -->
 <tr><td class="samples-sec" style="padding:32px 48px 40px;background:#fdf5f7;">
 <p style="font-family:'Sacramento',cursive;font-size:20px;color:#ff6c8d;margin:0 0 10px;line-height:1.3;padding-bottom:0;">kodėl verta pradėti nuo mėginėlio</p>
 <h2 style="font-family:'Oswald',Arial,sans-serif;font-size:17px;font-weight:500;color:#1e1e1e;text-transform:uppercase;letter-spacing:0.5px;margin:0 0 12px;line-height:1.35;">Išbandykite namuose prieš rinkdamiesi</h2>
@@ -73,16 +117,18 @@ p{display:block;margin:0;padding-bottom:1em}
 
 <!-- Footer -->
 <tr><td class="foot" style="padding:28px 48px;background:#1e1e1e;text-align:center;">
-<img alt="Nobren Parfum" src="https://nobrenparfum.lt/img/shop_logo.png" width="100" style="display:block;margin:0 auto 16px;filter:invert(1);opacity:0.8;height:auto;"/>
-<p style="font-family:'Roboto',Arial,sans-serif;font-size:12px;color:#888;line-height:1.6;margin:0 0 12px;padding-bottom:0;">Nobren Parfum &middot; nobrenparfum.lt<br/>info@nobrenparfum.lt</p>
+<img alt="Nobren Parfum" src="https://nobrenparfum.lt/img/shop_logo.png" width="100"
+     style="display:block;margin:0 auto 16px;filter:invert(1);opacity:0.8;height:auto;"/>
+<p style="font-family:'Roboto',Arial,sans-serif;font-size:12px;color:#888;line-height:1.6;margin:0 0 10px;padding-bottom:0;">
+  Nobren Parfum &middot; nobrenparfum.lt<br/>info@nobrenparfum.lt
+</p>
 <p style="font-family:'Roboto',Arial,sans-serif;font-size:11px;color:#555;margin:0;padding-bottom:0;">
-Šį laišką gavote, nes pradėjote užsakymą mūsų parduotuvėje.<br/>
-<a href="{{ organization.unsubscribe_link }}" style="color:#888;text-decoration:underline;">Atsisakyti laiškų</a>
+  Šį laišką gavote, nes pradėjote užsakymą mūsų parduotuvėje.<br/>
+  <a href="{{ organization.unsubscribe_link }}" style="color:#888;text-decoration:underline;">Atsisakyti laiškų</a>
 </p>
 </td></tr>
 
 </table>
-
 </td></tr></tbody></table>
 </div>
 <!-- TRACKING_PIXEL_BOTTOM -->
