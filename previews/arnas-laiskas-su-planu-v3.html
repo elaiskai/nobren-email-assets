@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Nobren Parfum — Paruosta + Birzelio 2026 planas</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap');
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Inter',sans-serif;font-size:14px;color:#1e1e1e;background:#faf7f4;line-height:1.7}
+
+  /* ── LAIŠKAS ── */
+  .letter-wrap{max-width:680px;margin:40px auto 0;background:#fff;border-radius:6px;overflow:hidden;box-shadow:0 2px 16px rgba(0,0,0,0.08)}
+  .letter-header{background:#1e1e1e;padding:22px 36px;display:flex;align-items:center;justify-content:space-between}
+  .letter-header .brand{font-family:'Inter',sans-serif;font-size:13px;color:#fff;letter-spacing:0.5px}
+  .letter-header .brand span{color:#ff6c8d}
+  .letter-header .ldate{font-size:11px;color:#777}
+  .letter-body{padding:36px 36px 32px}
+  .letter-label{font-size:10px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:#ff6c8d;margin-bottom:6px}
+  .letter-body h1{font-family:'Playfair Display',serif;font-size:20px;font-weight:400;color:#1e1e1e;line-height:1.35;margin-bottom:22px;padding-bottom:16px;border-bottom:1px solid #f0ece8}
+  .letter-body p{font-size:14px;line-height:1.7;color:#333;margin-bottom:13px;font-weight:300}
+  .done-list{margin:18px 0 22px}
+  .done-row{display:flex;align-items:flex-start;gap:11px;padding:11px 0;border-bottom:1px solid #f5f2ef}
+  .done-row:last-child{border-bottom:none}
+  .done-ico{flex-shrink:0;width:20px;height:20px;background:#e8f5e9;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11px;color:#2e7d32;margin-top:2px}
+  .pending-ico{background:#fff3e0;color:#e65100}
+  .done-txt{font-size:13.5px;line-height:1.6;color:#333;font-weight:300}
+  .done-txt strong{color:#1e1e1e;font-weight:600}
+  .done-txt small{display:block;font-size:11.5px;color:#aaa;margin-top:2px}
+  .action-box{background:#fff8f0;border:1.5px solid #ffcc80;border-radius:6px;padding:18px 20px;margin:22px 0}
+  .action-box .alabel{font-size:10px;font-weight:700;letter-spacing:1.3px;text-transform:uppercase;color:#e65100;margin-bottom:8px}
+  .action-box p{margin:0;font-size:14px;color:#333;font-weight:300}
+  .action-box strong{color:#1e1e1e;font-weight:600}
+  .sign-off{margin-top:24px;padding-top:16px;border-top:1px solid #f0ece8}
+  .sign-off p{font-size:13.5px;margin-bottom:2px;font-weight:300}
+  .sign-off .sname{font-family:'Playfair Display',serif;font-size:15px;font-weight:400;color:#1e1e1e;margin-top:8px;margin-bottom:2px}
+  .sign-off .sco{font-size:12px;color:#aaa}
+
+  /* ── PLANAS ── */
+  .plan-separator{max-width:680px;margin:0 auto;padding:32px 0 0;text-align:center}
+  .plan-sep-line{border:none;border-top:2px dashed #e0d8d0;margin:0 40px}
+  .plan-sep-label{display:inline-block;background:#faf7f4;padding:8px 20px;font-size:11px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#aaa;margin-top:-13px;position:relative}
+
+  .plan-wrap{max-width:680px;margin:0 auto 48px;background:#fff;border-radius:0 0 6px 6px;box-shadow:0 2px 16px rgba(0,0,0,0.08);overflow:hidden}
+  .plan-header{background:#FAF7F4;border-top:3px solid #ff6c8d;padding:28px 36px 24px}
+  .plan-header h2{font-family:'Playfair Display',serif;font-size:22px;font-weight:400;color:#1e1e1e;margin-bottom:8px}
+  .plan-header .pmeta{font-size:11px;color:#aaa;letter-spacing:1px;text-transform:uppercase}
+  .plan-body{padding:28px 36px 36px}
+
+  h3{font-size:11px;font-weight:700;color:#ff6c8d;letter-spacing:1.5px;text-transform:uppercase;margin:28px 0 12px}
+  h3:first-child{margin-top:0}
+  .plan-body p{font-size:13.5px;color:#444;font-weight:300;margin-bottom:10px;line-height:1.7}
+  .plan-body strong{font-weight:600;color:#1e1e1e}
+
+  table{width:100%;border-collapse:collapse;margin:12px 0 22px;font-size:13px}
+  th{background:#1e1e1e;color:#fff;padding:9px 14px;text-align:left;font-weight:500;letter-spacing:0.3px}
+  td{padding:9px 14px;border-bottom:1px solid #f0ebe2;color:#444;font-weight:300;vertical-align:top}
+  tr:last-child td{border-bottom:none}
+  tr:nth-child(even) td{background:#fdf9f6}
+
+  .badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:10px;font-weight:600;letter-spacing:0.5px}
+  .badge-done{background:#e8f5e9;color:#2e7d32}
+  .badge-todo{background:#fff3e0;color:#e65100}
+
+  .camp-block{background:#faf7f4;border-radius:4px;border-left:3px solid #ff6c8d;padding:16px 20px;margin-bottom:12px}
+  .camp-date{font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#ff6c8d;margin-bottom:5px}
+  .camp-subject{font-family:'Playfair Display',serif;font-size:16px;color:#1e1e1e;margin-bottom:4px}
+  .camp-preheader{font-size:12px;color:#888;font-style:italic;margin-bottom:10px;line-height:1.5}
+  .camp-meta{font-size:12px;color:#666;font-weight:300;line-height:1.6}
+  .camp-meta strong{color:#1e1e1e;font-weight:500}
+
+  .quote-box{background:#fff8f0;border-left:3px solid #ff6c8d;padding:12px 18px;margin:12px 0 18px;border-radius:0 4px 4px 0;font-size:13px;color:#666;font-style:italic}
+  .quote-box .opts{margin-top:8px;font-style:normal;font-size:13px}
+  .quote-box .opts span{margin-right:14px;color:#444}
+
+  .plan-footer{margin-top:32px;padding-top:18px;border-top:1px solid #ede8e2;text-align:center;font-size:11px;color:#bbb}
+
+  @media print{
+    body{background:#fff}
+    .letter-wrap,.plan-wrap{box-shadow:none}
+    .camp-block{break-inside:avoid}
+  }
+</style>
+</head>
+<body>
+
+<!-- ══ LAIŠKAS ══ -->
+<div class="letter-wrap">
+  <div class="letter-header">
+    <div class="brand">e<span>Laiškai</span> agentūra</div>
+    <div class="ldate">2026 m. birželis</div>
+  </div>
+  <div class="letter-body">
+    <div class="letter-label">Nobren Parfum — el. pašto sistema</div>
+    <h1>Visa techninė dalis paruošta - laukiame birželio kampanijų patvirtinimo</h1>
+
+    <p>Sveiki, Arnai,</p>
+    <p>Trumpai informuojame, ką jau paruošėme MB Nobren parfum paskyroje. Viskas šiuo metu palikta ant Draft - paleisime tik tada, kai Jūs patvirtinsite.</p>
+
+    <div class="done-list">
+      <div class="done-row">
+        <div class="done-ico">✓</div>
+        <div class="done-txt">
+          <strong>Automation flow'ai</strong> - visi sukurti ir pilnai paruošti: Abandoned Checkout, Customer Winback, Post-purchase ir review request, Product Abandoned, Replenishment.
+          <small>Visi ant Draft, laukia aktyvavimo.</small>
+        </div>
+      </div>
+      <div class="done-row">
+        <div class="done-ico">✓</div>
+        <div class="done-txt">
+          <strong>Welcome flow'as</strong> - 3 atskiri flow'ai pagal kvapo tipą (Saldūs / Gaivūs / Intensyvūs), kiekviename 3 laiškai: rekomendacijos, mėginėlių rinkinys, -10% nuolaida.
+          <small>Iš viso 9 laiškai su tikromis nuotraukomis ir klientų atsiliepimais.</small>
+        </div>
+      </div>
+      <div class="done-row">
+        <div class="done-ico">✓</div>
+        <div class="done-txt">
+          <strong>Siuntimo laikai</strong> - sutvarkyti pagal optimalius atidarymo laikus.
+        </div>
+      </div>
+      <div class="done-row">
+        <div class="done-ico pending-ico">!</div>
+        <div class="done-txt">
+          <strong>Sign-up forma</strong> - reikės pakoreguoti esamą popup'ą, kad prenumeratoriai automatiškai patektų į tinkamą welcome flow pagal kvapo tipą (Saldūs / Gaivūs / Intensyvūs). Šią dalį padarysime mes.
+        </div>
+      </div>
+    </div>
+
+    <div class="action-box">
+      <div class="alabel">Reikia Jūsų atsakymo</div>
+      <p>Prašome peržiūrėti <strong>birželio kampanijų planą</strong> žemiau - 8 laiškai birželio 3-27 d. Kai patvirtinsite arba parašysite, ką keisti - galėsime pradėti iš karto.</p>
+    </div>
+
+    <p>Esame pasiruošę - laukiame žalios šviesos dėl birželio kampanijų.</p>
+
+    <div class="sign-off">
+      <p>Pagarbiai,</p>
+      <div class="sname">Lukas Vincevičius</div>
+      <div class="sco">eLaiškai &nbsp;·&nbsp; info@elaiskai.lt</div>
+    </div>
+  </div>
+</div>
+
+<!-- ══ SEPARATOR ══ -->
+<div class="plan-separator">
+  <hr class="plan-sep-line"/>
+  <div class="plan-sep-label">Birželio 2026 kampanijų planas</div>
+</div>
+
+<!-- ══ PLANAS ══ -->
+<div class="plan-wrap">
+  <div class="plan-header">
+    <h2>Nobren Parfum — Birželio 2026 kampanijų planas</h2>
+    <div class="pmeta">Parengė: eLaiškai agentūra &nbsp;·&nbsp; Klientas: MB Nobren parfum &nbsp;·&nbsp; 2026 gegužė</div>
+  </div>
+  <div class="plan-body">
+
+    <h3>Sistemos apžvalga — ką paruošėme</h3>
+
+    <table>
+      <thead><tr><th>Komponentas</th><th>Statusas</th><th>Pastabos</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Welcome flow — Saldūs kvapai</strong></td><td><span class="badge badge-done">Paruošta</span></td><td>3 laiškai: B30, C31, X1, B5, T13, P6 + rinkinys + -10%</td></tr>
+        <tr><td><strong>Welcome flow — Gaivūs kvapai</strong></td><td><span class="badge badge-done">Paruošta</span></td><td>3 laiškai: E7, P15, P19 + rinkinys + -10%</td></tr>
+        <tr><td><strong>Welcome flow — Intensyvūs kvapai</strong></td><td><span class="badge badge-done">Paruošta</span></td><td>3 laiškai: B27+, C50, T18 + rinkinys + -10%</td></tr>
+        <tr><td><strong>Abandoned Checkout</strong></td><td><span class="badge badge-done">Paruošta</span></td><td>Draft, laukia aktyvavimo</td></tr>
+        <tr><td><strong>Customer Winback</strong></td><td><span class="badge badge-done">Paruošta</span></td><td>Draft, laukia aktyvavimo</td></tr>
+        <tr><td><strong>Post-purchase + Review request</strong></td><td><span class="badge badge-done">Paruošta</span></td><td>Draft, laukia aktyvavimo</td></tr>
+        <tr><td><strong>Product Abandoned</strong></td><td><span class="badge badge-done">Paruošta</span></td><td>Draft, laukia aktyvavimo</td></tr>
+        <tr><td><strong>Replenishment</strong></td><td><span class="badge badge-done">Paruošta</span></td><td>Draft, laukia aktyvavimo</td></tr>
+        <tr><td><strong>Sign-up forma</strong></td><td><span class="badge badge-todo">Reikia pakoreguoti</span></td><td>Pridėti kvapo tipo klausimą — padarysime mes</td></tr>
+      </tbody>
+    </table>
+
+    <p>Registracijos popup'ą reikės pakoreguoti - pridėti klausimą:</p>
+    <div class="quote-box">
+      „Kokie kvapai Jums labiausiai patinka?"
+      <div class="opts">
+        <span>🍫 Saldūs ir šilti</span>
+        <span>🌿 Gaivūs ir lengvi</span>
+        <span>🌑 Intensyvūs ir gilūs</span>
+      </div>
+    </div>
+    <p>Tada kiekvienas prenumeratorius automatiškai patenka į tinkamą welcome flow - <strong>asmeniška patirtis nuo pirmos sekundės.</strong></p>
+
+    <h3>Birželio kampanijų planas — 8 laiškai</h3>
+
+    <p><strong>Auditorija:</strong> Newsletter (~10,900) + Opt-In Recommendations (~13,800) = ~24,700 profilių &nbsp;·&nbsp; <strong>Dažnis:</strong> 2× per savaitę</p>
+    <p style="margin-bottom:20px"><strong>Svarbu:</strong> Iki šiol nebuvo išsiųsta nė viena kampanija — pradedame švariai.</p>
+
+    <div class="camp-block">
+      <div class="camp-date">C01 &nbsp;·&nbsp; Birželio 3 d., antradienis</div>
+      <div class="camp-subject">Susipažinkime - Jūsų kvapų kelionė prasideda</div>
+      <div class="camp-preheader">Esame Nobren Parfum, lietuviško įkvėpimo kvapų namai. Pradėkite nuo mėginių rinkinio ir atraskite, kas Jums artimiausia.</div>
+      <div class="camp-meta"><strong>Segmentas:</strong> Visi aktyvūs &nbsp;·&nbsp; <strong>Tikslas:</strong> Aktyvuoti 24k sąrašą pirmą kartą. Šiltas, draugiškas tonas.</div>
+    </div>
+
+    <div class="camp-block">
+      <div class="camp-date">C02 &nbsp;·&nbsp; Birželio 6 d., penktadienis</div>
+      <div class="camp-subject">Gaivūs vasaros kvapai Jūsų sezonui</div>
+      <div class="camp-preheader">E7 Blue Talisman, G19 ir kiti lengvesni aromatai, kai norisi švaros, gaivos ir vasariškos nuotaikos.</div>
+      <div class="camp-meta"><strong>Produktai:</strong> E7, G19, C35 (Aventus), S11 (God of Fire) &nbsp;·&nbsp; <strong>Segmentas:</strong> Visi aktyvūs &nbsp;·&nbsp; <strong>Tikslas:</strong> Vasarinis sezoninis aktualumas.</div>
+    </div>
+
+    <div class="camp-block">
+      <div class="camp-date">C03 &nbsp;·&nbsp; Birželio 10 d., antradienis</div>
+      <div class="camp-subject">Kodėl vis dar neradote savo kvapo?</div>
+      <div class="camp-preheader">Dauguma klysta pirkdami aklai. Atraskite, kas Jums tinka: saldūs, gaivūs ar intensyvūs aromatai, o mėginukai padės apsispręsti.</div>
+      <div class="camp-meta"><strong>Segmentas:</strong> Nepirkę &nbsp;·&nbsp; <strong>Tikslas:</strong> Edukacija + barjero šalinimas prieš pirmąjį pirkimą.</div>
+    </div>
+
+    <div class="camp-block">
+      <div class="camp-date">C04 &nbsp;·&nbsp; Birželio 13 d., penktadienis</div>
+      <div class="camp-subject">Jūsų atostogų kvapas telpa į 5 ml</div>
+      <div class="camp-preheader">Mėginukų rinkinys keliauja lengvai: užtenka savaitei, nereikia bijoti sudužusio buteliuko ir galite išbandyti naujus aromatus.</div>
+      <div class="camp-meta"><strong>Produktai:</strong> E7, G19, S11, O1 (Megamare) &nbsp;·&nbsp; <strong>Segmentas:</strong> Visi aktyvūs &nbsp;·&nbsp; <strong>Tikslas:</strong> Vasaros kelionių aktualumas.</div>
+    </div>
+
+    <div class="camp-block">
+      <div class="camp-date">C05 &nbsp;·&nbsp; Birželio 17 d., antradienis</div>
+      <div class="camp-subject">Išbandykite 5 kvapus namuose</div>
+      <div class="camp-preheader">Mėginių rinkiniai padeda ramiai atrasti Jums tinkamiausią aromatą prieš renkantis pilną buteliuką.</div>
+      <div class="camp-meta"><strong>Produktai:</strong> TOP SALDŪS, TOP GAIVŪS, TOP STIPRŪS (visi €22.50) &nbsp;·&nbsp; <strong>Segmentas:</strong> Nepirkę &nbsp;·&nbsp; <strong>Tikslas:</strong> Pirmasis pirkimas.</div>
+    </div>
+
+    <div class="camp-block">
+      <div class="camp-date">C06 &nbsp;·&nbsp; Birželio 20 d., penktadienis</div>
+      <div class="camp-subject">Kvapai, apie kuriuos klausia aplinkiniai</div>
+      <div class="camp-preheader">Tikros klientų istorijos ir atsiliepimai apie aromatus, kurie sulaukia klausimo „Kuo Jūs kvepiate?"</div>
+      <div class="camp-meta"><strong>Segmentas:</strong> Pirkę &nbsp;·&nbsp; <strong>Tikslas:</strong> UGC rinkimas + lojalumo stiprinimas.</div>
+    </div>
+
+    <div class="camp-block">
+      <div class="camp-date">C07 &nbsp;·&nbsp; Birželio 24 d., antradienis</div>
+      <div class="camp-subject">Kvapas namams, kuris pasitinka pirmas</div>
+      <div class="camp-preheader">Atraskite Nobren Parfum namų ir automobilio kvapus - subtilų būdą kurti malonią atmosferą kasdien.</div>
+      <div class="camp-meta"><strong>Segmentas:</strong> Visi aktyvūs &nbsp;·&nbsp; <strong>Tikslas:</strong> Cross-sell į namų ir auto kvapų kategoriją.</div>
+    </div>
+
+    <div class="camp-block">
+      <div class="camp-date">C08 &nbsp;·&nbsp; Birželio 27 d., penktadienis</div>
+      <div class="camp-subject">-10% nuolaida mėginių rinkiniams</div>
+      <div class="camp-preheader">Ribotą laiką išbandykite 5 kvapus namuose palankiau ir lengviau nuspręskite, kuris aromatas yra Jūsų.</div>
+      <div class="camp-meta"><strong>Segmentas:</strong> Nepirkę &nbsp;·&nbsp; <strong>Tikslas:</strong> Mėnesio konversijos uždarymas. Galioja 48 val.</div>
+    </div>
+
+    <div class="plan-footer">
+      eLaiškai agentūra &nbsp;·&nbsp; info@elaiskai.lt
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
