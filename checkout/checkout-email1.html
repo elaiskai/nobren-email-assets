@@ -81,7 +81,7 @@ p { margin:0; padding:0; }
               <a href="{{ item.ProductURL }}" style="color:#1a1a1a;text-decoration:none;">{{ item.ProductInfo.name }}</a>
             </p>
             <p style="font-family:'Roboto',Arial,sans-serif;font-size:12px;font-weight:300;color:#999;margin:0 0 6px;">{{ item.Quantity }} vnt.</p>
-            <p style="font-family:'Oswald',Arial,sans-serif;font-size:16px;font-weight:500;color:#1a1a1a;margin:0;">{{ item.ProductInfo.price }} €</p>
+            <p style="font-family:'Oswald',Arial,sans-serif;font-size:16px;font-weight:500;color:#1a1a1a;margin:0;">{{ item.ProductInfo.price|floatformat:2 }} €</p>
           </td>
         </tr>
       </table>
