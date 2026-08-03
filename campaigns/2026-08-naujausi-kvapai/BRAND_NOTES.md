@@ -28,7 +28,7 @@ Produktų duomenys ir packshotai paimti iš vartotojo pateiktų oficialių `nobr
 - Mobiliajame ekrane produktų poros susidėlioja į vieną stulpelį.
 - Hero turi VML foną Outlook klientams.
 - `newsletter.html` naudoja lokalius santykinius failų adresus peržiūrai.
-- `newsletter-klaviyo.html` po publikavimo naudoja viešus GitHub `main` assetų URL.
+- `newsletter-klaviyo.html` naudoja viešus, konkrečiu GitHub commit užfiksuotus assetų URL, todėl paveikslai nepriklauso nuo lokalių failų ar šakos pervadinimo.
 - Klaviyo žymos: `{% unsubscribe_link %}` ir `{% manage_preferences_link %}`.
 
 ## Siūlomas subject / preview text
