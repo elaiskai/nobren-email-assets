@@ -10,9 +10,10 @@
 
 ## Turinys
 
-- Bestseleriai: M14, I4, O1 ir P20.
+- Bestseleriai: M14, I4, O1, P20, T3 ir S1.
 - Naudojamos tik oficialios NoBren produktų nuotraukos.
 - Hero aplinka sukurta originaliai; produkto pakuotė įkomponuota iš oficialios nuotraukos, todėl jos ženklinimas nekeistas.
+- Apatinė pasikartojanti mėginėlių fotografija pašalinta, kad kampanijoje kiekvienas vizualas atliktų atskirą funkciją.
 
 ## Klaviyo
 
