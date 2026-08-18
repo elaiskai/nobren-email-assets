@@ -119,44 +119,37 @@ def exact_edge_blend(image: Image.Image) -> Image.Image:
 
 
 def build_hero() -> None:
-    background = Image.open(HERO_DIR / "hero-background-generated.png").convert("RGB")
-    canvas = cover_crop(background, (WIDTH, HEIGHT), y_bias=0.34).convert("RGBA")
+    # The products, podiums, reflections and contact shadows are generated as one
+    # photographic exposure. Only brand-safe typography is added afterwards.
+    background = Image.open(HERO_DIR / "hero-integrated-generated.png").convert("RGB")
+    canvas = cover_crop(background, (WIDTH, HEIGHT), y_bias=0.5).convert("RGBA")
 
     # Keep the art direction intact while ensuring exact HTML boundary colors.
     canvas = exact_edge_blend(canvas)
 
-    selected = [
-        ("e7.jpg", 370, 48, 1338),
-        ("k13.jpg", 405, 398, 1320),
-        ("n11.jpg", 360, 805, 1342),
-    ]
-    for filename, target_width, x, bottom in selected:
-        product = Image.open(PRODUCTS_DIR / filename)
-        cutout = resize_to_width(remove_white_background(product), target_width)
-        paste_with_shadow(canvas, cutout, x, bottom)
-
-    # Subtle vignette binds the exact packshots into the generated studio scene.
+    # A restrained top vignette protects headline contrast without changing the
+    # integrated product lighting beneath it.
     vignette = Image.new("RGBA", canvas.size, (0, 0, 0, 0))
     vg = ImageDraw.Draw(vignette)
-    vg.rectangle((0, 0, WIDTH, 725), fill=(7, 12, 9, 36))
+    vg.rectangle((0, 0, WIDTH, 458), fill=(7, 12, 9, 24))
     canvas = Image.alpha_composite(canvas, vignette)
 
     draw = ImageDraw.Draw(canvas)
     sans_path = "/System/Library/Fonts/Avenir.ttc"
     serif_path = "/System/Library/Fonts/Supplemental/Didot.ttc"
     sans_small = load_font(sans_path, 24)
-    sans_button = load_font(sans_path, 24)
-    serif = load_font(serif_path, 98, index=0)
+    sans_button = load_font(sans_path, 34)
+    serif = load_font(serif_path, 78, index=0)
 
     logo = Image.open(BRAND_DIR / "logo-white.png").convert("RGBA")
-    logo = resize_to_width(logo, 270)
-    canvas.alpha_composite(logo, ((WIDTH - logo.width) // 2, 88))
+    logo = resize_to_width(logo, 240)
+    canvas.alpha_composite(logo, ((WIDTH - logo.width) // 2, 59))
 
     draw_tracking_text(
         draw,
         "NOBREN TEXTURE EDIT",
         WIDTH // 2,
-        222,
+        170,
         sans_small,
         (216, 198, 163),
         tracking=7,
@@ -168,7 +161,7 @@ def build_hero() -> None:
     )
     headline_width = headline_box[2] - headline_box[0]
     draw.multiline_text(
-        ((WIDTH - headline_width) / 2, 276),
+        ((WIDTH - headline_width) / 2, 211),
         headline,
         font=serif,
         fill=(247, 241, 231),
@@ -176,9 +169,9 @@ def build_hero() -> None:
         align="center",
     )
 
-    button_w, button_h = 390, 78
+    button_w, button_h = 430, 78
     button_x = (WIDTH - button_w) // 2
-    button_y = 525
+    button_y = 374
     draw.rounded_rectangle(
         (button_x, button_y, button_x + button_w, button_y + button_h),
         radius=2,
@@ -186,7 +179,7 @@ def build_hero() -> None:
         outline=BRASS,
         width=2,
     )
-    button_text = "ATRASK SAVO TEKSTŪRĄ"
+    button_text = "ATRASK TEKSTŪRĄ"
     text_box = draw.textbbox((0, 0), button_text, font=sans_button)
     text_w = text_box[2] - text_box[0]
     text_h = text_box[3] - text_box[1]
@@ -236,4 +229,3 @@ if __name__ == "__main__":
     TRANSITIONS_DIR.mkdir(parents=True, exist_ok=True)
     build_hero()
     build_transition_ribbon()
-

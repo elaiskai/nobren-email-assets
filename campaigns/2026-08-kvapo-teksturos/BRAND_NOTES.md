@@ -21,11 +21,12 @@ Patikrinta: 2026-08-18.
 
 ## Vizualų metodas
 
-- Fotografinė aplinka sugeneruota kaip **background only**: be buteliukų, dėžučių, logotipų ar teksto.
-- Naudotas promptas: prabangi vertikali high-fashion natiurmorto scena su tamsiai alyvuogių tinko siena, travertinu, bordo aksomu, juoda oda ir trimis tuščiais produktų podiumais; viršus paliktas tekstui, apačia pereina į `#E9E0D3`; be buteliukų, pakuočių, teksto, logotipų ir vandens ženklų.
-- E7, K13 ir N11 hero produktai įkomponuoti iš oficialių NoBren packshotų, todėl jų kodai, logotipai ir pakuotės nėra generatyviai perpiešti.
+- Hero fotografinė bazė sugeneruota vienu bendru **compositing** veiksmu: E7, K13 ir N11 buteliukai, dėžutės, podiumai, aksomas, oda, šviesa, kontaktiniai šešėliai bei atspindžiai yra vienos scenos dalys. Atskiro produktų „cutout“ sluoksnio galutiniame hero nėra.
+- Oficialūs E7, K13 ir N11 packshotai naudoti kaip produkto tapatybės reference’ai. Promptas reikalavo išlaikyti atpažįstamus siluetus, pakuočių spalvas, logotipus ir matomus kodus `E7`, `K13`, `N11`, bet perkurti bendrą apšvietimą ir fizinį kontaktą su scena.
+- Naudotas promptas: viena fotorealistiška premium NoBren studijos ekspozicija su tamsiai alyvuogių tinko siena, travertino podiumais, bordo aksomu ir juoda oda; E7 kairėje, K13 centre, N11 dešinėje; vienoda šampano šviesa, tikri kontaktiniai šešėliai, bendras color grade, jokių baltų packshotų fonų, halo ar papildomų produktų; viršus paliktas tekstui, apačia pereina į `#E9E0D3`.
+- Tikslus oficialus logotipas, kampanijos antraštė ir CTA uždėti po generavimo, todėl tekste bei logotipe nėra generatyvinių iškraipymų.
 - Oficialus logotipas naudotas iš `brand/logo-white.png`.
-- Sugeneruoto originalo kelias kūrimo aplinkoje: `/Users/kiprastinfavicius/.codex/generated_images/019fb815-79fd-7cf0-b284-27b50df7f9fe/exec-cad34cb7-a456-4470-afb6-f7be488fa80f.png`.
+- Sugeneruoto vientiso originalo kelias kūrimo aplinkoje: `/Users/kiprastinfavicius/.codex/generated_images/019fb815-79fd-7cf0-b284-27b50df7f9fe/exec-46b2e01e-f656-4992-9d5b-bf20432112c3.png`.
 
 ## Perėjimų sistema
 
@@ -43,4 +44,3 @@ Patikrinta: 2026-08-18.
 - `newsletter-klaviyo.html` — send-ready kopija.
 - `newsletter.html` — lokali peržiūra.
 - `newsletter.txt` — plain-text versija ir subject/preview.
-
