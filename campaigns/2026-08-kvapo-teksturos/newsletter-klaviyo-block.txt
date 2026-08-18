@@ -40,7 +40,7 @@
         <tr>
           <td bgcolor="#1a211c" style="padding:0;font-size:0;line-height:0;background:#1a211c;">
             <a href="https://nobrenparfum.lt/lt/" target="_blank" style="display:block;">
-              <img class="nb-hero" src="https://raw.githubusercontent.com/elaiskai/nobren-email-assets/61f9c1a729fa8a145c15c689bf86057961a934c1/campaigns/2026-08-kvapo-teksturos/assets/hero/hero-final.png" width="600" alt="NoBren — Jei kvapą galėtum paliesti" style="display:block;width:600px;max-width:100%;height:auto;">
+              <img class="nb-hero" src="https://raw.githubusercontent.com/elaiskai/nobren-email-assets/14fc4846bee4b08838d4bdb98464cc1b12bff183/campaigns/2026-08-kvapo-teksturos/assets/hero/hero-final.png" width="600" alt="NoBren — Jei kvapą galėtum paliesti" style="display:block;width:600px;max-width:100%;height:auto;">
             </a>
           </td>
         </tr>
