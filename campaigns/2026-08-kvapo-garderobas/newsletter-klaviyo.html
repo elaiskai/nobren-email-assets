@@ -13,6 +13,9 @@
     .nb-stack, .nb-stack td { display: block !important; width: 100% !important; box-sizing: border-box !important; }
     .nb-stack-gap { height: 10px !important; line-height: 10px !important; }
     .nb-role { padding: 23px !important; }
+    .nb-formula { padding: 27px 18px !important; }
+    .nb-formula-item { padding: 19px 0 !important; border-left: 0 !important; border-top: 1px solid #5e4545 !important; }
+    .nb-formula-first { border-top: 0 !important; padding-top: 4px !important; }
     .nb-intent { padding: 21px 0 !important; border-left: 0 !important; border-top: 1px solid #8b5962 !important; }
     .nb-intent-first { border-top: 0 !important; }
     .nb-products { padding-left: 12px !important; padding-right: 12px !important; }
@@ -97,7 +100,41 @@
         <tr><td bgcolor="#b68e52" height="2" style="height:2px;font-size:0;line-height:0;background:#b68e52;">&nbsp;</td></tr>
 
         <tr>
-          <td class="nb-pad" bgcolor="#4a1f2a" style="padding:49px 38px 44px;background:#4a1f2a;">
+          <td class="nb-pad" bgcolor="#4a1f2a" style="padding:44px 38px 17px;background:#4a1f2a;">
+            <table role="presentation" width="100%" bgcolor="#211d1c" style="background:#211d1c;border:1px solid #78585a;">
+              <tr>
+                <td class="nb-formula" style="padding:31px 30px 29px;">
+                  <div class="nb-sans" style="font-size:9px;line-height:13px;letter-spacing:2.2px;color:#d8ba85;font-weight:bold;">GARDEROBO FORMULĖ</div>
+                  <div class="nb-serif" style="padding-top:8px;font-size:42px;line-height:47px;color:#f5ede5;">70 / 20 / 10</div>
+                  <div class="nb-sans" style="padding-top:8px;font-size:12px;line-height:18px;color:#bdb2ad;">Ne purškimų santykis. Tavo pasirinkimų logika.</div>
+
+                  <table role="presentation" class="nb-stack" width="100%" style="margin-top:25px;">
+                    <tr>
+                      <td class="nb-formula-item nb-formula-first" width="33.33%" valign="top" style="padding:0 18px 0 0;">
+                        <div class="nb-serif" style="font-size:32px;line-height:35px;color:#d8ba85;">70%</div>
+                        <div class="nb-sans" style="padding-top:8px;font-size:10px;line-height:14px;letter-spacing:1.5px;color:#f0e6dd;font-weight:bold;">BAZĖ</div>
+                        <div class="nb-sans" style="padding-top:7px;font-size:11px;line-height:17px;color:#aaa09b;">Kvapas, kurį renkiesi be svarstymo.</div>
+                      </td>
+                      <td class="nb-formula-item" width="33.33%" valign="top" style="padding:0 18px;border-left:1px solid #5e4545;">
+                        <div class="nb-serif" style="font-size:32px;line-height:35px;color:#d8ba85;">20%</div>
+                        <div class="nb-sans" style="padding-top:8px;font-size:10px;line-height:14px;letter-spacing:1.5px;color:#f0e6dd;font-weight:bold;">AKCENTAS</div>
+                        <div class="nb-sans" style="padding-top:7px;font-size:11px;line-height:17px;color:#aaa09b;">Aromatas, pakeičiantis visą derinį.</div>
+                      </td>
+                      <td class="nb-formula-item" width="33.33%" valign="top" style="padding:0 0 0 18px;border-left:1px solid #5e4545;">
+                        <div class="nb-serif" style="font-size:32px;line-height:35px;color:#d8ba85;">10%</div>
+                        <div class="nb-sans" style="padding-top:8px;font-size:10px;line-height:14px;letter-spacing:1.5px;color:#f0e6dd;font-weight:bold;">PARAŠAS</div>
+                        <div class="nb-sans" style="padding-top:7px;font-size:11px;line-height:17px;color:#aaa09b;">Kvapas toms progoms, kai nori būti prisimintas.</div>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="nb-pad" bgcolor="#4a1f2a" style="padding:28px 38px 44px;background:#4a1f2a;">
             <div class="nb-sans" style="font-size:10px;line-height:14px;letter-spacing:2.4px;color:#d8ba85;font-weight:bold;">TAVO ŠIANDIENOS LAIKYSENA</div>
             <div class="nb-serif" style="padding-top:12px;font-size:36px;line-height:42px;color:#f5ede5;">Ką nori pasakyti be žodžių?</div>
             <table role="presentation" class="nb-stack" width="100%" style="margin-top:28px;">

@@ -5,6 +5,7 @@
 - Preview: **Kasdienė bazė, ryškus akcentas ir vakaro sluoksnis — 6 NoBren aromatai trims nuotaikoms.**
 - Hero: viena vientisa, AI sugeneruota aukštosios mados spintos fotosesija su B26, S4 ir I6 produktais. Tikslus logotipas ir tekstas uždėti mechaniškai.
 - Hero CTA: **ATVERK GARDEROBĄ**
+- Papildomas įtraukiantis blokas: **„70 / 20 / 10 garderobo formulė“** — bazė, akcentas ir parašas. Bloke aiškiai nurodyta, kad tai pasirinkimų logika, o ne purškimų proporcija.
 
 ## Produktai
 
