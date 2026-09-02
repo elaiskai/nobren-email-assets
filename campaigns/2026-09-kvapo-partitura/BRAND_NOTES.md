@@ -4,7 +4,7 @@
 - Preview: **Šeši kvapai — nuo pirmojo akordo iki gilaus rezonanso.**
 - Tema: prabangus privatus klausymo kambarys; aromatas paaiškinamas per muzikinę kompoziciją, tempą ir registrus.
 - Hero headline: **Jei kvapas turėtų garsą.**
-- Hero CTA: **PRADĖTI KLAUSYMĄ**
+- Hero CTA: **RASTI ATSAKYMĄ**
 - Hero produktai: S12 Vibrato, B33 Pulp ir B24 Intoxicated vienoje integruotoje fotosesijoje.
 
 ## Produktų seka

@@ -152,7 +152,7 @@ def build_hero() -> None:
         outline=CHAMPAGNE,
         width=2,
     )
-    label = "PRADĖTI KLAUSYMĄ"
+    label = "RASTI ATSAKYMĄ"
     label_box = draw.textbbox((0, 0), label, font=sans_button)
     draw.text(
         (
