@@ -1,0 +1,81 @@
+{
+  "code": "A5",
+  "slug": "a5",
+  "name": "Nobren Madam Madawi Gold Unisex kvepalai | A5",
+  "price": "35,00 €",
+  "price_amount": 35,
+  "attributes": {
+    "1": {
+      "id_attribute": "3",
+      "id_attribute_group": "1",
+      "name": "30ml",
+      "group": "Talpa (ml) ",
+      "reference": "30",
+      "ean13": "",
+      "isbn": "",
+      "upc": "",
+      "mpn": ""
+    },
+    "2": {
+      "id_attribute": "6",
+      "id_attribute_group": "2",
+      "name": "Su buteliuku",
+      "group": "Kvepalai ",
+      "reference": "30",
+      "ean13": "",
+      "isbn": "",
+      "upc": "",
+      "mpn": ""
+    }
+  },
+  "url": "https://nobrenparfum.lt/lt/nisiniai-kvepalai/-nobren-nisiniai-kvepalai-unisex-a5.html",
+  "image": "https://nobrenparfum.lt/4684-large_default/nobren-nisiniai-kvepalai-unisex-a5.jpg",
+  "quantity": -5,
+  "available_for_order": "1",
+  "description_short": "EXTRAIT DE PARFUM | PARFUM | KVAPO TIPAS: RYTIETIŠKAS/GĖLIŲ | KVAPO PASKIRTIS: VAKARINIAI | KVAPO CHARAKTERIS: RYŠKUS, GRAKŠTUS, PRABANGUS AROMATAS | DOMINUOJANČIOS NATOS: VAISIAI, ANANASŲ ŽIEDAI, TONKA, VANILĖ, PAČIULIS DĖMESIO: ŠĮ AROMATĄ GAUSITE SU NAUJO DIZAINO BUTELIUKAIS",
+  "features": [
+    {
+      "name": "VIRŠUTINĖS NATOS",
+      "value": "vaisių ir kardamono natos",
+      "id_feature": "14",
+      "position": "0"
+    },
+    {
+      "name": "VIDURINĖS NATOS",
+      "value": "tonka pupelės, jazminai ir ananasų žiedai, gintaras",
+      "id_feature": "15",
+      "position": "1"
+    },
+    {
+      "name": "PAGRINDINĖS NATOS",
+      "value": "vanilė ir pačiulis",
+      "id_feature": "16",
+      "position": "2"
+    },
+    {
+      "name": "KVAPO INTENSYVUMAS",
+      "value": "Sunkūs kvapai",
+      "id_feature": "21",
+      "position": "3"
+    },
+    {
+      "name": "KVAPO TIPAS",
+      "value": "Rytietiški/Gėlių",
+      "id_feature": "10",
+      "position": "4"
+    },
+    {
+      "name": "GALIOJIMO TERMINAS",
+      "value": "12 mėnesių, po gavimo. Kvepalus laikyti tamsioje vietoje.",
+      "id_feature": "8",
+      "position": "5"
+    }
+  ],
+  "images": [
+    "https://nobrenparfum.lt/4654-large_default/nobren-nisiniai-kvepalai-unisex-a5.jpg",
+    "https://nobrenparfum.lt/4655-large_default/nobren-nisiniai-kvepalai-unisex-a5.jpg",
+    "https://nobrenparfum.lt/4653-large_default/nobren-nisiniai-kvepalai-unisex-a5.jpg",
+    "https://nobrenparfum.lt/4656-large_default/nobren-nisiniai-kvepalai-unisex-a5.jpg",
+    "https://nobrenparfum.lt/4684-large_default/nobren-nisiniai-kvepalai-unisex-a5.jpg"
+  ]
+}
