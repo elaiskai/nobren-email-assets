@@ -1,8 +1,23 @@
 # Nobren · Pasimatymas su kvapu
 
-Atnaujinta 2026-09-14 · v4 · vientisesni perėjimai ir nauja įžanga po hero. Lietuvių kalba, Klaviyo HTML.
+Atnaujinta 2026-09-16 · v5 · Klaviyo šablono stilių konflikto pataisa. Lietuvių kalba, Klaviyo HTML.
 
-## Dabartinė versija · v4 · „transitions“ pataisymai
+## Dabartinė versija · v5 · Klaviyo stilių pataisa
+
+Pagal vartotojo ekrano nuotrauką pataisyta įžangos antraštės lygiuotė ir padidėję tarpai po hero. Ankstesnis kodas leido įklijavimo šablono antraščių ir pastraipų stiliams perrašyti paveldimą lygiavimą bei bendrą paraščių nustatymą.
+
+- Įžangos tekstai ir mygtukas išdėstyti atskirose lentelės eilutėse; tarpus valdo `td` padding, ne pastraipų ar antraščių margin.
+- Visoms antraštėms ir pastraipoms įrašytas tiesioginis šriftas, nulinės paraštės bei lygiavimas. Įžangoje yra tiesioginis centravimas.
+- Visoms lentelėms pridėti `cellpadding="0"`, `cellspacing="0"`, `border="0"` ir tiesioginiai border-collapse / border-spacing nustatymai.
+- Visi vaizdai turi tiesioginį `display:block`, visos tekstinės lentelių celės – aiškų šriftą ir lygiavimą.
+- Pagrindinis konteineris naudoja 100% plotį ir 600 px maksimalų plotį; Outlook 600 px apvalkalas išlaikytas.
+- Turinys, kainos, hero ir kiti vaizdai išlaikyti. Viešų nuotraukų commit tas pats: `9d32d00304486684158efafc6da2f72213874810`.
+
+Patikra `verify-klaviyo.cjs` įdeda kodą į 600 px tėvinį šabloną ir prideda didesnio specifiškumo antraščių, pastraipų, lentelių, šrifto bei vaizdų stilius. Su ankstesniu kodu atkartotas antraštės pasislinkimas į kairę ir papildomos paraštės. Pataisyto kodo įžangos koordinatės, tarpai ir viso laiško aukštis sutampa tiek be išorinių stilių, tiek su jais; patikrinti 820 / 390 / 320 px ekranai. 13 iš 13 nuotraukų užsikrauna, nėra horizontalaus slinkimo. Papildomai patikrinta, kad įžangos centravimas ir nulinės paraštės išlieka išėmus `<style>` bloką. Tai naršyklėje modeliuotas įklijavimo šablonas; tiesioginė Klaviyo paskyros ar išsiųsto laiško patikra neatlikta.
+
+Pakeisti visą esamo Klaviyo HTML bloko turinį nauja `klaviyo-block.txt` / `.html` versija. Importuojant visą šabloną naudoti `newsletter-klaviyo.html`. Galutinės peržiūros atnaujintos; `preview-klaviyo-fixed-desktop.png`, `preview-klaviyo-fixed-mobile.png` ir `preview-klaviyo-fixed-mobile-320.png` rodo pataisytą įžangą bandymo šablone. Tema, preheader ir ankstesnių perėjimų sprendimai išlieka.
+
+## Ankstesnė v4 versija · „transitions“ pataisymai
 
 Atnaujintas ankstesnis „Pasimatymas su kvapu“ laiškas. Hero kraštai pereina į baltą bendrą foną, panaikinta juoda linija po logotipu. Įžanga centruota ir sutrumpinta:
 

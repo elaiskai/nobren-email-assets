@@ -40,17 +40,19 @@ const productRow = p => `<tr><td style="padding:12px 0;border-top:1px solid #D8D
 <p style="padding-top:12px;font-size:25px;line-height:30px;letter-spacing:-.5px;font-weight:700;color:#22231F;"><span style="white-space:nowrap;">${p.price.replace(' ','&nbsp;')}</span> <span style="display:inline-block;margin-left:7px;font-size:12px;line-height:18px;letter-spacing:0;font-weight:400;color:#62645B;white-space:nowrap;">/ ${p.volume}</span></p>
 <a href="${esc(tracked(p.url,p.id+'_product_cta'))}" target="_blank" style="display:inline-block;margin-top:3px;padding:12px 0;font-size:11px;line-height:20px;font-weight:700;letter-spacing:1px;color:#22231F;text-decoration:underline;text-underline-offset:4px;">RINKTIS KVAPĄ &nbsp;↗</a></td>
 </tr></table></td></tr>`;
-const content = `<div style="display:none!important;font-size:1px;line-height:1px;max-height:0;max-width:0;opacity:0;overflow:hidden;mso-hide:all;">${preheader}</div>
+const contentTemplate = `<div style="display:none!important;font-size:1px;line-height:1px;max-height:0;max-width:0;opacity:0;overflow:hidden;mso-hide:all;">${preheader}</div>
 <table role="presentation" width="100%" bgcolor="#ECEDE8" style="background-color:#ECEDE8;"><tr><td class="outer" align="center" style="padding:24px 12px;">
 <!--[if mso]><table role="presentation" width="600"><tr><td><![endif]-->
-<table role="presentation" class="wrap" width="600" bgcolor="#FFFFFF" style="width:600px;max-width:600px;table-layout:fixed;background-color:#FFFFFF;font-family:Arial,Helvetica,sans-serif;color:#22231F;">
+<table role="presentation" class="wrap" align="center" width="600" bgcolor="#FFFFFF" style="width:100%;max-width:600px;margin:0 auto;table-layout:fixed;background-color:#FFFFFF;font-family:Arial,Helvetica,sans-serif;color:#22231F;text-align:left;">
 <tr><td class="pad" style="padding:23px 32px 12px;"><table role="presentation" width="100%"><tr><td width="132"><a href="${esc(tracked(home,'logo'))}" target="_blank"><img src="assets/brand/logo.png" width="132" height="53" alt="Nobren Parfum LT" style="width:132px;height:auto;"></a></td><td align="right" class="mast-label" style="font-size:10px;line-height:16px;letter-spacing:1.6px;font-weight:700;">KVAPŲ PAŽINTYS<br><span style="font-weight:400;letter-spacing:.7px;">RINKIS PAGAL NATAS</span></td></tr></table></td></tr>
 <tr><td bgcolor="#FFFFFF" style="background-color:#FFFFFF;padding:0;font-size:0;line-height:0;"><a href="${esc(tracked(collection,'hero'))}" target="_blank"><img src="assets/hero/hero-final-v4.jpg" width="600" height="720" alt="Kuris tave suvilios? Nobren P22, X1 ir B71 su figų, apelsino bei vanilės natų užuominomis." style="display:block;width:100%;max-width:600px;height:auto;"></a></td></tr>
 <tr><td class="pad intro" align="center" bgcolor="#FFFFFF" style="background-color:#FFFFFF;padding:0 36px 34px;text-align:center;">
-<p style="font-size:10px;line-height:16px;letter-spacing:2px;font-weight:700;color:#7A4355;">PASIMATYMAS SU KVAPU</p>
-<h1 class="intro-title" style="margin:0;padding-top:13px;font-size:30px;line-height:36px;letter-spacing:-.8px;font-weight:700;color:#22231F;"><span style="white-space:nowrap;">Šeši kvapai.</span> <span style="white-space:nowrap;">Trys nuotaikos.</span></h1>
-<p class="hero-copy" style="padding-top:12px;font-size:15px;line-height:24px;color:#62645B;">Nuo figų žalumos iki dūminės vanilės.<br>Kurią norisi pažinti iš arčiau?</p>
-<table role="presentation" align="center" style="margin:22px auto 0;"><tr><td bgcolor="#22231F" style="background-color:#22231F;mso-padding-alt:16px 25px;"><a href="${esc(tracked(collection,'hero_cta'))}" target="_blank" style="display:block;padding:16px 25px;font-size:12px;line-height:16px;letter-spacing:1.2px;font-weight:700;color:#FFFFFF;text-decoration:none;mso-padding-alt:0;">ATRASK SAVO KVAPĄ &nbsp;↗</a></td></tr></table>
+<table role="presentation" width="100%" style="width:100%;table-layout:fixed;">
+<tr><td align="center" style="padding:0;text-align:center;"><p style="text-align:center;font-size:10px;line-height:16px;letter-spacing:2px;font-weight:700;color:#7A4355;">PASIMATYMAS SU KVAPU</p></td></tr>
+<tr><td align="center" style="padding:13px 0 0;text-align:center;"><h1 class="intro-title" style="margin:0;padding:0;text-align:center;font-size:30px;line-height:36px;letter-spacing:-.8px;font-weight:700;color:#22231F;"><span style="white-space:nowrap;">Šeši kvapai.</span> <span style="white-space:nowrap;">Trys nuotaikos.</span></h1></td></tr>
+<tr><td align="center" style="padding:12px 0 0;text-align:center;"><p class="hero-copy" style="text-align:center;font-size:15px;line-height:24px;color:#62645B;">Nuo figų žalumos iki dūminės vanilės.<br>Kurią norisi pažinti iš arčiau?</p></td></tr>
+<tr><td align="center" style="padding:22px 0 0;text-align:center;"><table role="presentation" align="center" style="margin:0 auto;"><tr><td align="center" bgcolor="#22231F" style="background-color:#22231F;text-align:center;mso-padding-alt:16px 25px;"><a href="${esc(tracked(collection,'hero_cta'))}" target="_blank" style="display:block;padding:16px 25px;font-size:12px;line-height:16px;letter-spacing:1.2px;font-weight:700;color:#FFFFFF;text-decoration:none;mso-padding-alt:0;">ATRASK SAVO KVAPĄ &nbsp;↗</a></td></tr></table></td></tr>
+</table>
 </td></tr>
 ${items.map(row).join('\n')}
 <tr><td class="pad" bgcolor="#FFFFFF" style="background-color:#FFFFFF;padding:18px 36px 12px;">
@@ -78,6 +80,23 @@ ${items.map(row).join('\n')}
 </table>
 <!--[if mso]></td></tr></table><![endif]-->
 </td></tr></table>`;
+// Keep the email's typography independent of the parent Klaviyo template.
+// Inline resets survive a removed style block and override host heading defaults.
+const content = contentTemplate
+ .replace(/<(p|h[1-3])\b([^>]*)style="([^"]*)"/g, (_,tag,attrs,style) => {
+  const align=(style.match(/(?:^|;)\s*text-align:([^;]+)/)||[])[1]||'inherit';
+  return '<'+tag+attrs+'style="padding:0;font-family:Arial,Helvetica,sans-serif;color:inherit;text-transform:none;font-style:normal;'+style+'margin:0!important;text-align:'+align+'!important;"';
+ })
+ .replace(/<img\b([^>]*)style="([^"]*)"/g, (_,attrs,style) => '<img'+attrs+'style="display:block;border:0;outline:none;'+style+'"')
+ .replace(/<table\b/g, '<table cellpadding="0" cellspacing="0" border="0"')
+ .replace(/<table\b([^>]*)>/g, (_,attrs) => '<table'+(attrs.includes('style="')
+   ? attrs.replace('style="','style="border-collapse:collapse;border-spacing:0;')
+   : attrs+' style="border-collapse:collapse;border-spacing:0;"')+'>')
+ .replace(/<td\b([^>]*)>/g, (_,attrs) => '<td'+(attrs.includes('style="')?attrs:attrs+' style="padding:0;"')+'>')
+ .replace(/<td\b([^>]*)style="([^"]*)"/g, (_,attrs,style) => {
+  const align=(attrs.match(/\balign="([^"]+)"/)||[])[1]||'inherit';
+  return '<td'+attrs+'style="font-family:Arial,Helvetica,sans-serif;text-align:'+align+';'+style+'"';
+ });
 const html = `<!doctype html>
 <html lang="lt"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="x-apple-disable-message-reformatting"><meta name="format-detection" content="telephone=no,address=no,email=no,date=no"><meta name="color-scheme" content="light"><meta name="supported-color-schemes" content="light"><title>Pasimatymas su kvapu · Nobren</title><!--[if mso]><noscript><xml><o:OfficeDocumentSettings xmlns:o="urn:schemas-microsoft-com:office:office"><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml></noscript><![endif]--><style>${css}</style></head><body style="margin:0;padding:0;background-color:#ECEDE8;">${content}</body></html>`;
 const assetCdn = 'https://cdn.jsdelivr.net/gh/elaiskai/nobren-email-assets@9d32d00304486684158efafc6da2f72213874810/campaigns/2026-09-pasimatymas-su-kvapu/';
