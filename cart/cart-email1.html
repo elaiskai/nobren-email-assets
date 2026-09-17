@@ -11,6 +11,12 @@
   ⚠️ PRIEŠ PALEIDIMĄ: Klaviyo preview su realiu Added to Cart event'u patikrinti produktų
   loop'o tokenus (žemiau pažymėta „TOKEN CHECK") - checkout tokenai buvo iš Started Checkout
   metrikos (XdiD5K) ir cart metrikoje laukai gali vadintis kitaip.
+
+  LAYOUT FIX 2026-09-17: mobile media query neturėjo .nob-px48/.nob-px56/.email-wrap/.inner-w
+  taisyklių (tik .px-48), todėl tamsios sekcijos, hero ir „kodėl Nobren" blokas mobile'e
+  laikė 48-56 px paddingą su fiksuotais 504/488 px vidiniais stalais -> tekstas lūžo ir
+  nesulygiavo. Sutvarkytas ir 3 stulpelių blokas (lygūs 168 px stulpeliai, fiksuoto
+  aukščio antraštės eilutė, stackinasi mobile'e).
 -->
 <!--[if mso]>
 <style>
@@ -27,10 +33,19 @@ a { text-decoration:none; }
 p { margin:0; padding:0; }
 
 @media only screen and (max-width:600px) {
-  .px-48 { padding-left:24px !important; padding-right:24px !important; }
+  .email-wrap { width:100% !important; max-width:100% !important; }
+  .inner-w { width:100% !important; max-width:100% !important; }
+  .px-48, .nob-px48 { padding-left:24px !important; padding-right:24px !important; }
+  .nob-px56 { padding-left:24px !important; padding-right:24px !important; padding-top:40px !important; padding-bottom:36px !important; }
   .hero-h { font-size:26px !important; line-height:1.25 !important; }
-  .item-img { width:60px !important; }
-  .item-img-td { width:80px !important; padding:12px !important; }
+  .hero-p { max-width:100% !important; font-size:15px !important; line-height:1.7 !important; }
+  .item-img { width:64px !important; }
+  .item-img-td { width:80px !important; padding:0 12px 0 0 !important; }
+  .cta-btn { display:block !important; padding-left:0 !important; padding-right:0 !important; }
+  .fact-col-first { display:block !important; width:100% !important; padding:0 0 18px 0 !important; border-right:0 !important; border-bottom:1px solid #ede8e2 !important; }
+  .fact-col { display:block !important; width:100% !important; padding:18px 0 !important; border-right:0 !important; border-bottom:1px solid #ede8e2 !important; }
+  .fact-col-last { display:block !important; width:100% !important; padding:18px 0 0 0 !important; border-right:0 !important; }
+  .fact-h { height:auto !important; padding-bottom:8px !important; }
 }
 </style>
 </head>
@@ -43,11 +58,11 @@ p { margin:0; padding:0; }
 <tr><td align="center" style="padding:24px 16px 48px;">
 
 <!-- EMAIL WRAPPER -->
-<table class="email-wrap" width="600" cellpadding="0" cellspacing="0" border="0" style="width:600px;max-width:600px;background:#ffffff;">
+<table class="email-wrap" width="600" cellpadding="0" cellspacing="0" border="0" style="width:600px;max-width:600px;background:#ffffff;word-spacing:normal;">
 
   <!-- ── TOP BAR ── -->
   <tr>
-    <td class="nob-px48" style="background:#1a1a1a;padding:12px 48px;text-align:center;"><table role="presentation" class="inner-w" width="504" align="center" cellpadding="0" cellspacing="0" border="0" style="width:504px;max-width:504px;margin:0 auto;"><tr><td style="padding:0;">
+    <td class="nob-px48" style="background:#1a1a1a;padding:12px 48px;text-align:center;"><table role="presentation" class="inner-w" width="504" align="center" cellpadding="0" cellspacing="0" border="0" style="width:504px;max-width:504px;margin:0 auto;"><tr><td style="padding:0;text-align:center;">
       <a href="https://nobrenparfum.lt/lt/" style="text-decoration:none;">
         <span style="font-family:'Oswald',Arial,sans-serif;font-size:20px;font-weight:600;color:#ffffff;letter-spacing:6px;text-transform:uppercase;">NOBREN</span>
         <span style="font-family:'Oswald',Arial,sans-serif;font-size:10px;font-weight:300;color:#ff6c8d;letter-spacing:4px;display:block;margin-top:2px;text-transform:uppercase;">PARFUM</span>
@@ -57,11 +72,11 @@ p { margin:0; padding:0; }
 
   <!-- ── HERO SECTION (dark) ── -->
   <tr>
-    <td class="nob-px56" style="background:#1a1a1a;padding:52px 56px 48px;text-align:center;"><table role="presentation" class="inner-w" width="488" align="center" cellpadding="0" cellspacing="0" border="0" style="width:488px;max-width:488px;margin:0 auto;"><tr><td style="padding:0;">
+    <td class="nob-px56" style="background:#1a1a1a;padding:52px 56px 48px;text-align:center;"><table role="presentation" class="inner-w" width="488" align="center" cellpadding="0" cellspacing="0" border="0" style="width:488px;max-width:488px;margin:0 auto;"><tr><td style="padding:0;text-align:center;">
       <p style="font-family:'Caveat',cursive;font-weight:600;font-size:24px;color:#ff6c8d;margin:0 0 16px;line-height:1.2;">jūsų pasirinkimai</p>
       <h1 class="hero-h" style="font-family:'Oswald',Arial,sans-serif;font-size:30px;font-weight:500;color:#ffffff;margin:0 0 20px;line-height:1.2;letter-spacing:2px;text-transform:uppercase;">KREPŠELIS IŠSAUGOTAS</h1>
-      <div style="width:48px;height:2px;background:#ff6c8d;margin:0 auto 22px;"></div>
-      <p style="font-family:'Roboto',Arial,sans-serif;font-size:15px;font-weight:300;color:#cccccc;line-height:1.8;max-width:420px;margin:0 auto;">Jūsų pasirinktos prekės liko krepšelyje. Galite grįžti ir užbaigti pirkimą.</p>
+      <div style="width:48px;height:2px;background:#ff6c8d;margin:0 auto 22px;line-height:2px;font-size:0;">&nbsp;</div>
+      <p class="hero-p" style="font-family:'Roboto',Arial,sans-serif;font-size:15px;font-weight:300;color:#cccccc;line-height:1.8;max-width:400px;margin:0 auto;">Jūsų pasirinktos prekės liko krepšelyje. Galite grįžti ir užbaigti&nbsp;pirkimą.</p>
     </td></tr></table></td>
   </tr>
 
@@ -77,18 +92,18 @@ p { margin:0; padding:0; }
     <td class="px-48" style="padding:0 48px;"><table role="presentation" class="inner-w" width="504" align="center" cellpadding="0" cellspacing="0" border="0" style="width:504px;max-width:504px;margin:0 auto;"><tr><td style="padding:0;">
       <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom:16px;">
         <tr>
-          <td class="item-img-td" width="96" valign="middle" style="width:96px;padding:0 16px 0 0;">
+          <td class="item-img-td" width="96" valign="top" style="width:96px;padding:0 16px 0 0;">
             <a href="{{ item.ProductURL }}">
-              <img class="item-img" src="{{ item.Image }}" width="80" alt="{{ item.ProductInfo.name }}"
+              <img class="item-img" src="{{ item.Image }}" width="80" height="80" alt="{{ item.ProductInfo.name }}"
                    style="width:80px;height:80px;object-fit:contain;display:block;background:#faf9f7;"/>
             </a>
           </td>
-          <td valign="middle" style="border-bottom:1px solid #f0ede8;padding-bottom:16px;">
-            <p style="font-family:'Oswald',Arial,sans-serif;font-size:14px;font-weight:500;color:#1a1a1a;letter-spacing:1px;text-transform:uppercase;margin:0 0 5px;">
+          <td valign="top" style="border-bottom:1px solid #f0ede8;padding-bottom:16px;">
+            <p style="font-family:'Oswald',Arial,sans-serif;font-size:14px;font-weight:500;color:#1a1a1a;letter-spacing:1px;text-transform:uppercase;margin:0 0 5px;line-height:1.4;">
               <a href="{{ item.ProductURL }}" style="color:#1a1a1a;text-decoration:none;">{{ item.ProductInfo.name }}</a>
             </p>
-            <p style="font-family:'Roboto',Arial,sans-serif;font-size:12px;font-weight:300;color:#999;margin:0 0 6px;">{{ item.Quantity }} vnt.</p>
-            <p style="font-family:'Oswald',Arial,sans-serif;font-size:16px;font-weight:500;color:#1a1a1a;margin:0;">{{ item.ProductInfo.price_with_reduction|floatformat:2 }} €</p>
+            <p style="font-family:'Roboto',Arial,sans-serif;font-size:12px;font-weight:300;color:#999;margin:0 0 6px;line-height:1.4;">{{ item.Quantity }} vnt.</p>
+            <p style="font-family:'Oswald',Arial,sans-serif;font-size:16px;font-weight:500;color:#1a1a1a;margin:0;line-height:1.3;">{{ item.ProductInfo.price_with_reduction|floatformat:2 }} €</p>
           </td>
         </tr>
       </table>
@@ -99,32 +114,50 @@ p { margin:0; padding:0; }
 
   <!-- ── CTA ── -->
   <tr>
-    <td class="px-48" style="padding:32px 48px 40px;text-align:center;"><table role="presentation" class="inner-w" width="504" align="center" cellpadding="0" cellspacing="0" border="0" style="width:504px;max-width:504px;margin:0 auto;"><tr><td style="padding:0;">
-      <a href="{% if event.CheckoutURL %}{{ event.CheckoutURL }}{% else %}https://nobrenparfum.lt/lt/krepselis{% endif %}"
+    <td class="px-48" style="padding:32px 48px 40px;text-align:center;"><table role="presentation" class="inner-w" width="504" align="center" cellpadding="0" cellspacing="0" border="0" style="width:504px;max-width:504px;margin:0 auto;"><tr><td style="padding:0;text-align:center;">
+      <a class="cta-btn" href="{% if event.CheckoutURL %}{{ event.CheckoutURL }}{% else %}https://nobrenparfum.lt/lt/krepselis{% endif %}"
          style="display:inline-block;background:#ff6c8d;color:#ffffff;font-family:'Oswald',Arial,sans-serif;font-size:12px;font-weight:600;letter-spacing:3px;text-transform:uppercase;padding:16px 56px;text-decoration:none;">Užbaikite pirkimą</a>
     </td></tr></table></td>
   </tr>
 
-  <!-- ── KODĖL NOBREN ── -->
+  <!-- ── KODĖL NOBREN (3 lygūs stulpeliai, antraštės fiksuoto aukščio) ── -->
   <tr>
     <td class="nob-px48" style="background:#faf9f7;padding:40px 48px 36px;"><table role="presentation" class="inner-w" width="504" align="center" cellpadding="0" cellspacing="0" border="0" style="width:504px;max-width:504px;margin:0 auto;"><tr><td style="padding:0;">
       <p style="font-family:'Oswald',Arial,sans-serif;font-size:11px;font-weight:400;color:#ff6c8d;letter-spacing:4px;text-transform:uppercase;text-align:center;margin:0 0 28px;">kodėl Nobren</p>
-      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;table-layout:fixed;">
         <tr>
           <!-- Faktas 1 -->
-          <td width="33%" valign="top" style="padding-right:16px;border-right:1px solid #ede8e2;text-align:center;">
-            <p style="font-family:'Oswald',Arial,sans-serif;font-size:13px;font-weight:500;color:#1a1a1a;letter-spacing:1px;text-transform:uppercase;margin:0 0 8px;">Ilgesnis išlikimas</p>
-            <p style="font-family:'Roboto',Arial,sans-serif;font-size:12px;font-weight:300;color:#888;line-height:1.6;margin:0;">25-30% kvapo koncentracija - aromatas laikosi ilgiau ant odos.</p>
+          <td class="fact-col-first" width="168" valign="top" style="width:168px;padding:0 14px 0 0;border-right:1px solid #ede8e2;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+              <tr><td class="fact-h" height="34" valign="top" style="height:34px;text-align:center;padding:0 0 6px;">
+                <p style="font-family:'Oswald',Arial,sans-serif;font-size:12px;font-weight:500;color:#1a1a1a;letter-spacing:0.5px;text-transform:uppercase;margin:0;line-height:1.35;">Ilgesnis išlikimas</p>
+              </td></tr>
+              <tr><td valign="top" style="text-align:center;">
+                <p style="font-family:'Roboto',Arial,sans-serif;font-size:12px;font-weight:300;color:#888;line-height:1.6;margin:0;">25-30% kvapo koncentracija - aromatas laikosi ilgiau ant odos.</p>
+              </td></tr>
+            </table>
           </td>
           <!-- Faktas 2 -->
-          <td width="33%" valign="top" style="padding:0 16px;border-right:1px solid #ede8e2;text-align:center;">
-            <p style="font-family:'Oswald',Arial,sans-serif;font-size:13px;font-weight:500;color:#1a1a1a;letter-spacing:1px;text-transform:uppercase;margin:0 0 8px;">Aiškus įkvėpimas</p>
-            <p style="font-family:'Roboto',Arial,sans-serif;font-size:12px;font-weight:300;color:#888;line-height:1.6;margin:0;">Prie kiekvieno kvapo nurodome, kurio aromato jis yra įkvėptas.</p>
+          <td class="fact-col" width="168" valign="top" style="width:168px;padding:0 14px;border-right:1px solid #ede8e2;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+              <tr><td class="fact-h" height="34" valign="top" style="height:34px;text-align:center;padding:0 0 6px;">
+                <p style="font-family:'Oswald',Arial,sans-serif;font-size:12px;font-weight:500;color:#1a1a1a;letter-spacing:0.5px;text-transform:uppercase;margin:0;line-height:1.35;">Aiškus įkvėpimas</p>
+              </td></tr>
+              <tr><td valign="top" style="text-align:center;">
+                <p style="font-family:'Roboto',Arial,sans-serif;font-size:12px;font-weight:300;color:#888;line-height:1.6;margin:0;">Prie kiekvieno kvapo nurodome, kurio aromato jis yra įkvėptas.</p>
+              </td></tr>
+            </table>
           </td>
           <!-- Faktas 3 -->
-          <td width="33%" valign="top" style="padding-left:16px;text-align:center;">
-            <p style="font-family:'Oswald',Arial,sans-serif;font-size:13px;font-weight:500;color:#1a1a1a;letter-spacing:1px;text-transform:uppercase;margin:0 0 8px;">Asmeninė rekomendacija</p>
-            <p style="font-family:'Roboto',Arial,sans-serif;font-size:12px;font-weight:300;color:#888;line-height:1.6;margin:0;">Parašykite mums ir padėsime išsirinkti labiausiai tinkantį kvapą.</p>
+          <td class="fact-col-last" width="168" valign="top" style="width:168px;padding:0 0 0 14px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+              <tr><td class="fact-h" height="34" valign="top" style="height:34px;text-align:center;padding:0 0 6px;">
+                <p style="font-family:'Oswald',Arial,sans-serif;font-size:12px;font-weight:500;color:#1a1a1a;letter-spacing:0.5px;text-transform:uppercase;margin:0;line-height:1.35;">Asmeninė rekomendacija</p>
+              </td></tr>
+              <tr><td valign="top" style="text-align:center;">
+                <p style="font-family:'Roboto',Arial,sans-serif;font-size:12px;font-weight:300;color:#888;line-height:1.6;margin:0;">Parašykite mums ir padėsime išsirinkti labiausiai tinkantį kvapą.</p>
+              </td></tr>
+            </table>
           </td>
         </tr>
       </table>
@@ -133,14 +166,14 @@ p { margin:0; padding:0; }
 
   <!-- ── FOOTER NOTE ── -->
   <tr>
-    <td class="nob-px48" style="background:#f0ede8;padding:20px 48px;text-align:center;"><table role="presentation" class="inner-w" width="504" align="center" cellpadding="0" cellspacing="0" border="0" style="width:504px;max-width:504px;margin:0 auto;"><tr><td style="padding:0;">
-      <p style="font-family:'Roboto',Arial,sans-serif;font-size:12px;font-weight:300;color:#888;line-height:1.7;">Užsakymams nuo 45 EUR taikomas nemokamas pristatymas. Turite klausimų? Parašykite <a href="mailto:info@nobrenparfum.lt" style="color:#1a1a1a;text-decoration:none;">info@nobrenparfum.lt</a></p>
+    <td class="nob-px48" style="background:#f0ede8;padding:20px 48px;text-align:center;"><table role="presentation" class="inner-w" width="504" align="center" cellpadding="0" cellspacing="0" border="0" style="width:504px;max-width:504px;margin:0 auto;"><tr><td style="padding:0;text-align:center;">
+      <p style="font-family:'Roboto',Arial,sans-serif;font-size:12px;font-weight:300;color:#888;line-height:1.7;margin:0;">Užsakymams nuo 45 EUR taikomas nemokamas pristatymas. Turite klausimų? Parašykite <a href="mailto:info@nobrenparfum.lt" style="color:#1a1a1a;text-decoration:none;">info@nobrenparfum.lt</a></p>
     </td></tr></table></td>
   </tr>
 
   <!-- ── FOOTER ── -->
   <tr>
-    <td class="nob-px48" style="background:#1a1a1a;padding:28px 48px 32px;text-align:center;"><table role="presentation" class="inner-w" width="504" align="center" cellpadding="0" cellspacing="0" border="0" style="width:504px;max-width:504px;margin:0 auto;"><tr><td style="padding:0;">
+    <td class="nob-px48" style="background:#1a1a1a;padding:28px 48px 32px;text-align:center;"><table role="presentation" class="inner-w" width="504" align="center" cellpadding="0" cellspacing="0" border="0" style="width:504px;max-width:504px;margin:0 auto;"><tr><td style="padding:0;text-align:center;">
       <p style="font-family:'Caveat',cursive;font-weight:600;font-size:22px;color:#ff6c8d;margin:0 0 12px;">Nobren Parfum</p>
       <p style="font-family:'Roboto',Arial,sans-serif;font-size:11px;font-weight:300;color:#666;line-height:1.7;margin:0;">Gavote šį laišką, nes įdėjote prekių į krepšelį mūsų parduotuvėje.<br/>
       {% unsubscribe %}</p>

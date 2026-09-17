@@ -51,3 +51,22 @@ jei cart event'as turi savo atkūrimo nuorodą, ją reikia įrašyti vietoj `eve
 
 - `https://nobrenparfum.lt/lt/krepselis` = krepšelio URL (tuščias krepšelis redirectina į pradinį)
 - Mėginėlių rinkiniai TOP Gaivūs / Saldūs / Stiprūs - visi 22,50 EUR, nuotraukos 200 OK
+
+## Layout fix (2026-09-17) - reikia iš naujo įkelti į Klaviyo
+
+Luko pastaba: flow'e tekstas iškraipytas ir nesulygiuotas. Priežastys ir pataisymai:
+
+| # | Problema | Pataisyta |
+|---|---|---|
+| 1 | `@media` aprašė tik `.px-48`, o HTML naudoja `.nob-px48` / `.nob-px56` | media query papildyta visomis klasėmis |
+| 2 | `.email-wrap` (600 px) ir `.inner-w` (504/488 px) be `width:100%` mobile'e | pridėta `width:100%!important` abiem |
+| 3 | „kodėl Nobren" / bestselerių stulpeliai `width="33%"` (=99 %), nelygūs padding'ai | lygūs 168 px + `table-layout:fixed` |
+| 4 | skirtingo ilgio antraštės lūžo → tekstai skirtinguose lygiuose | antraštės eilutė fiksuoto aukščio (34 px / 20 px) |
+| 5 | stulpeliai nesistackino mobile'e | `.fact-col*` / `.prod-col3*` klasės, vienodi 18 px tarpai |
+| 6 | `.item-img-td { padding:12px }` shorthand griovė produkto eilutę | `padding:0 12px 0 0` |
+| 7 | cart-email2: TOP STIPRŪS foto `3699-...` = kito rinkinio nuotrauka | `3696-large_default/-megineliu-rinkinys-top-stiprus-5x5ml.jpg` (iš og:image) |
+| 8 | kainos `€22.50` | LT formatas `22,50 €` |
+
+Papildomai: CTA mygtukai stackinasi mobile'e (E1 - full width, E2 - du mygtukai vienas po kito).
+Copy nekeista (tik kainų formatas + `&nbsp;` nuo vienišų žodžių eilutės gale).
+Peržiūros: `cart/_preview/` (desktop + 375 px mobile).
