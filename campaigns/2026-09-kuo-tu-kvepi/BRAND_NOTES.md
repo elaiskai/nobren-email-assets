@@ -1,25 +1,26 @@
 # Nobren · Kuo tu kvepi?
 
-Paruošta 2026-09-21. Lietuviška kampanija, Klaviyo HTML. Kryptis: kvapas kaip pokalbio pradžia. Vienas klausimas ir šeši skirtingi atsakymai; pabaigoje žaismingas, aiškiai kūrybinis pokalbis. Tai nėra kliento atsiliepimas ar pažadas, kad konkrečiu kvapu būtinai sulaukiama komplimentų.
+Paruošta 2026-09-21. Lietuviška kampanija, Klaviyo HTML. Kryptis: kvapas kaip pokalbio pradžia. Vienas klausimas ir aštuoni skirtingi atsakymai; pabaigoje žaismingas, aiškiai kūrybinis pokalbis. Tai nėra kliento atsiliepimas ar pažadas, kad konkrečiu kvapu būtinai sulaukiama komplimentų.
 
 ## Tekstai ir struktūra
 
 - **Subject:** Atsiprašau… kuo tu kvepi?
-- **Preview line:** Šeši kvapai, šeši skirtingi atsakymai. Kuris bus tavo?
+- **Preview line:** Aštuoni kvapai, aštuoni skirtingi atsakymai. Kuris bus tavo?
 - **Hero:** Kuo tu kvepi?
-- **Įžanga:** Vienas klausimas. Šeši geri atsakymai.
+- **Įžanga:** Vienas klausimas. Aštuoni geri atsakymai.
 - **Įžangos tekstas:** Vyšnios, rožės ar sodri mediena? Atrask kvapą pagal savo charakterį.
 - **Pagrindinis CTA:** RASTI SAVO ATSAKYMĄ.
 - **Produktų skiltis:** Koks būtų tavo atsakymas?
+- **Produktų CTA:** PERŽIŪRĖTI PREKĘ (visos aštuonios kortelės).
 - **Pabaiga:** Galimas pokalbio tęsinys: „Kuo tu kvepi?“ — „Nobren. O kuris? Paslaptis.“
 - **Pabaigos tekstas:** Pirmiausia išsirink sau. Atsakymą sugalvosi vėliau.
 - **Pabaigos CTA:** IŠSIRINK SAVO KVAPĄ.
 
-Šeši produktai pateikti trimis poromis; 2 stulpeliai išlieka ir telefone. Visi mygtukai turi savo `utm_content`. Bendri UTM: `utm_source=klaviyo`, `utm_medium=email`, `utm_campaign=2026_09_kuo_tu_kvepi`.
+Aštuoni produktai pateikti keturiomis poromis; 2 stulpeliai išlieka ir telefone. Visi mygtukai turi savo `utm_content`. Bendri UTM: `utm_source=klaviyo`, `utm_medium=email`, `utm_campaign=2026_09_kuo_tu_kvepi`.
 
 ## Oficialūs produktai ir faktai
 
-Kainos, talpa, komplektacija ir aprašymai patikrinti oficialiuose produktų puslapiuose 2026-09-21. Visiems šešiems pasirinktas 30 ml variantas su buteliuku, kaina 29,90 €. Visų šešių šio varianto likutis patikros metu buvo teigiamas. Riboto likučio, nuolaidos ar pristatymo termino pažadų laiške nėra. Išvalyti produkto duomenys ir patikros laikas saugomi `products.json`.
+Kainos, talpa, komplektacija ir aprašymai patikrinti oficialiuose produktų puslapiuose 2026-09-21. Visiems aštuoniems pasirinktas 30 ml variantas su buteliuku: septyni kainuoja 29,90 €, Ani N7* – 35,00 €. Bendras kainos tekstas pakeistas į „Nuo 29,90 € / 30 ml“. Visų aštuonių šio varianto likutis patikros metu buvo teigiamas. Riboto likučio, nuolaidos ar pristatymo termino pažadų laiške nėra. Išvalyti produkto duomenys ir patikros laikas saugomi `products.json`.
 
 | Kvapas | Kaina / talpa | Šaltinis | Nuotrauka |
 |---|---|---|---|
@@ -30,7 +31,10 @@ Kainos, talpa, komplektacija ir aprašymai patikrinti oficialiuose produktų pus
 | X3 / Alexandria II | 29,90 € / 30 ml | [Produktas](https://nobrenparfum.lt/lt/nisiniai-kvepalai/-nobren-nisiniai-kvepalai-unisex-x3.html) | [Oficialus vaizdas](https://nobrenparfum.lt/3252-large_default/nobren-nisiniai-kvepalai-unisex-x3.jpg) |
 | S1 / Erba Pura | 29,90 € / 30 ml | [Produktas](https://nobrenparfum.lt/lt/nisiniai-kvepalai/-ikvepti-ebra-pura-nisiniai-kvepalai-unisex-s1.html) | [Oficialus vaizdas](https://nobrenparfum.lt/3866-large_default/ikvepti-ebra-pura-nisiniai-kvepalai-unisex-s1.jpg) |
 
-Natos ir aprašymai remiasi oficialiomis viršutinėmis, vidurinėmis ir pagrindinėmis natomis. Produktų kodai ir vardai išlaikyti; P20 skirtas moterims, kiti penki oficialiai priskirti unisex. I6 ir X3 puslapiuose yra naujo dizaino buteliuko pastaba, todėl ji įtraukta į laišką. Visos šešios katalogo nuotraukos yra originalūs parduotuvės failai, nekeistos.
+| T6 / Andromeda | 29,90 € / 30 ml | [Produktas](https://nobrenparfum.lt/lt/nisiniai-kvepalai/-nobren-nisiniai-kvepalai-unisex-t6.html) | [Oficialus vaizdas](https://nobrenparfum.lt/3852-large_default/nobren-nisiniai-kvepalai-unisex-t6.jpg) |
+| N7* / Ani | 35,00 € / 30 ml | [Produktas](https://nobrenparfum.lt/lt/nisiniai-kvepalai/-nobren-an-nisiniai-kvepalai-unisex-n7.html) | [Oficialus vaizdas](https://nobrenparfum.lt/4153-large_default/nobren-an-nisiniai-kvepalai-unisex-n7.jpg) |
+
+Natos ir aprašymai remiasi oficialiomis viršutinėmis, vidurinėmis ir pagrindinėmis natomis. Produktų kodai ir vardai išlaikyti; P20 skirtas moterims, kiti septyni oficialiai priskirti unisex. I6 ir X3 puslapiuose yra naujo dizaino buteliuko pastaba, todėl ji įtraukta į laišką. Visos aštuonios katalogo nuotraukos yra originalūs parduotuvės failai, nekeistos.
 
 [Oficialus logotipas](https://nobrenparfum.lt/img/shop_logo.png) naudojamas nekeistas. Jis įdėtas į šiltai gelsvą laukelį mėlynoje antraštėje. [Privatumo politika](https://nobrenparfum.lt/lt/info/privatumo-politika) patvirtina poraštės duomenis: MB „Nobren parfum“, Gintaro g. 56, Vydmantai. [Kontaktų puslapis](https://nobrenparfum.lt/lt/parduotuves). [Produktų katalogas](https://nobrenparfum.lt/lt/nisiniai-kvepalai).
 
@@ -59,18 +63,20 @@ Natos ir aprašymai remiasi oficialiomis viršutinėmis, vidurinėmis ir pagrind
 ## Patikra
 
 - Pilnas vietinis ir viešų vaizdų HTML atvaizduoti 820 / 390 / 320 px ekranuose. Konteineris atitinkamai 600 / 390 / 320 px.
-- Visuose trijuose dydžiuose 10 iš 10 vaizdų užsikrauna, šešios produktų kortelės, nėra horizontalaus slinkimo ar nukirsto teksto; abiejų stulpelių mygtukai kiekvienoje poroje yra tame pačiame aukštyje.
+- Visuose trijuose dydžiuose 12 iš 12 vaizdų užsikrauna, aštuonios produktų kortelės, nėra horizontalaus slinkimo ar nukirsto teksto; abiejų stulpelių mygtukai kiekvienoje poroje yra tame pačiame aukštyje.
 - Įklijavimo blokas patikrintas 600 px tėviniame šablone ir su papildomais konfliktuojančiais antraščių, pastraipų, lentelių bei vaizdų stiliais. Laiško aukštis nesikeičia, įžanga lieka centruota. Tai modeliavimo patikra naršyklėje, ne tiesioginė Klaviyo paskyros patikra.
-- Visi 19 skirtingų HTTPS adresų laiške patikrinti: HTTP 200. Visi 10 viešų vaizdų patikrinti be prisijungimo: HTTP 200, image MIME tipas, SHA-256 sutampa su vietiniais failais.
+- Visi 12 skirtingų puslapių adresų patikrinti: HTTP 200. Visi 12 viešų vaizdų patikrinti be prisijungimo: HTTP 200, image MIME tipas, SHA-256 sutampa su vietiniais failais.
 - Po pirmos viso laiško peržiūros sumažinti per dideli tarpai prieš kainas telefone ir atliktas pakartotinis atvaizdavimas; dialogo uodega sujungta su burbulu, maža antraštė padidinta dėl 320 px skaitomumo.
-- Pilnas HTML apie 45 KB, Klaviyo blokas apie 44 KB, bendras 10 laiško vaizdų dydis apie 570 KB. UTF-8, meaningful alt, presentation lentelės, tiesioginiai šriftai, lygiavimas ir nulinės teksto paraštės.
+- Pilnas HTML apie 55 KB, Klaviyo blokas apie 54 KB. Tikslus bendras 12 vaizdų dydis ir nuorodų patikros rezultatai yra `qa-links-report.json`. UTF-8, meaningful alt, presentation lentelės, tiesioginiai šriftai, lygiavimas ir nulinės teksto paraštės.
+- Pridėjus T6 ir N7* pakartotos 820 / 390 / 320 px patikros. Visi aštuoni „PERŽIŪRĖTI PREKĘ“ mygtukai telpa vienoje eilutėje, kortelių porų mygtukai sulygiuoti. Aštuonių produktų skaičius atnaujintas preheader, įžangoje, skilties antraštėje ir tekstinėje versijoje.
+- jsDelivr vienai naujo commit nuotraukai grąžino 403 dėl saugyklos 50 MB ribos. Visi 12 vaizdų perkelti į tiesiogines GitHub Raw nuorodas su tuo pačiu prisegtu commit; tai pašalina jsDelivr saugyklos dydžio apribojimą.
 - Atsisakymo žyma `{% unsubscribe_link %}` išlaikyta. Laiškas nesiųstas, Klaviyo paskyra neredaguota.
 
 ## Failai ir publikavimas
 
 [GitHub kampanijos aplankas](https://github.com/elaiskai/nobren-email-assets/tree/main/campaigns/2026-09-kuo-tu-kvepi).
 
-Vaizdai publikuoti esamoje viešoje saugykloje. Siunčiamame kode naudojamas jsDelivr su prisegtu vaizdų commit `ebb3cee5652417da612163e2d48205951f8b3ec2`, todėl vėlesni repozitorijos pakeitimai nepakeis šio laiško vaizdų.
+Vaizdai publikuoti esamoje viešoje saugykloje. Siunčiamame kode naudojamos tiesioginės GitHub Raw nuorodos su prisegtu vaizdų commit `64dcf86200360cca326f516a3ae00d8fb8acc26a`, todėl vėlesni repozitorijos pakeitimai nepakeis šio laiško vaizdų.
 
 - `klaviyo-block.txt` / `.html`: identiškas kodas, skirtas visam vieno Klaviyo HTML bloko turiniui pakeisti.
 - `newsletter-klaviyo.html`: visas importuojamas HTML su viešomis nuotraukomis.

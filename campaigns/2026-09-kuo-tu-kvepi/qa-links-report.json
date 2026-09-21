@@ -1,0 +1,128 @@
+{
+  "checkedAt": "2026-09-21T12:55:34.185Z",
+  "images": 12,
+  "links": 12,
+  "totalImageBytes": 653485,
+  "checks": [
+    {
+      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/64dcf86200360cca326f516a3ae00d8fb8acc26a/campaigns/2026-09-kuo-tu-kvepi/assets/brand/logo.png",
+      "status": 200,
+      "bytes": 5296,
+      "hashMatch": true
+    },
+    {
+      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/64dcf86200360cca326f516a3ae00d8fb8acc26a/campaigns/2026-09-kuo-tu-kvepi/assets/hero/hero-final.jpg",
+      "status": 200,
+      "bytes": 268692,
+      "hashMatch": true
+    },
+    {
+      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/64dcf86200360cca326f516a3ae00d8fb8acc26a/campaigns/2026-09-kuo-tu-kvepi/assets/hero/intro-tail.png",
+      "status": 200,
+      "bytes": 2246,
+      "hashMatch": true
+    },
+    {
+      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/64dcf86200360cca326f516a3ae00d8fb8acc26a/campaigns/2026-09-kuo-tu-kvepi/assets/products/t21.jpg",
+      "status": 200,
+      "bytes": 44076,
+      "hashMatch": true
+    },
+    {
+      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/64dcf86200360cca326f516a3ae00d8fb8acc26a/campaigns/2026-09-kuo-tu-kvepi/assets/products/b5.jpg",
+      "status": 200,
+      "bytes": 37628,
+      "hashMatch": true
+    },
+    {
+      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/64dcf86200360cca326f516a3ae00d8fb8acc26a/campaigns/2026-09-kuo-tu-kvepi/assets/products/i6.jpg",
+      "status": 200,
+      "bytes": 36457,
+      "hashMatch": true
+    },
+    {
+      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/64dcf86200360cca326f516a3ae00d8fb8acc26a/campaigns/2026-09-kuo-tu-kvepi/assets/products/p20.jpg",
+      "status": 200,
+      "bytes": 38456,
+      "hashMatch": true
+    },
+    {
+      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/64dcf86200360cca326f516a3ae00d8fb8acc26a/campaigns/2026-09-kuo-tu-kvepi/assets/products/x3.jpg",
+      "status": 200,
+      "bytes": 56150,
+      "hashMatch": true
+    },
+    {
+      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/64dcf86200360cca326f516a3ae00d8fb8acc26a/campaigns/2026-09-kuo-tu-kvepi/assets/products/s1.jpg",
+      "status": 200,
+      "bytes": 38828,
+      "hashMatch": true
+    },
+    {
+      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/64dcf86200360cca326f516a3ae00d8fb8acc26a/campaigns/2026-09-kuo-tu-kvepi/assets/products/t6.jpg",
+      "status": 200,
+      "bytes": 44138,
+      "hashMatch": true
+    },
+    {
+      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/64dcf86200360cca326f516a3ae00d8fb8acc26a/campaigns/2026-09-kuo-tu-kvepi/assets/products/n7.jpg",
+      "status": 200,
+      "bytes": 39165,
+      "hashMatch": true
+    },
+    {
+      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/64dcf86200360cca326f516a3ae00d8fb8acc26a/campaigns/2026-09-kuo-tu-kvepi/assets/closing/dialogue.png",
+      "status": 200,
+      "bytes": 42353,
+      "hashMatch": true
+    },
+    {
+      "url": "https://nobrenparfum.lt/lt/",
+      "status": 200
+    },
+    {
+      "url": "https://nobrenparfum.lt/lt/nisiniai-kvepalai/-nobren-nisiniai-kvepalai-unisex-t21.html",
+      "status": 200
+    },
+    {
+      "url": "https://nobrenparfum.lt/lt/nisiniai-kvepalai",
+      "status": 200
+    },
+    {
+      "url": "https://nobrenparfum.lt/lt/nisiniai-kvepalai/-nobren-nisiniai-kvepalai-unisex-b5.html",
+      "status": 200
+    },
+    {
+      "url": "https://nobrenparfum.lt/lt/nisiniai-kvepalai/-ikvepti-atomic-rose-nisiniai-kvepalai-unisex-i6.html",
+      "status": 200
+    },
+    {
+      "url": "https://nobrenparfum.lt/lt/nisiniai-kvepalai/-ikvepti-delina-nisiniai-kvepalai-moterims-p20.html",
+      "status": 200
+    },
+    {
+      "url": "https://nobrenparfum.lt/lt/nisiniai-kvepalai/-nobren-nisiniai-kvepalai-unisex-x3.html",
+      "status": 200
+    },
+    {
+      "url": "https://nobrenparfum.lt/lt/nisiniai-kvepalai/-ikvepti-ebra-pura-nisiniai-kvepalai-unisex-s1.html",
+      "status": 200
+    },
+    {
+      "url": "https://nobrenparfum.lt/lt/nisiniai-kvepalai/-nobren-nisiniai-kvepalai-unisex-t6.html",
+      "status": 200
+    },
+    {
+      "url": "https://nobrenparfum.lt/lt/nisiniai-kvepalai/-nobren-an-nisiniai-kvepalai-unisex-n7.html",
+      "status": 200
+    },
+    {
+      "url": "https://nobrenparfum.lt/lt/parduotuves",
+      "status": 200
+    },
+    {
+      "url": "https://nobrenparfum.lt/lt/info/privatumo-politika",
+      "status": 200
+    }
+  ]
+}

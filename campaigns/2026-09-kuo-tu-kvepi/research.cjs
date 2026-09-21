@@ -6,7 +6,9 @@ const selected=[
  ['I6','Atomic Rose','-ikvepti-atomic-rose-nisiniai-kvepalai-unisex-i6.html'],
  ['P20','Delina','-ikvepti-delina-nisiniai-kvepalai-moterims-p20.html'],
  ['X3','Alexandria II','-nobren-nisiniai-kvepalai-unisex-x3.html'],
- ['S1','Erba Pura','-ikvepti-ebra-pura-nisiniai-kvepalai-unisex-s1.html']
+ ['S1','Erba Pura','-ikvepti-ebra-pura-nisiniai-kvepalai-unisex-s1.html'],
+ ['T6','Andromeda','-nobren-nisiniai-kvepalai-unisex-t6.html'],
+ ['N7','Ani','-nobren-an-nisiniai-kvepalai-unisex-n7.html']
 ];
 const decode=s=>s.replace(/&quot;/g,'"').replace(/&#039;/g,"'").replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>');
 const clean=s=>decode(s).replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim();
