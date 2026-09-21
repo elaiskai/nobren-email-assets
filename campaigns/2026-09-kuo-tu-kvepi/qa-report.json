@@ -4,8 +4,8 @@
     "viewport": 820,
     "scroll": 820,
     "wrap": 600,
-    "images": 12,
-    "height": 4891,
+    "images": 11,
+    "height": 4824,
     "cards": 8,
     "buttons": [
       {
@@ -43,24 +43,27 @@
     ],
     "overflow": [],
     "clipped": [],
+    "closingFill": "rgb(246, 238, 201)",
+    "endingFill": "rgba(0, 0, 0, 0)",
+    "closingImages": 0,
     "introAlign": "center",
     "tablesAccessible": true,
     "ctaRows": [
       [
-        2006,
-        2006
+        2007,
+        2007
       ],
       [
-        2680,
-        2680
+        2681,
+        2681
       ],
       [
-        3355,
-        3355
+        3356,
+        3356
       ],
       [
-        4029,
-        4029
+        4030,
+        4030
       ]
     ]
   },
@@ -69,8 +72,8 @@
     "viewport": 390,
     "scroll": 390,
     "wrap": 390,
-    "images": 12,
-    "height": 4075,
+    "images": 11,
+    "height": 4113,
     "cards": 8,
     "buttons": [
       {
@@ -108,24 +111,27 @@
     ],
     "overflow": [],
     "clipped": [],
+    "closingFill": "rgb(246, 238, 201)",
+    "endingFill": "rgba(0, 0, 0, 0)",
+    "closingImages": 0,
     "introAlign": "center",
     "tablesAccessible": true,
     "ctaRows": [
       [
-        1586,
-        1586
+        1587,
+        1587
       ],
       [
-        2161,
-        2161
+        2162,
+        2162
       ],
       [
-        2737,
-        2737
+        2738,
+        2738
       ],
       [
-        3313,
-        3313
+        3314,
+        3314
       ]
     ]
   },
@@ -134,8 +140,8 @@
     "viewport": 320,
     "scroll": 320,
     "wrap": 320,
-    "images": 12,
-    "height": 3771,
+    "images": 11,
+    "height": 3860,
     "cards": 8,
     "buttons": [
       {
@@ -173,6 +179,9 @@
     ],
     "overflow": [],
     "clipped": [],
+    "closingFill": "rgb(246, 238, 201)",
+    "endingFill": "rgba(0, 0, 0, 0)",
+    "closingImages": 0,
     "introAlign": "center",
     "tablesAccessible": true,
     "ctaRows": [
@@ -181,16 +190,16 @@
         1445
       ],
       [
-        1983,
-        1983
+        1984,
+        1984
       ],
       [
         2522,
         2522
       ],
       [
-        3060,
-        3060
+        3061,
+        3061
       ]
     ]
   }

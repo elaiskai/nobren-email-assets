@@ -1,79 +1,73 @@
 {
-  "checkedAt": "2026-09-21T13:16:26.631Z",
-  "images": 12,
+  "checkedAt": "2026-09-21T13:27:08.515Z",
+  "images": 11,
   "links": 12,
-  "totalImageBytes": 651551,
+  "totalImageBytes": 620904,
   "checks": [
     {
-      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/be71c6efcf75194f19a64a3361dc9bfd2e223585/campaigns/2026-09-kuo-tu-kvepi/assets/brand/logo.png",
+      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/c1184bcf30acda2e12f9e5aa1abf5d9f417a3b03/campaigns/2026-09-kuo-tu-kvepi/assets/brand/logo-badge.png",
       "status": 200,
-      "bytes": 5296,
+      "bytes": 11623,
       "hashMatch": true
     },
     {
-      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/be71c6efcf75194f19a64a3361dc9bfd2e223585/campaigns/2026-09-kuo-tu-kvepi/assets/hero/hero-final.jpg",
+      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/c1184bcf30acda2e12f9e5aa1abf5d9f417a3b03/campaigns/2026-09-kuo-tu-kvepi/assets/hero/hero-final.jpg",
       "status": 200,
       "bytes": 272137,
       "hashMatch": true
     },
     {
-      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/be71c6efcf75194f19a64a3361dc9bfd2e223585/campaigns/2026-09-kuo-tu-kvepi/assets/hero/intro-tail.png",
+      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/c1184bcf30acda2e12f9e5aa1abf5d9f417a3b03/campaigns/2026-09-kuo-tu-kvepi/assets/hero/intro-tail.png",
       "status": 200,
       "bytes": 2246,
       "hashMatch": true
     },
     {
-      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/be71c6efcf75194f19a64a3361dc9bfd2e223585/campaigns/2026-09-kuo-tu-kvepi/assets/products/t21.jpg",
+      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/c1184bcf30acda2e12f9e5aa1abf5d9f417a3b03/campaigns/2026-09-kuo-tu-kvepi/assets/products/t21.jpg",
       "status": 200,
       "bytes": 44076,
       "hashMatch": true
     },
     {
-      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/be71c6efcf75194f19a64a3361dc9bfd2e223585/campaigns/2026-09-kuo-tu-kvepi/assets/products/b5.jpg",
+      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/c1184bcf30acda2e12f9e5aa1abf5d9f417a3b03/campaigns/2026-09-kuo-tu-kvepi/assets/products/b5.jpg",
       "status": 200,
       "bytes": 37628,
       "hashMatch": true
     },
     {
-      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/be71c6efcf75194f19a64a3361dc9bfd2e223585/campaigns/2026-09-kuo-tu-kvepi/assets/products/i6.jpg",
+      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/c1184bcf30acda2e12f9e5aa1abf5d9f417a3b03/campaigns/2026-09-kuo-tu-kvepi/assets/products/i6.jpg",
       "status": 200,
       "bytes": 36457,
       "hashMatch": true
     },
     {
-      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/be71c6efcf75194f19a64a3361dc9bfd2e223585/campaigns/2026-09-kuo-tu-kvepi/assets/products/p20.jpg",
+      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/c1184bcf30acda2e12f9e5aa1abf5d9f417a3b03/campaigns/2026-09-kuo-tu-kvepi/assets/products/p20.jpg",
       "status": 200,
       "bytes": 38456,
       "hashMatch": true
     },
     {
-      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/be71c6efcf75194f19a64a3361dc9bfd2e223585/campaigns/2026-09-kuo-tu-kvepi/assets/products/x3.jpg",
+      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/c1184bcf30acda2e12f9e5aa1abf5d9f417a3b03/campaigns/2026-09-kuo-tu-kvepi/assets/products/x3.jpg",
       "status": 200,
       "bytes": 56150,
       "hashMatch": true
     },
     {
-      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/be71c6efcf75194f19a64a3361dc9bfd2e223585/campaigns/2026-09-kuo-tu-kvepi/assets/products/s1.jpg",
+      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/c1184bcf30acda2e12f9e5aa1abf5d9f417a3b03/campaigns/2026-09-kuo-tu-kvepi/assets/products/s1.jpg",
       "status": 200,
       "bytes": 38828,
       "hashMatch": true
     },
     {
-      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/be71c6efcf75194f19a64a3361dc9bfd2e223585/campaigns/2026-09-kuo-tu-kvepi/assets/products/t6.jpg",
+      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/c1184bcf30acda2e12f9e5aa1abf5d9f417a3b03/campaigns/2026-09-kuo-tu-kvepi/assets/products/t6.jpg",
       "status": 200,
       "bytes": 44138,
       "hashMatch": true
     },
     {
-      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/be71c6efcf75194f19a64a3361dc9bfd2e223585/campaigns/2026-09-kuo-tu-kvepi/assets/products/n7.jpg",
+      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/c1184bcf30acda2e12f9e5aa1abf5d9f417a3b03/campaigns/2026-09-kuo-tu-kvepi/assets/products/n7.jpg",
       "status": 200,
       "bytes": 39165,
-      "hashMatch": true
-    },
-    {
-      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/be71c6efcf75194f19a64a3361dc9bfd2e223585/campaigns/2026-09-kuo-tu-kvepi/assets/closing/dialogue.png",
-      "status": 200,
-      "bytes": 36974,
       "hashMatch": true
     },
     {

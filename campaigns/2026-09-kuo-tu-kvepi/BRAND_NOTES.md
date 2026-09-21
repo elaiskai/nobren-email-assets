@@ -35,7 +35,7 @@ Kainos, talpa, komplektacija ir aprašymai patikrinti oficialiuose produktų pus
 
 Natos ir aprašymai remiasi oficialiomis viršutinėmis, vidurinėmis ir pagrindinėmis natomis. Produktų kodai ir vardai išlaikyti; P20 skirtas moterims, kiti septyni oficialiai priskirti unisex. I6 ir X3 puslapiuose yra naujo dizaino buteliuko pastaba, todėl ji įtraukta į laišką. Visos aštuonios katalogo nuotraukos yra originalūs parduotuvės failai, nekeistos.
 
-[Oficialus logotipas](https://nobrenparfum.lt/img/shop_logo.png) naudojamas nekeistas. Jis įdėtas į šiltai gelsvą laukelį mėlynoje antraštėje. [Privatumo politika](https://nobrenparfum.lt/lt/info/privatumo-politika) patvirtina poraštės duomenis: MB „Nobren parfum“, Gintaro g. 56, Vydmantai. [Kontaktų puslapis](https://nobrenparfum.lt/lt/parduotuves). [Produktų katalogas](https://nobrenparfum.lt/lt/nisiniai-kvepalai).
+[Oficialus logotipas](https://nobrenparfum.lt/img/shop_logo.png) išlaikytas originalios geometrijos ir spalvų. Jis HTML kompozitoriumi įdėtas į nepermatomą `#F6EEC9` laukelį ir eksportuotas į sRGB `assets/brand/logo-badge.png` (280 × 134 px, be alfa kanalo). Laiške rodomas 140 × 67 px. Originalus šaltinis `assets/brand/logo.png` išsaugotas. [Privatumo politika](https://nobrenparfum.lt/lt/info/privatumo-politika) patvirtina poraštės duomenis: MB „Nobren parfum“, Gintaro g. 56, Vydmantai. [Kontaktų puslapis](https://nobrenparfum.lt/lt/parduotuves). [Produktų katalogas](https://nobrenparfum.lt/lt/nisiniai-kvepalai).
 
 ## Art direction ir vizualai
 
@@ -43,7 +43,7 @@ Natos ir aprašymai remiasi oficialiomis viršutinėmis, vidurinėmis ir pagrind
 - Hero – nauja integruotu ImageGen sukurta fotografijos kompozicija, remiantis oficialia T21 nuotrauka: vienas juodas buteliukas su sidabro spalvos ženklinimu, chromo kabutės ir vyšnios. Etiketės geometrija ir ženklinimas sulyginti vizualiai su pateiktu šaltiniu. Kūrybinė scena nėra originali parduotuvės fotografija.
 - Hero tekstas vartotojo prašymu „Kuom tu kvepi?“. Ta pati forma naudojama subject ir pabaigos dialoge. Antraštė redaguota HTML šaltinyje; esama fotografinė scena išsaugota.
 - Hero lietuviška antraštė ir tikslūs kraštai pridėti HTML/CSS kompozitoriumi. Galutinis vaizdas `assets/hero/hero-final.jpg`, 1200 × 1500 px; laiške 600 × 750 px.
-- Pabaigos pokalbis sukurtas kaip redaguojama HTML/CSS kompozicija ir eksportuotas į `assets/closing/dialogue.png`, 1200 × 880 px; laiške 600 × 440 px. Aiškus alt tekstas atkartoja dialogą. Pokalbio tekstas yra ir tekstinėje laiško versijoje.
+- Pabaigos pokalbis, lydintis tekstas, CTA ir poraštė yra vienoje HTML sekcijoje `.nq-closing`. Visas gelsvas fonas piešiamas vieną kartą bendrame išoriniame langelyje; vidiniai langeliai permatomi. Pokalbio balta ir mėlyna kortelės turi savo tyčinius fonus. Visas tekstas gyvas, nuorodos paspaudžiamos. Senasis `assets/closing/dialogue.png` ir jo kompozitoriaus šaltinis palikti kaip ankstesnis maketas, bet siunčiamame laiške nenaudojami.
 - Mažas mėlyno bloko perėjimas į produktus: `assets/hero/intro-tail.png`, 1200 × 112 px; laiške 600 × 56 px. Dekoratyvus, tuščias alt ir presentation rolė.
 - Katalogo vaizdai nekeisti. Nėra netikrų klientų citatų, atsiliepimų, reitingų, nuolaidų ar skubos teiginių.
 
@@ -55,35 +55,45 @@ Natos ir aprašymai remiasi oficialiomis viršutinėmis, vidurinėmis ir pagrind
 | Hero → gyva įžanga | 600 px | `#173DCB` |
 | Įžanga → dekoratyvus perėjimas | 600 px | `#173DCB` |
 | Perėjimas → produktų laukas | 600 px | `#FFFFFF` |
-| Produktų laukas → pokalbio vaizdas | 600 px | `#FFFFFF` |
-| Pokalbio vaizdas → CTA → poraštė | 600 px | `#F6EEC9` |
+| Produktų laukas → HTML pabaigos sekcija | 600 px | Aiški balta → `#F6EEC9` jungtis |
+| Pokalbis → CTA → poraštė | 600 px | Vienas bendras `#F6EEC9` HTML fonas |
 
-`transitions/scripts/check_image_edges.py`: visų trijų kompozicijų 1200 px plotis ir 24 px viršaus / apačios kraštai patikrinti. Hero JPEG didžiausias RGB kanalo nuokrypis 1; abiejų PNG kraštai sutampa tiksliai. Leistina tolerancija 2. Esminiams efektams laiške nereikia CSS kaukių, gradientų, foninių paveikslėlių ar JavaScript.
+`transitions/scripts/check_image_edges.py`: hero ir įžangos perėjimo 1200 px plotis bei 24 px viršaus / apačios kraštai patikrinti. Hero JPEG didžiausias RGB kanalo nuokrypis 1; įžangos PNG kraštai sutampa tiksliai. Pabaigoje nebeliko rastrinio vaizdo ir HTML fono jungties. Leistina tolerancija 2. Esminiams efektams laiške nereikia CSS kaukių, gradientų, foninių paveikslėlių ar JavaScript.
 
 ## Patikra
 
 - Pilnas vietinis ir viešų vaizdų HTML atvaizduoti 820 / 390 / 320 px ekranuose. Konteineris atitinkamai 600 / 390 / 320 px.
-- Visuose trijuose dydžiuose 12 iš 12 vaizdų užsikrauna, aštuonios produktų kortelės, nėra horizontalaus slinkimo ar nukirsto teksto; abiejų stulpelių mygtukai kiekvienoje poroje yra tame pačiame aukštyje.
+- Visuose trijuose dydžiuose 11 iš 11 vaizdų užsikrauna, aštuonios produktų kortelės, nėra horizontalaus slinkimo ar nukirsto teksto; abiejų stulpelių mygtukai kiekvienoje poroje yra tame pačiame aukštyje.
 - Įklijavimo blokas patikrintas 600 px tėviniame šablone ir su papildomais konfliktuojančiais antraščių, pastraipų, lentelių bei vaizdų stiliais. Laiško aukštis nesikeičia, įžanga lieka centruota. Tai modeliavimo patikra naršyklėje, ne tiesioginė Klaviyo paskyros patikra.
-- Visi 12 skirtingų puslapių adresų patikrinti: HTTP 200. Visi 12 viešų vaizdų patikrinti be prisijungimo: HTTP 200, image MIME tipas, SHA-256 sutampa su vietiniais failais.
-- Po pirmos viso laiško peržiūros sumažinti per dideli tarpai prieš kainas telefone ir atliktas pakartotinis atvaizdavimas; dialogo uodega sujungta su burbulu, maža antraštė padidinta dėl 320 px skaitomumo.
-- Pilnas HTML apie 55 KB, Klaviyo blokas apie 54 KB. Tikslus bendras 12 vaizdų dydis ir nuorodų patikros rezultatai yra `qa-links-report.json`. UTF-8, meaningful alt, presentation lentelės, tiesioginiai šriftai, lygiavimas ir nulinės teksto paraštės.
+- Visi 12 skirtingų puslapių adresų patikrinti: HTTP 200. Visi 11 viešų vaizdų patikrinti be prisijungimo: HTTP 200, image MIME tipas, SHA-256 sutampa su vietiniais failais.
+- Pabaigos dialogo tekstas telefone rodomas kaip 23 px gyvas tekstas, o ne sumažintas tekstas paveikslėlyje. Vizualiai peržiūrėti 600 px ir 320 px maketai. Logo sRGB profilis, alfa nebuvimas ir visi keturi gelsvi kampai patikrinti programiškai.
+- Pilnas HTML apie 61 KB, Klaviyo blokas apie 60 KB. Tikslus bendras 11 vaizdų dydis ir nuorodų patikros rezultatai yra `qa-links-report.json`. UTF-8, meaningful alt, presentation lentelės, tiesioginiai šriftai, lygiavimas ir nulinės teksto paraštės.
 - Pridėjus T6 ir N7* pakartotos 820 / 390 / 320 px patikros. Visi aštuoni „PERŽIŪRĖTI PREKĘ“ mygtukai telpa vienoje eilutėje, kortelių porų mygtukai sulygiuoti. Produktų skaičius nesiejamas su „atsakymais“; įžanga, produktų skiltis, subject ir preheader nuosekliai kalba apie kvapo pasirinkimą.
-- jsDelivr vienai naujo commit nuotraukai grąžino 403 dėl saugyklos 50 MB ribos. Visi 12 vaizdų perkelti į tiesiogines GitHub Raw nuorodas su tuo pačiu prisegtu commit; tai pašalina jsDelivr saugyklos dydžio apribojimą.
+- jsDelivr vienai naujo commit nuotraukai grąžino 403 dėl saugyklos 50 MB ribos. Naudojami vaizdai perkelti į tiesiogines GitHub Raw nuorodas su tuo pačiu prisegtu commit; tai pašalina jsDelivr saugyklos dydžio apribojimą.
 - Atsisakymo žyma `{% unsubscribe_link %}` išlaikyta. Laiškas nesiųstas, Klaviyo paskyra neredaguota.
+
+## Gmail mobilios peržiūros pataisa
+
+Vartotojas patvirtino, kad problemą mato Gmail telefone šviesiu režimu. Todėl tamsus režimas nelaikomas nustatyta priežastimi. Konkretaus gauto laiško HTML ir telefono vaizdas nebuvo prieinami; pradinis gedimas pačioje Gmail programėlėje neatkartotas.
+
+Pašalintos dvi struktūrinės rizikos: permatomas logo, priklausantis nuo atskiro HTML fono, ir pabaigos sekcija, kurioje rastrinis gelsvas fonas jungėsi su dviem atskiromis HTML fono dalimis. Logo dabar nepermatomas sRGB PNG; visos pabaigos dalys turi vieną bendrą HTML foną. Fonai turi inline `!important`, o likę vidiniai langeliai aiškiai permatomi, kad išorinio šablono mobilūs stiliai jų neužpildytų kita spalva.
+
+Patikros vykdomos su šviesiu `colorScheme`. Į Klaviyo panašioje įklijavimo aplinkoje pridėti specialiai konfliktuojantys mobilūs antraštės ir pabaigos langelių fonai; patikrinama, kad antraštė lieka `rgb(23, 61, 203)`, bendras pabaigos fonas `rgb(246, 238, 201)`, o vidiniai langeliai skaidrūs. Tai naršyklės suderinamumo patikra, ne realus Gmail laiško pristatymo testas. Reikia naujo testinio siuntimo iš Klaviyo į tą pačią Gmail programėlę; seniau gautas laiškas nuo kodo pakeitimų neatsinaujina.
+
+Techniniai šaltiniai: [Klaviyo paaiškinimas apie vaizdų fonus ir el. pašto klientų spalvų apdorojimą](https://help.klaviyo.com/hc/en-us/articles/360049181631), [Gmail oficialiai palaikomi CSS stiliai ir mobilios medijos užklausos](https://developers.google.com/workspace/gmail/design/css). Pirmasis šaltinis pagrindžia nepermatomo logo pasirinkimą; jis neįrodo, kad vartotojo atvejis susijęs su tamsiu režimu.
 
 ## Failai ir publikavimas
 
 [GitHub kampanijos aplankas](https://github.com/elaiskai/nobren-email-assets/tree/main/campaigns/2026-09-kuo-tu-kvepi).
 
-Vaizdai publikuoti esamoje viešoje saugykloje. Siunčiamame kode naudojamos tiesioginės GitHub Raw nuorodos su prisegtu vaizdų commit `be71c6efcf75194f19a64a3361dc9bfd2e223585`, todėl vėlesni repozitorijos pakeitimai nepakeis šio laiško vaizdų.
+Vaizdai publikuoti esamoje viešoje saugykloje. Siunčiamame kode naudojamos tiesioginės GitHub Raw nuorodos su prisegtu vaizdų commit `c1184bcf30acda2e12f9e5aa1abf5d9f417a3b03`, todėl vėlesni repozitorijos pakeitimai nepakeis šio laiško vaizdų.
 
 - `klaviyo-block.txt` / `.html`: identiškas kodas, skirtas visam vieno Klaviyo HTML bloko turiniui pakeisti.
 - `newsletter-klaviyo.html`: visas importuojamas HTML su viešomis nuotraukomis.
 - `newsletter.html`: vietinė peržiūra; GitHub šio failo kopija turi viešus vaizdus.
 - `newsletter.txt`: tekstinė alternatyva, tema ir preview line.
 - `preview-desktop.png`, `preview-mobile.png`, `preview-mobile-320.png`: viso laiško peržiūros; papildomai yra hero, produktų ir pabaigos iškarpos.
-- `build.cjs`, `render.cjs`, `render-assets.cjs`, `hero-compose.html`, `closing-compose.html`: atkuriami redaguojami šaltiniai. Reikia Node, Playwright, Sharp ir Chrome.
+- `build.cjs`, `render.cjs`, `render-assets.cjs`, `hero-compose.html`, `brand-compose.html`, `closing-compose.html`: atkuriami redaguojami šaltiniai. Reikia Node, Playwright, Sharp ir Chrome.
 - `research.cjs`, `products.json`: oficialių produktų duomenų patikra ir šaltiniai.
 - `imagegen-hero-prompt.txt`: tiksli naudota užklausa, taip pat pateikta žemiau.
 
