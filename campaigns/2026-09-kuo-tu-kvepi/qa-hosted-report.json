@@ -1,0 +1,86 @@
+[
+  {
+    "name": "desktop",
+    "viewport": 820,
+    "scroll": 820,
+    "wrap": 600,
+    "images": 10,
+    "height": 4217,
+    "cards": 6,
+    "overflow": [],
+    "clipped": [],
+    "introAlign": "center",
+    "tablesAccessible": true,
+    "ctaRows": [
+      [
+        2006,
+        2006
+      ],
+      [
+        2680,
+        2680
+      ],
+      [
+        3355,
+        3355
+      ]
+    ],
+    "hostStylesIsolated": true
+  },
+  {
+    "name": "mobile",
+    "viewport": 390,
+    "scroll": 390,
+    "wrap": 390,
+    "images": 10,
+    "height": 3499,
+    "cards": 6,
+    "overflow": [],
+    "clipped": [],
+    "introAlign": "center",
+    "tablesAccessible": true,
+    "ctaRows": [
+      [
+        1586,
+        1586
+      ],
+      [
+        2161,
+        2161
+      ],
+      [
+        2737,
+        2737
+      ]
+    ],
+    "hostStylesIsolated": true
+  },
+  {
+    "name": "mobile-320",
+    "viewport": 320,
+    "scroll": 320,
+    "wrap": 320,
+    "images": 10,
+    "height": 3279,
+    "cards": 6,
+    "overflow": [],
+    "clipped": [],
+    "introAlign": "center",
+    "tablesAccessible": true,
+    "ctaRows": [
+      [
+        1492,
+        1492
+      ],
+      [
+        2030,
+        2030
+      ],
+      [
+        2569,
+        2569
+      ]
+    ],
+    "hostStylesIsolated": true
+  }
+]

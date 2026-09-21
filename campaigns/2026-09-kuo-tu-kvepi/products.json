@@ -1,0 +1,458 @@
+[
+  {
+    "code": "T21",
+    "displayName": "Lost Cherry",
+    "name": "Nobren Lost Cherry Nišiniai Kvepalai Unisex | T21*",
+    "url": "https://nobrenparfum.lt/lt/nisiniai-kvepalai/-nobren-nisiniai-kvepalai-unisex-t21.html",
+    "image": "https://nobrenparfum.lt/3846-large_default/nobren-nisiniai-kvepalai-unisex-t21.jpg",
+    "price": "29,90 €",
+    "price_amount": 29.9,
+    "attributes": {
+      "1": {
+        "id_attribute": "3",
+        "id_attribute_group": "1",
+        "name": "30ml",
+        "group": "Talpa (ml) ",
+        "reference": "30",
+        "ean13": "",
+        "isbn": "",
+        "upc": "",
+        "mpn": ""
+      },
+      "2": {
+        "id_attribute": "6",
+        "id_attribute_group": "2",
+        "name": "Su buteliuku",
+        "group": "Kvepalai ",
+        "reference": "30",
+        "ean13": "",
+        "isbn": "",
+        "upc": "",
+        "mpn": ""
+      }
+    },
+    "quantity": 814,
+    "available_for_order": "1",
+    "new_bottle": false,
+    "description_short": "EAU DE PARFUM | PARFUM | KVAPO TIPAS: RYTIETIŠKAS/GĖLIŲ | KVAPO PASKIRTIS: DIENINIAI/VAKARINIAI | KVAPO CHARAKTERIS: VERŽLUS, VILIOJANTIS, NEPASIEKIAMAS | DOMINUOJANČIOS NATOS: VYŠNIŲ LIKERIS, VYŠNIŲ SIRUPAS, VYŠNIOS",
+    "features": [
+      {
+        "name": "VIRŠUTINĖS NATOS",
+        "value": "vyšnios ,vyšnių likeris ,kartus migdolai",
+        "id_feature": "14",
+        "position": "0"
+      },
+      {
+        "name": "VIDURINĖS NATOS",
+        "value": "vyšnių sirupas ,turkiška rožė ,jasmine sambac",
+        "id_feature": "15",
+        "position": "1"
+      },
+      {
+        "name": "PAGRINDINĖS NATOS",
+        "value": "peru balzamas ,skrudinta tonka pupelė ,Sandalmedis ,vetiveris ,kedro mediena",
+        "id_feature": "16",
+        "position": "2"
+      },
+      {
+        "name": "KVAPO INTENSYVUMAS",
+        "value": "Ypač sunkūs kvapai",
+        "id_feature": "21",
+        "position": "3"
+      },
+      {
+        "name": "KVAPO TIPAS",
+        "value": "Rytietiški/Gėlių",
+        "id_feature": "10",
+        "position": "4"
+      },
+      {
+        "name": "GALIOJIMO TERMINAS",
+        "value": "12 mėnesių, po gavimo. Kvepalus laikyti tamsioje vietoje.",
+        "id_feature": "8",
+        "position": "5"
+      }
+    ],
+    "checkedAt": "2026-09-21T12:28:11.649Z"
+  },
+  {
+    "code": "B5",
+    "displayName": "Angels Share",
+    "name": "Nobren Angels Share Nišiniai Kvepalai Unisex | B5",
+    "url": "https://nobrenparfum.lt/lt/nisiniai-kvepalai/-nobren-nisiniai-kvepalai-unisex-b5.html",
+    "image": "https://nobrenparfum.lt/3998-large_default/nobren-nisiniai-kvepalai-unisex-b5.jpg",
+    "price": "29,90 €",
+    "price_amount": 29.9,
+    "attributes": {
+      "1": {
+        "id_attribute": "3",
+        "id_attribute_group": "1",
+        "name": "30ml",
+        "group": "Talpa (ml) ",
+        "reference": "30",
+        "ean13": "",
+        "isbn": "",
+        "upc": "",
+        "mpn": ""
+      },
+      "2": {
+        "id_attribute": "6",
+        "id_attribute_group": "2",
+        "name": "Su buteliuku",
+        "group": "Kvepalai ",
+        "reference": "30",
+        "ean13": "",
+        "isbn": "",
+        "upc": "",
+        "mpn": ""
+      }
+    },
+    "quantity": 879,
+    "available_for_order": "1",
+    "new_bottle": false,
+    "description_short": "EAU DE PARFUM | PARFUM | KVAPO TIPAS: RYTIETIŠKI/MEDIENOS | KVAPO PASKIRTIS: DIENINIAI/VAKARINIAI | KVAPO CHARAKTERIS: ŠILTAS,MADINGAS | DOMINUOJANČIOS NATOS: KONJAKAS, ĄŽUOLO MEDIENA,",
+    "features": [
+      {
+        "name": "VIRŠUTINĖS NATOS",
+        "value": "konjakas, cinamonas",
+        "id_feature": "14",
+        "position": "0"
+      },
+      {
+        "name": "VIDURINĖS NATOS",
+        "value": "Ąžuolo mediena, tonka pupelės",
+        "id_feature": "15",
+        "position": "1"
+      },
+      {
+        "name": "PAGRINDINĖS NATOS",
+        "value": "lazdyno riešutai, santalas, karamelė",
+        "id_feature": "16",
+        "position": "2"
+      },
+      {
+        "name": "KVAPO INTENSYVUMAS",
+        "value": "Lengvi kvapai",
+        "id_feature": "21",
+        "position": "3"
+      },
+      {
+        "name": "KVAPO TIPAS",
+        "value": "Medienos/Prieskonių",
+        "id_feature": "10",
+        "position": "4"
+      },
+      {
+        "name": "GALIOJIMO TERMINAS",
+        "value": "12 mėnesių, po gavimo. Kvepalus laikyti tamsioje vietoje.",
+        "id_feature": "8",
+        "position": "5"
+      }
+    ],
+    "checkedAt": "2026-09-21T12:28:11.570Z"
+  },
+  {
+    "code": "I6",
+    "displayName": "Atomic Rose",
+    "name": "Nobren Atomic Rose Nišiniai Kvepalai Unisex| I6",
+    "url": "https://nobrenparfum.lt/lt/nisiniai-kvepalai/-ikvepti-atomic-rose-nisiniai-kvepalai-unisex-i6.html",
+    "image": "https://nobrenparfum.lt/3839-large_default/ikvepti-atomic-rose-nisiniai-kvepalai-unisex-i6.jpg",
+    "price": "29,90 €",
+    "price_amount": 29.9,
+    "attributes": {
+      "1": {
+        "id_attribute": "3",
+        "id_attribute_group": "1",
+        "name": "30ml",
+        "group": "Talpa (ml) ",
+        "reference": "30",
+        "ean13": "",
+        "isbn": "",
+        "upc": "",
+        "mpn": ""
+      },
+      "2": {
+        "id_attribute": "6",
+        "id_attribute_group": "2",
+        "name": "Su buteliuku",
+        "group": "Kvepalai ",
+        "reference": "30",
+        "ean13": "",
+        "isbn": "",
+        "upc": "",
+        "mpn": ""
+      }
+    },
+    "quantity": 813,
+    "available_for_order": "1",
+    "new_bottle": true,
+    "description_short": "EAU DE PARFUM | PARFUM | KVAPO TIPAS: RYTIETIŠKI/GĖLIŲ | KVAPO PASKIRTIS: DIENINIAI/VAKARINIAI | KVAPO CHARAKTERIS: ŠIUOLAIKIŠKA, SEKSUALI ROŽĖ (METALIKA) | DOMINUOJANČIOS NATOS: KAŠMYRO BULGARIŠKA ROŽĖ IR MADAGASKARO VANILĖ DĖMESIO: ŠĮ AROMATĄ GAUSITE SU NAUJO DIZAINO BUTELIUKAIS",
+    "features": [
+      {
+        "name": "VIRŠUTINĖS NATOS",
+        "value": "hedione, rožiniai pipirai, bergemotė",
+        "id_feature": "14",
+        "position": "0"
+      },
+      {
+        "name": "VIDURINĖS NATOS",
+        "value": "bulgariška rožė, turkiška rožė ir egiptietiškas jazminas",
+        "id_feature": "15",
+        "position": "1"
+      },
+      {
+        "name": "PAGRINDINĖS NATOS",
+        "value": "madagaskaro vanilė, gintaras",
+        "id_feature": "16",
+        "position": "2"
+      },
+      {
+        "name": "KVAPO INTENSYVUMAS",
+        "value": "Vidutiniai kvapai",
+        "id_feature": "21",
+        "position": "3"
+      },
+      {
+        "name": "KVAPO TIPAS",
+        "value": "Rytietiški/Gėlių",
+        "id_feature": "10",
+        "position": "4"
+      },
+      {
+        "name": "GALIOJIMO TERMINAS",
+        "value": "12 mėnesių, po gavimo. Kvepalus laikyti tamsioje vietoje.",
+        "id_feature": "8",
+        "position": "5"
+      }
+    ],
+    "checkedAt": "2026-09-21T12:28:11.614Z"
+  },
+  {
+    "code": "P20",
+    "displayName": "Delina",
+    "name": "Nobren Delina Nišiniai Kvepalai Moterims | P20*",
+    "url": "https://nobrenparfum.lt/lt/nisiniai-kvepalai/-ikvepti-delina-nisiniai-kvepalai-moterims-p20.html",
+    "image": "https://nobrenparfum.lt/3872-large_default/ikvepti-delina-nisiniai-kvepalai-moterims-p20.jpg",
+    "price": "29,90 €",
+    "price_amount": 29.9,
+    "attributes": {
+      "1": {
+        "id_attribute": "3",
+        "id_attribute_group": "1",
+        "name": "30ml",
+        "group": "Talpa (ml) ",
+        "reference": "30",
+        "ean13": "",
+        "isbn": "",
+        "upc": "",
+        "mpn": ""
+      },
+      "2": {
+        "id_attribute": "6",
+        "id_attribute_group": "2",
+        "name": "Su buteliuku",
+        "group": "Kvepalai ",
+        "reference": "30",
+        "ean13": "",
+        "isbn": "",
+        "upc": "",
+        "mpn": ""
+      }
+    },
+    "quantity": 1441,
+    "available_for_order": "1",
+    "new_bottle": false,
+    "description_short": "EAU DE PARFUM | PARFUM | KVAPO TIPAS: GĖLIŲ | KVAPO PASKIRTIS: DIENINIAI | KVAPO CHARAKTERIS: MOTERIŠKAS, SUBTILUS, JAUSMINGAS | DOMINUOJANČIOS NATOS: MUSKUSAS, BIJŪNAI, TURKIŠKA ROŽĖ",
+    "features": [
+      {
+        "name": "VIRŠUTINĖS NATOS",
+        "value": "ličiai, rabarbarai, bergemotė, muskato riešutas",
+        "id_feature": "14",
+        "position": "0"
+      },
+      {
+        "name": "VIDURINĖS NATOS",
+        "value": "turkiška rožė, bijūnai, pakalnutės",
+        "id_feature": "15",
+        "position": "1"
+      },
+      {
+        "name": "PAGRINDINĖS NATOS",
+        "value": "kašmyro mediena, smilkalai, vanilė, miško gaiva",
+        "id_feature": "16",
+        "position": "2"
+      },
+      {
+        "name": "KVAPO INTENSYVUMAS",
+        "value": "Lengvi kvapai",
+        "id_feature": "21",
+        "position": "3"
+      },
+      {
+        "name": "KVAPO TIPAS",
+        "value": "Gėlių",
+        "id_feature": "10",
+        "position": "4"
+      },
+      {
+        "name": "GALIOJIMO TERMINAS",
+        "value": "12 mėnesių, po gavimo. Kvepalus laikyti tamsioje vietoje.",
+        "id_feature": "8",
+        "position": "5"
+      }
+    ],
+    "checkedAt": "2026-09-21T12:28:11.596Z"
+  },
+  {
+    "code": "X3",
+    "displayName": "Alexandria II",
+    "name": "Nobren Alexandria II Nišiniai Kvepalai Unisex | X3",
+    "url": "https://nobrenparfum.lt/lt/nisiniai-kvepalai/-nobren-nisiniai-kvepalai-unisex-x3.html",
+    "image": "https://nobrenparfum.lt/3252-large_default/nobren-nisiniai-kvepalai-unisex-x3.jpg",
+    "price": "29,90 €",
+    "price_amount": 29.9,
+    "attributes": {
+      "1": {
+        "id_attribute": "3",
+        "id_attribute_group": "1",
+        "name": "30ml",
+        "group": "Talpa (ml) ",
+        "reference": "30",
+        "ean13": "",
+        "isbn": "",
+        "upc": "",
+        "mpn": ""
+      },
+      "2": {
+        "id_attribute": "6",
+        "id_attribute_group": "2",
+        "name": "Su buteliuku",
+        "group": "Kvepalai ",
+        "reference": "30",
+        "ean13": "",
+        "isbn": "",
+        "upc": "",
+        "mpn": ""
+      }
+    },
+    "quantity": 65,
+    "available_for_order": "1",
+    "new_bottle": true,
+    "description_short": "EXTRAIT DE PARFUM | PARFUM | KVAPO TIPAS: RYTIETIŠKI/MEDIENOS | KVAPO PASKIRTIS: DIENINIAI/VAKARINIAI | KVAPO CHARAKTERIS: ŠILUMA SPINDULIUOJANTIS OUDAS | DOMINUOJANČIOS NATOS: KAMBODŽOS OUDAS SU MUSKUSU DĖMESIO: ŠĮ AROMATĄ GAUSITE SU NAUJO DIZAINO BUTELIUKAIS",
+    "features": [
+      {
+        "name": "VIRŠUTINĖS NATOS",
+        "value": "Obuoliai, cinamonas, levandos",
+        "id_feature": "14",
+        "position": "0"
+      },
+      {
+        "name": "VIDURINĖS NATOS",
+        "value": "Lelijos, rožės, kedro mediena",
+        "id_feature": "15",
+        "position": "1"
+      },
+      {
+        "name": "PAGRINDINĖS NATOS",
+        "value": "Kambodžos oudas,  ambra, muskusas, vanilė, santalas",
+        "id_feature": "16",
+        "position": "2"
+      },
+      {
+        "name": "KVAPO INTENSYVUMAS",
+        "value": "Vidutiniai kvapai",
+        "id_feature": "21",
+        "position": "3"
+      },
+      {
+        "name": "KVAPO TIPAS",
+        "value": "Rytietiški/Medienos",
+        "id_feature": "10",
+        "position": "4"
+      },
+      {
+        "name": "GALIOJIMO TERMINAS",
+        "value": "12 mėnesių, po gavimo. Kvepalus laikyti tamsioje vietoje.",
+        "id_feature": "8",
+        "position": "5"
+      }
+    ],
+    "checkedAt": "2026-09-21T12:28:11.861Z"
+  },
+  {
+    "code": "S1",
+    "displayName": "Erba Pura",
+    "name": "Nobren Erba Pura Nišiniai Kvepalai Unisex | S1",
+    "url": "https://nobrenparfum.lt/lt/nisiniai-kvepalai/-ikvepti-ebra-pura-nisiniai-kvepalai-unisex-s1.html",
+    "image": "https://nobrenparfum.lt/3866-large_default/ikvepti-ebra-pura-nisiniai-kvepalai-unisex-s1.jpg",
+    "price": "29,90 €",
+    "price_amount": 29.9,
+    "attributes": {
+      "1": {
+        "id_attribute": "3",
+        "id_attribute_group": "1",
+        "name": "30ml",
+        "group": "Talpa (ml) ",
+        "reference": "30",
+        "ean13": "",
+        "isbn": "",
+        "upc": "",
+        "mpn": ""
+      },
+      "2": {
+        "id_attribute": "6",
+        "id_attribute_group": "2",
+        "name": "Su buteliuku",
+        "group": "Kvepalai ",
+        "reference": "30",
+        "ean13": "",
+        "isbn": "",
+        "upc": "",
+        "mpn": ""
+      }
+    },
+    "quantity": 519,
+    "available_for_order": "1",
+    "new_bottle": false,
+    "description_short": "EAU DE PARFUM | PARFUM | KVAPO TIPAS: RYTIETIŠKI | KVAPO PASKIRTIS: DIENINIAI/VAKARINIAI | KVAPO CHARAKTERIS: RYŽTINGAS, MODERNUS | DOMINUOJANČIOS NATOS: CITRUSINIAI VAISIAI, BALTASIS MUSKUSAS, AMBRA",
+    "features": [
+      {
+        "name": "VIRŠUTINĖS NATOS",
+        "value": "Apelsinai, citrinos, bergemotė",
+        "id_feature": "14",
+        "position": "0"
+      },
+      {
+        "name": "VIDURINĖS NATOS",
+        "value": "Citrusinių vaisių natos",
+        "id_feature": "15",
+        "position": "1"
+      },
+      {
+        "name": "PAGRINDINĖS NATOS",
+        "value": "Madagaskaro vanilė, gintaras, baltasis muskusas",
+        "id_feature": "16",
+        "position": "2"
+      },
+      {
+        "name": "KVAPO INTENSYVUMAS",
+        "value": "Vidutiniai kvapai",
+        "id_feature": "21",
+        "position": "3"
+      },
+      {
+        "name": "KVAPO TIPAS",
+        "value": "Rytietiški",
+        "id_feature": "10",
+        "position": "4"
+      },
+      {
+        "name": "GALIOJIMO TERMINAS",
+        "value": "12 mėnesių, po gavimo. Kvepalus laikyti tamsioje vietoje.",
+        "id_feature": "8",
+        "position": "5"
+      }
+    ],
+    "checkedAt": "2026-09-21T12:28:11.638Z"
+  }
+]
