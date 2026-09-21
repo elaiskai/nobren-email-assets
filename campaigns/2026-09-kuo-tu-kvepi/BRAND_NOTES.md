@@ -1,19 +1,19 @@
-# Nobren · Kuo tu kvepi?
+# Nobren · Kuom tu kvepi?
 
-Paruošta 2026-09-21. Lietuviška kampanija, Klaviyo HTML. Kryptis: kvapas kaip pokalbio pradžia. Vienas klausimas ir aštuoni skirtingi atsakymai; pabaigoje žaismingas, aiškiai kūrybinis pokalbis. Tai nėra kliento atsiliepimas ar pažadas, kad konkrečiu kvapu būtinai sulaukiama komplimentų.
+Paruošta 2026-09-21. Lietuviška kampanija, Klaviyo HTML. Kryptis: kvapas kaip pokalbio pradžia. Kvapai pristatomi pagal natas ir asmeninį skonį; pabaigoje trumpas kūrybinis pokalbis. Tai nėra kliento atsiliepimas ar pažadas, kad konkrečiu kvapu būtinai sulaukiama komplimentų.
 
 ## Tekstai ir struktūra
 
-- **Subject:** Atsiprašau… kuo tu kvepi?
-- **Preview line:** Aštuoni kvapai, aštuoni skirtingi atsakymai. Kuris bus tavo?
-- **Hero:** Kuo tu kvepi?
-- **Įžanga:** Vienas klausimas. Aštuoni geri atsakymai.
-- **Įžangos tekstas:** Vyšnios, rožės ar sodri mediena? Atrask kvapą pagal savo charakterį.
-- **Pagrindinis CTA:** RASTI SAVO ATSAKYMĄ.
-- **Produktų skiltis:** Koks būtų tavo atsakymas?
+- **Subject:** Atsiprašau… kuom tu kvepi?
+- **Preview line:** Vyšnios, rožės ar šilta vanilė? Išsirink kvapą pagal savo skonį.
+- **Hero:** Kuom tu kvepi?
+- **Įžanga:** Tavo kvapas. Tavo charakteris.
+- **Įžangos tekstas:** Vyšnios, rožės ar šilta vanilė? Rinkis natas, kurios patinka tau.
+- **Pagrindinis CTA:** PERŽIŪRĖTI KVAPUS.
+- **Produktų skiltis:** Kuris kvapas tavo?
 - **Produktų CTA:** PERŽIŪRĖTI PREKĘ (visos aštuonios kortelės).
-- **Pabaiga:** Galimas pokalbio tęsinys: „Kuo tu kvepi?“ — „Nobren. O kuris? Paslaptis.“
-- **Pabaigos tekstas:** Pirmiausia išsirink sau. Atsakymą sugalvosi vėliau.
+- **Pabaiga:** Pokalbio pradžia: „Kuom tu kvepi?“ — „Nobren. O tu?“
+- **Pabaigos tekstas:** Tavo diena. Tavo nuotaika. Tavo kvapas.
 - **Pabaigos CTA:** IŠSIRINK SAVO KVAPĄ.
 
 Aštuoni produktai pateikti keturiomis poromis; 2 stulpeliai išlieka ir telefone. Visi mygtukai turi savo `utm_content`. Bendri UTM: `utm_source=klaviyo`, `utm_medium=email`, `utm_campaign=2026_09_kuo_tu_kvepi`.
@@ -30,7 +30,6 @@ Kainos, talpa, komplektacija ir aprašymai patikrinti oficialiuose produktų pus
 | P20 / Delina | 29,90 € / 30 ml | [Produktas](https://nobrenparfum.lt/lt/nisiniai-kvepalai/-ikvepti-delina-nisiniai-kvepalai-moterims-p20.html) | [Oficialus vaizdas](https://nobrenparfum.lt/3872-large_default/ikvepti-delina-nisiniai-kvepalai-moterims-p20.jpg) |
 | X3 / Alexandria II | 29,90 € / 30 ml | [Produktas](https://nobrenparfum.lt/lt/nisiniai-kvepalai/-nobren-nisiniai-kvepalai-unisex-x3.html) | [Oficialus vaizdas](https://nobrenparfum.lt/3252-large_default/nobren-nisiniai-kvepalai-unisex-x3.jpg) |
 | S1 / Erba Pura | 29,90 € / 30 ml | [Produktas](https://nobrenparfum.lt/lt/nisiniai-kvepalai/-ikvepti-ebra-pura-nisiniai-kvepalai-unisex-s1.html) | [Oficialus vaizdas](https://nobrenparfum.lt/3866-large_default/ikvepti-ebra-pura-nisiniai-kvepalai-unisex-s1.jpg) |
-
 | T6 / Andromeda | 29,90 € / 30 ml | [Produktas](https://nobrenparfum.lt/lt/nisiniai-kvepalai/-nobren-nisiniai-kvepalai-unisex-t6.html) | [Oficialus vaizdas](https://nobrenparfum.lt/3852-large_default/nobren-nisiniai-kvepalai-unisex-t6.jpg) |
 | N7* / Ani | 35,00 € / 30 ml | [Produktas](https://nobrenparfum.lt/lt/nisiniai-kvepalai/-nobren-an-nisiniai-kvepalai-unisex-n7.html) | [Oficialus vaizdas](https://nobrenparfum.lt/4153-large_default/nobren-an-nisiniai-kvepalai-unisex-n7.jpg) |
 
@@ -42,6 +41,7 @@ Natos ir aprašymai remiasi oficialiomis viršutinėmis, vidurinėmis ir pagrind
 
 - Kampanijos kūrybinė paletė: sodri mėlyna `#173DCB`, šilta gelsva `#F6EEC9`, balta `#FFFFFF`, tekstui `#182142`, antriniam tekstui `#586078`. Tai kampanijos pasirinkimai, ne deklaruojamos oficialios Nobren spalvos.
 - Hero – nauja integruotu ImageGen sukurta fotografijos kompozicija, remiantis oficialia T21 nuotrauka: vienas juodas buteliukas su sidabro spalvos ženklinimu, chromo kabutės ir vyšnios. Etiketės geometrija ir ženklinimas sulyginti vizualiai su pateiktu šaltiniu. Kūrybinė scena nėra originali parduotuvės fotografija.
+- Hero tekstas vartotojo prašymu „Kuom tu kvepi?“. Ta pati forma naudojama subject ir pabaigos dialoge. Antraštė redaguota HTML šaltinyje; esama fotografinė scena išsaugota.
 - Hero lietuviška antraštė ir tikslūs kraštai pridėti HTML/CSS kompozitoriumi. Galutinis vaizdas `assets/hero/hero-final.jpg`, 1200 × 1500 px; laiške 600 × 750 px.
 - Pabaigos pokalbis sukurtas kaip redaguojama HTML/CSS kompozicija ir eksportuotas į `assets/closing/dialogue.png`, 1200 × 880 px; laiške 600 × 440 px. Aiškus alt tekstas atkartoja dialogą. Pokalbio tekstas yra ir tekstinėje laiško versijoje.
 - Mažas mėlyno bloko perėjimas į produktus: `assets/hero/intro-tail.png`, 1200 × 112 px; laiške 600 × 56 px. Dekoratyvus, tuščias alt ir presentation rolė.
@@ -68,7 +68,7 @@ Natos ir aprašymai remiasi oficialiomis viršutinėmis, vidurinėmis ir pagrind
 - Visi 12 skirtingų puslapių adresų patikrinti: HTTP 200. Visi 12 viešų vaizdų patikrinti be prisijungimo: HTTP 200, image MIME tipas, SHA-256 sutampa su vietiniais failais.
 - Po pirmos viso laiško peržiūros sumažinti per dideli tarpai prieš kainas telefone ir atliktas pakartotinis atvaizdavimas; dialogo uodega sujungta su burbulu, maža antraštė padidinta dėl 320 px skaitomumo.
 - Pilnas HTML apie 55 KB, Klaviyo blokas apie 54 KB. Tikslus bendras 12 vaizdų dydis ir nuorodų patikros rezultatai yra `qa-links-report.json`. UTF-8, meaningful alt, presentation lentelės, tiesioginiai šriftai, lygiavimas ir nulinės teksto paraštės.
-- Pridėjus T6 ir N7* pakartotos 820 / 390 / 320 px patikros. Visi aštuoni „PERŽIŪRĖTI PREKĘ“ mygtukai telpa vienoje eilutėje, kortelių porų mygtukai sulygiuoti. Aštuonių produktų skaičius atnaujintas preheader, įžangoje, skilties antraštėje ir tekstinėje versijoje.
+- Pridėjus T6 ir N7* pakartotos 820 / 390 / 320 px patikros. Visi aštuoni „PERŽIŪRĖTI PREKĘ“ mygtukai telpa vienoje eilutėje, kortelių porų mygtukai sulygiuoti. Produktų skaičius nesiejamas su „atsakymais“; įžanga, produktų skiltis, subject ir preheader nuosekliai kalba apie kvapo pasirinkimą.
 - jsDelivr vienai naujo commit nuotraukai grąžino 403 dėl saugyklos 50 MB ribos. Visi 12 vaizdų perkelti į tiesiogines GitHub Raw nuorodas su tuo pačiu prisegtu commit; tai pašalina jsDelivr saugyklos dydžio apribojimą.
 - Atsisakymo žyma `{% unsubscribe_link %}` išlaikyta. Laiškas nesiųstas, Klaviyo paskyra neredaguota.
 
@@ -76,7 +76,7 @@ Natos ir aprašymai remiasi oficialiomis viršutinėmis, vidurinėmis ir pagrind
 
 [GitHub kampanijos aplankas](https://github.com/elaiskai/nobren-email-assets/tree/main/campaigns/2026-09-kuo-tu-kvepi).
 
-Vaizdai publikuoti esamoje viešoje saugykloje. Siunčiamame kode naudojamos tiesioginės GitHub Raw nuorodos su prisegtu vaizdų commit `64dcf86200360cca326f516a3ae00d8fb8acc26a`, todėl vėlesni repozitorijos pakeitimai nepakeis šio laiško vaizdų.
+Vaizdai publikuoti esamoje viešoje saugykloje. Siunčiamame kode naudojamos tiesioginės GitHub Raw nuorodos su prisegtu vaizdų commit `be71c6efcf75194f19a64a3361dc9bfd2e223585`, todėl vėlesni repozitorijos pakeitimai nepakeis šio laiško vaizdų.
 
 - `klaviyo-block.txt` / `.html`: identiškas kodas, skirtas visam vieno Klaviyo HTML bloko turiniui pakeisti.
 - `newsletter-klaviyo.html`: visas importuojamas HTML su viešomis nuotraukomis.
