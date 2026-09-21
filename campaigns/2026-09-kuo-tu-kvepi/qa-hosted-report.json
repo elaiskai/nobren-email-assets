@@ -61,7 +61,7 @@
     "scroll": 320,
     "wrap": 320,
     "images": 10,
-    "height": 3279,
+    "height": 3255,
     "cards": 6,
     "overflow": [],
     "clipped": [],
@@ -69,16 +69,16 @@
     "tablesAccessible": true,
     "ctaRows": [
       [
-        1492,
-        1492
+        1468,
+        1468
       ],
       [
-        2030,
-        2030
+        2006,
+        2006
       ],
       [
-        2569,
-        2569
+        2545,
+        2545
       ]
     ],
     "hostStylesIsolated": true

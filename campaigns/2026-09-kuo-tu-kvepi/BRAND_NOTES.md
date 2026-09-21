@@ -8,7 +8,7 @@ Paruošta 2026-09-21. Lietuviška kampanija, Klaviyo HTML. Kryptis: kvapas kaip 
 - **Preview line:** Šeši kvapai, šeši skirtingi atsakymai. Kuris bus tavo?
 - **Hero:** Kuo tu kvepi?
 - **Įžanga:** Vienas klausimas. Šeši geri atsakymai.
-- **Įžangos tekstas:** Vyšnios, rožės, konjako šiluma ar sodri mediena. Rinkis pagal tai, kas traukia tave.
+- **Įžangos tekstas:** Vyšnios, rožės ar sodri mediena? Atrask kvapą pagal savo charakterį.
 - **Pagrindinis CTA:** RASTI SAVO ATSAKYMĄ.
 - **Produktų skiltis:** Koks būtų tavo atsakymas?
 - **Pabaiga:** Galimas pokalbio tęsinys: „Kuo tu kvepi?“ — „Nobren. O kuris? Paslaptis.“
