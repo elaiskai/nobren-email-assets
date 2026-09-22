@@ -15,7 +15,7 @@
 
 ## Kūrybinė kryptis
 
-Mėginėliai vaizduojami kaip finišo liniją pasiekę kandidatai. Beveik tuščias mėginėlis stovi priekyje, o už jo atsiranda pilnas Nobren T3 buteliukas. Hero klausimas tiesiogiai tęsia segmento patirtį ir veda į paprastą trijų žingsnių kelią: rasti kodą, įvesti jį paieškoje, rinktis 30 ml buteliuką.
+Mėginėliai vaizduojami kaip finišo liniją pasiekę kandidatai. Beveik tuščias mėginėlis stovi priekyje, o už jo atsiranda pilnas Nobren T3 buteliukas. Hero klausimas tiesiogiai tęsia segmento patirtį ir veda į paprastą trijų žingsnių kelią: išsirinkti favoritą, surasti kvapą ir rinktis 30 ml buteliuką. Kvapo kodas paminimas tik kaip praktinė paieškos pagalba.
 
 Paletė: koralinė `#D2453C`, kreminė `#FFF1DC`, juoda `#1D1815`, geltonas akcentas `#F2DC58`.
 
