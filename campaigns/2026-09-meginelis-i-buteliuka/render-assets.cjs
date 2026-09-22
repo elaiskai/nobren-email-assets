@@ -1,0 +1,7 @@
+const {chromium}=require('playwright');const sharp=require('sharp');const path=require('path');const {pathToFileURL}=require('url');
+const CORAL='#D2453C',CREAM='#FFF1DC';
+(async()=>{const browser=await chromium.launch({headless:true,executablePath:'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'});
+for(const [name,width,height]of[['hero',1200,1500],['brand',1200,170]]){const page=await browser.newPage({viewport:{width,height},deviceScaleFactor:1,colorScheme:'light'});await page.goto(pathToFileURL(path.join(__dirname,name+'-compose.html')).href);await page.waitForFunction(()=>[...document.images].every(i=>i.complete&&i.naturalWidth));const buffer=await page.locator('.'+name).screenshot();if(name==='hero')await sharp(buffer).jpeg({quality:94,mozjpeg:true}).toFile(path.join(__dirname,'assets/hero/hero-final-samples.jpg'));else await sharp(buffer).removeAlpha().png().toFile(path.join(__dirname,'assets/brand/logo-strip-samples.png'));await page.close();}
+const introSvg=`<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150"><rect width="1200" height="150" fill="${CREAM}"/><path fill="${CORAL}" d="M0 0H1200V52C1005 52 923 139 661 117C418 96 244 42 0 87Z"/></svg>`;
+await sharp(Buffer.from(introSvg)).png().toFile(path.join(__dirname,'assets/hero/intro-tail-samples.png'));
+await browser.close();console.log('Rendered opaque brand strip, sample hero and seam-safe transition.');})().catch(e=>{console.error(e);process.exit(1)});

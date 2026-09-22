@@ -1,0 +1,311 @@
+[
+  {
+    "name": "desktop",
+    "containerWidth": 600,
+    "width": 820,
+    "scroll": 820,
+    "height": 4238,
+    "images": [
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/380a7ed8722b249b7ecb7b5e6e46a6b7b719c2bc/campaigns/2026-09-meginelis-i-buteliuka/assets/brand/logo-strip-samples.png",
+        "alt": "Nobren Parfum LT",
+        "w": 1200,
+        "h": 170
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/380a7ed8722b249b7ecb7b5e6e46a6b7b719c2bc/campaigns/2026-09-meginelis-i-buteliuka/assets/hero/hero-final-samples.jpg",
+        "alt": "Kuris mėginėlis dingo pirmas? Pilnas 30 ml buteliukas nuo 22 €.",
+        "w": 1200,
+        "h": 1500
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/380a7ed8722b249b7ecb7b5e6e46a6b7b719c2bc/campaigns/2026-09-meginelis-i-buteliuka/assets/hero/intro-tail-samples.png",
+        "alt": "",
+        "w": 1200,
+        "h": 150
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/380a7ed8722b249b7ecb7b5e6e46a6b7b719c2bc/campaigns/2026-09-meginelis-i-buteliuka/assets/products/c54.jpg",
+        "alt": "Nobren 1872 C54",
+        "w": 600,
+        "h": 680
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/380a7ed8722b249b7ecb7b5e6e46a6b7b719c2bc/campaigns/2026-09-meginelis-i-buteliuka/assets/products/t3.jpg",
+        "alt": "Nobren Allien T3",
+        "w": 600,
+        "h": 680
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/380a7ed8722b249b7ecb7b5e6e46a6b7b719c2bc/campaigns/2026-09-meginelis-i-buteliuka/assets/products/c1.jpg",
+        "alt": "Nobren Chance C1",
+        "w": 600,
+        "h": 680
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/380a7ed8722b249b7ecb7b5e6e46a6b7b719c2bc/campaigns/2026-09-meginelis-i-buteliuka/assets/products/a25.jpg",
+        "alt": "Nobren Acqua Di Gio Profumo A25",
+        "w": 600,
+        "h": 680
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/380a7ed8722b249b7ecb7b5e6e46a6b7b719c2bc/campaigns/2026-09-meginelis-i-buteliuka/assets/products/e4.jpg",
+        "alt": "Nobren Stronger With You E4",
+        "w": 600,
+        "h": 680
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/380a7ed8722b249b7ecb7b5e6e46a6b7b719c2bc/campaigns/2026-09-meginelis-i-buteliuka/assets/products/h21.jpg",
+        "alt": "Nobren The Scent Men H21",
+        "w": 600,
+        "h": 680
+      }
+    ],
+    "products": [
+      {
+        "title": "1872",
+        "priceCorrect": true,
+        "volumeCorrect": true,
+        "cta": "https://nobrenparfum.lt/lt/nisiniai-kvepalai/-nobren-nisiniai-kvepalai-moterims-c54.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_09_24_meginelis_i_buteliuka&utm_content=c54_image"
+      },
+      {
+        "title": "Allien",
+        "priceCorrect": true,
+        "volumeCorrect": true,
+        "cta": "https://nobrenparfum.lt/lt/kvepalai-moterims/-nobren-al-kvepalai-moterims-t3.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_09_24_meginelis_i_buteliuka&utm_content=t3_image"
+      },
+      {
+        "title": "Chance",
+        "priceCorrect": true,
+        "volumeCorrect": true,
+        "cta": "https://nobrenparfum.lt/lt/kvepalai-moterims/-nobren-kvepalai-moterims-c1.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_09_24_meginelis_i_buteliuka&utm_content=c1_image"
+      },
+      {
+        "title": "Acqua Di Gio Profumo",
+        "priceCorrect": true,
+        "volumeCorrect": true,
+        "cta": "https://nobrenparfum.lt/lt/kvepalai-vyrams/-nobren-kvepalai-vyrams-a25.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_09_24_meginelis_i_buteliuka&utm_content=a25_image"
+      },
+      {
+        "title": "Stronger With You",
+        "priceCorrect": true,
+        "volumeCorrect": true,
+        "cta": "https://nobrenparfum.lt/lt/kvepalai-vyrams/-nobren-kvepalai-vyrams-e4.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_09_24_meginelis_i_buteliuka&utm_content=e4_image"
+      },
+      {
+        "title": "The Scent Men",
+        "priceCorrect": true,
+        "volumeCorrect": true,
+        "cta": "https://nobrenparfum.lt/lt/kvepalai-vyrams/-nobren-kvepalai-vyrams-h21.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_09_24_meginelis_i_buteliuka&utm_content=h21_image"
+      }
+    ],
+    "tablesAccessible": true,
+    "overflow": []
+  },
+  {
+    "name": "mobile",
+    "containerWidth": 390,
+    "width": 390,
+    "scroll": 390,
+    "height": 3747,
+    "images": [
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/380a7ed8722b249b7ecb7b5e6e46a6b7b719c2bc/campaigns/2026-09-meginelis-i-buteliuka/assets/brand/logo-strip-samples.png",
+        "alt": "Nobren Parfum LT",
+        "w": 1200,
+        "h": 170
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/380a7ed8722b249b7ecb7b5e6e46a6b7b719c2bc/campaigns/2026-09-meginelis-i-buteliuka/assets/hero/hero-final-samples.jpg",
+        "alt": "Kuris mėginėlis dingo pirmas? Pilnas 30 ml buteliukas nuo 22 €.",
+        "w": 1200,
+        "h": 1500
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/380a7ed8722b249b7ecb7b5e6e46a6b7b719c2bc/campaigns/2026-09-meginelis-i-buteliuka/assets/hero/intro-tail-samples.png",
+        "alt": "",
+        "w": 1200,
+        "h": 150
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/380a7ed8722b249b7ecb7b5e6e46a6b7b719c2bc/campaigns/2026-09-meginelis-i-buteliuka/assets/products/c54.jpg",
+        "alt": "Nobren 1872 C54",
+        "w": 600,
+        "h": 680
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/380a7ed8722b249b7ecb7b5e6e46a6b7b719c2bc/campaigns/2026-09-meginelis-i-buteliuka/assets/products/t3.jpg",
+        "alt": "Nobren Allien T3",
+        "w": 600,
+        "h": 680
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/380a7ed8722b249b7ecb7b5e6e46a6b7b719c2bc/campaigns/2026-09-meginelis-i-buteliuka/assets/products/c1.jpg",
+        "alt": "Nobren Chance C1",
+        "w": 600,
+        "h": 680
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/380a7ed8722b249b7ecb7b5e6e46a6b7b719c2bc/campaigns/2026-09-meginelis-i-buteliuka/assets/products/a25.jpg",
+        "alt": "Nobren Acqua Di Gio Profumo A25",
+        "w": 600,
+        "h": 680
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/380a7ed8722b249b7ecb7b5e6e46a6b7b719c2bc/campaigns/2026-09-meginelis-i-buteliuka/assets/products/e4.jpg",
+        "alt": "Nobren Stronger With You E4",
+        "w": 600,
+        "h": 680
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/380a7ed8722b249b7ecb7b5e6e46a6b7b719c2bc/campaigns/2026-09-meginelis-i-buteliuka/assets/products/h21.jpg",
+        "alt": "Nobren The Scent Men H21",
+        "w": 600,
+        "h": 680
+      }
+    ],
+    "products": [
+      {
+        "title": "1872",
+        "priceCorrect": true,
+        "volumeCorrect": true,
+        "cta": "https://nobrenparfum.lt/lt/nisiniai-kvepalai/-nobren-nisiniai-kvepalai-moterims-c54.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_09_24_meginelis_i_buteliuka&utm_content=c54_image"
+      },
+      {
+        "title": "Allien",
+        "priceCorrect": true,
+        "volumeCorrect": true,
+        "cta": "https://nobrenparfum.lt/lt/kvepalai-moterims/-nobren-al-kvepalai-moterims-t3.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_09_24_meginelis_i_buteliuka&utm_content=t3_image"
+      },
+      {
+        "title": "Chance",
+        "priceCorrect": true,
+        "volumeCorrect": true,
+        "cta": "https://nobrenparfum.lt/lt/kvepalai-moterims/-nobren-kvepalai-moterims-c1.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_09_24_meginelis_i_buteliuka&utm_content=c1_image"
+      },
+      {
+        "title": "Acqua Di Gio Profumo",
+        "priceCorrect": true,
+        "volumeCorrect": true,
+        "cta": "https://nobrenparfum.lt/lt/kvepalai-vyrams/-nobren-kvepalai-vyrams-a25.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_09_24_meginelis_i_buteliuka&utm_content=a25_image"
+      },
+      {
+        "title": "Stronger With You",
+        "priceCorrect": true,
+        "volumeCorrect": true,
+        "cta": "https://nobrenparfum.lt/lt/kvepalai-vyrams/-nobren-kvepalai-vyrams-e4.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_09_24_meginelis_i_buteliuka&utm_content=e4_image"
+      },
+      {
+        "title": "The Scent Men",
+        "priceCorrect": true,
+        "volumeCorrect": true,
+        "cta": "https://nobrenparfum.lt/lt/kvepalai-vyrams/-nobren-kvepalai-vyrams-h21.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_09_24_meginelis_i_buteliuka&utm_content=h21_image"
+      }
+    ],
+    "tablesAccessible": true,
+    "overflow": []
+  },
+  {
+    "name": "mobile-320",
+    "containerWidth": 320,
+    "width": 320,
+    "scroll": 320,
+    "height": 3663,
+    "images": [
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/380a7ed8722b249b7ecb7b5e6e46a6b7b719c2bc/campaigns/2026-09-meginelis-i-buteliuka/assets/brand/logo-strip-samples.png",
+        "alt": "Nobren Parfum LT",
+        "w": 1200,
+        "h": 170
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/380a7ed8722b249b7ecb7b5e6e46a6b7b719c2bc/campaigns/2026-09-meginelis-i-buteliuka/assets/hero/hero-final-samples.jpg",
+        "alt": "Kuris mėginėlis dingo pirmas? Pilnas 30 ml buteliukas nuo 22 €.",
+        "w": 1200,
+        "h": 1500
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/380a7ed8722b249b7ecb7b5e6e46a6b7b719c2bc/campaigns/2026-09-meginelis-i-buteliuka/assets/hero/intro-tail-samples.png",
+        "alt": "",
+        "w": 1200,
+        "h": 150
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/380a7ed8722b249b7ecb7b5e6e46a6b7b719c2bc/campaigns/2026-09-meginelis-i-buteliuka/assets/products/c54.jpg",
+        "alt": "Nobren 1872 C54",
+        "w": 600,
+        "h": 680
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/380a7ed8722b249b7ecb7b5e6e46a6b7b719c2bc/campaigns/2026-09-meginelis-i-buteliuka/assets/products/t3.jpg",
+        "alt": "Nobren Allien T3",
+        "w": 600,
+        "h": 680
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/380a7ed8722b249b7ecb7b5e6e46a6b7b719c2bc/campaigns/2026-09-meginelis-i-buteliuka/assets/products/c1.jpg",
+        "alt": "Nobren Chance C1",
+        "w": 600,
+        "h": 680
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/380a7ed8722b249b7ecb7b5e6e46a6b7b719c2bc/campaigns/2026-09-meginelis-i-buteliuka/assets/products/a25.jpg",
+        "alt": "Nobren Acqua Di Gio Profumo A25",
+        "w": 600,
+        "h": 680
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/380a7ed8722b249b7ecb7b5e6e46a6b7b719c2bc/campaigns/2026-09-meginelis-i-buteliuka/assets/products/e4.jpg",
+        "alt": "Nobren Stronger With You E4",
+        "w": 600,
+        "h": 680
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/380a7ed8722b249b7ecb7b5e6e46a6b7b719c2bc/campaigns/2026-09-meginelis-i-buteliuka/assets/products/h21.jpg",
+        "alt": "Nobren The Scent Men H21",
+        "w": 600,
+        "h": 680
+      }
+    ],
+    "products": [
+      {
+        "title": "1872",
+        "priceCorrect": true,
+        "volumeCorrect": true,
+        "cta": "https://nobrenparfum.lt/lt/nisiniai-kvepalai/-nobren-nisiniai-kvepalai-moterims-c54.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_09_24_meginelis_i_buteliuka&utm_content=c54_image"
+      },
+      {
+        "title": "Allien",
+        "priceCorrect": true,
+        "volumeCorrect": true,
+        "cta": "https://nobrenparfum.lt/lt/kvepalai-moterims/-nobren-al-kvepalai-moterims-t3.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_09_24_meginelis_i_buteliuka&utm_content=t3_image"
+      },
+      {
+        "title": "Chance",
+        "priceCorrect": true,
+        "volumeCorrect": true,
+        "cta": "https://nobrenparfum.lt/lt/kvepalai-moterims/-nobren-kvepalai-moterims-c1.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_09_24_meginelis_i_buteliuka&utm_content=c1_image"
+      },
+      {
+        "title": "Acqua Di Gio Profumo",
+        "priceCorrect": true,
+        "volumeCorrect": true,
+        "cta": "https://nobrenparfum.lt/lt/kvepalai-vyrams/-nobren-kvepalai-vyrams-a25.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_09_24_meginelis_i_buteliuka&utm_content=a25_image"
+      },
+      {
+        "title": "Stronger With You",
+        "priceCorrect": true,
+        "volumeCorrect": true,
+        "cta": "https://nobrenparfum.lt/lt/kvepalai-vyrams/-nobren-kvepalai-vyrams-e4.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_09_24_meginelis_i_buteliuka&utm_content=e4_image"
+      },
+      {
+        "title": "The Scent Men",
+        "priceCorrect": true,
+        "volumeCorrect": true,
+        "cta": "https://nobrenparfum.lt/lt/kvepalai-vyrams/-nobren-kvepalai-vyrams-h21.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_09_24_meginelis_i_buteliuka&utm_content=h21_image"
+      }
+    ],
+    "tablesAccessible": true,
+    "overflow": []
+  }
+]

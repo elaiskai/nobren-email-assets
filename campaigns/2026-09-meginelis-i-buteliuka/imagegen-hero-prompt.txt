@@ -1,0 +1,7 @@
+Create a premium vertical editorial product photograph for a Lithuanian perfume email campaign about turning a favorite sample into a full bottle. Use the supplied Nobren references to preserve the sample-vial language and the exact T3 full bottle shape.
+
+Concept: “Which sample disappeared first?” Five clear sample vials stand like runners at a starting line on a coral-red studio set. Four contain small amounts of differently tinted perfume; one almost-empty vial stands slightly ahead as the favorite. Behind it stands one full-size Nobren T3 bottle, as if the sample has graduated into the full bottle. Add one cream podium block and a thin acid-yellow line. High-fashion still life, hard flash with soft studio shadows, realistic glass, playful but premium.
+
+Composition: vertical 4:5. Leave the upper 30 percent mostly clean coral-red negative space for the campaign headline. Keep products in the central 80 percent for safe mobile crops. End the lower edge in a uniform coral-red surface so it can blend into the HTML section below.
+
+Do not add words, letters, numbers, prices, labels, badges, UI, hands, people, or extra logos. Preserve only the existing bottle brand mark from the reference. No transparent background. Clean sRGB, photorealistic, high resolution.

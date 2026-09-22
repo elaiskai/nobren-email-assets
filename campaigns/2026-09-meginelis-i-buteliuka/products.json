@@ -1,0 +1,458 @@
+[
+  {
+    "code": "C54",
+    "displayName": "1872",
+    "name": "Nobren 1872 Nišiniai Kvepalai Moterims | C54",
+    "url": "https://nobrenparfum.lt/lt/nisiniai-kvepalai/-nobren-nisiniai-kvepalai-moterims-c54.html",
+    "image": "https://nobrenparfum.lt/4002-large_default/nobren-nisiniai-kvepalai-moterims-c54.jpg",
+    "price": "29,90 €",
+    "price_amount": 29.9,
+    "attributes": {
+      "1": {
+        "id_attribute": "3",
+        "id_attribute_group": "1",
+        "name": "30ml",
+        "group": "Talpa (ml) ",
+        "reference": "30",
+        "ean13": "",
+        "isbn": "",
+        "upc": "",
+        "mpn": ""
+      },
+      "2": {
+        "id_attribute": "6",
+        "id_attribute_group": "2",
+        "name": "Su buteliuku",
+        "group": "Kvepalai ",
+        "reference": "30",
+        "ean13": "",
+        "isbn": "",
+        "upc": "",
+        "mpn": ""
+      }
+    },
+    "quantity": 92,
+    "available_for_order": "1",
+    "new_bottle": false,
+    "description_short": "EAU DE PARFUM | PARFUM | KVAPO TIPAS: GĖLIŲ/VAISIŲ | KVAPO PASKIRTIS: DIENINIAI/VAKARINIAI | KVAPO CHARAKTERIS: RAFINUOTAS, PRAŠMATNUS | DOMINUOJANČIOS NATOS: LELIJOS,ĄŽUOLO SAMANOS,PAKALNUTĖS,CITRUSAS",
+    "features": [
+      {
+        "name": "VIRŠUTINĖS NATOS",
+        "value": "ananasų bergamotės mėlynių rozmarinas mandarinas citrina",
+        "id_feature": "14",
+        "position": "0"
+      },
+      {
+        "name": "VIDURINĖS NATOS",
+        "value": "jazminas pakalnutė orchidėja Osmanthus arbatinės rožės",
+        "id_feature": "15",
+        "position": "1"
+      },
+      {
+        "name": "PAGRINDINĖS NATOS",
+        "value": "ąžuolo samanos gvajako mediena muskusas pačiulių sandalmedis kedras",
+        "id_feature": "16",
+        "position": "2"
+      },
+      {
+        "name": "KVAPO INTENSYVUMAS",
+        "value": "Sunkūs kvapai",
+        "id_feature": "21",
+        "position": "3"
+      },
+      {
+        "name": "KVAPO TIPAS",
+        "value": "Gėlių/Vaisių",
+        "id_feature": "10",
+        "position": "4"
+      },
+      {
+        "name": "GALIOJIMO TERMINAS",
+        "value": "12 mėnesių, po gavimo. Kvepalus laikyti tamsioje vietoje.",
+        "id_feature": "8",
+        "position": "5"
+      }
+    ],
+    "checkedAt": "2026-09-22T12:32:50.144Z"
+  },
+  {
+    "code": "T3",
+    "displayName": "Allien",
+    "name": "Nobren Allien Kvepalai Moterims | T3",
+    "url": "https://nobrenparfum.lt/lt/kvepalai-moterims/-nobren-al-kvepalai-moterims-t3.html",
+    "image": "https://nobrenparfum.lt/2462-large_default/nobren-al-kvepalai-moterims-t3.jpg",
+    "price": "21,90 €",
+    "price_amount": 21.9,
+    "attributes": {
+      "1": {
+        "id_attribute": "3",
+        "id_attribute_group": "1",
+        "name": "30ml",
+        "group": "Talpa (ml) ",
+        "reference": "30",
+        "ean13": "",
+        "isbn": "",
+        "upc": "",
+        "mpn": ""
+      },
+      "2": {
+        "id_attribute": "6",
+        "id_attribute_group": "2",
+        "name": "Su buteliuku",
+        "group": "Kvepalai ",
+        "reference": "30",
+        "ean13": "",
+        "isbn": "",
+        "upc": "",
+        "mpn": ""
+      }
+    },
+    "quantity": 54,
+    "available_for_order": "1",
+    "new_bottle": false,
+    "description_short": "EAU DE PARFUM | PARFUM | KVAPO TIPAS: RYTIETIŠKI/MEDIENOS | KVAPO PASKIRTIS: VAKARINIAI | KVAPO CHARAKTERIS: JAUDINANTIS, INTYMUS | DOMINUOJANČIOS NATOS: JAZMINAI, BALTAS GINTARAS, KAŠMYRAS",
+    "features": [
+      {
+        "name": "VIRŠUTINĖS NATOS",
+        "value": "Jazminai",
+        "id_feature": "14",
+        "position": "0"
+      },
+      {
+        "name": "VIDURINĖS NATOS",
+        "value": "Kašmyras, mediena",
+        "id_feature": "15",
+        "position": "1"
+      },
+      {
+        "name": "PAGRINDINĖS NATOS",
+        "value": "Baltas gintaras",
+        "id_feature": "16",
+        "position": "2"
+      },
+      {
+        "name": "KVAPO INTENSYVUMAS",
+        "value": "Vidutiniai kvapai",
+        "id_feature": "21",
+        "position": "3"
+      },
+      {
+        "name": "KVAPO TIPAS",
+        "value": "Rytietiški/Medienos",
+        "id_feature": "10",
+        "position": "4"
+      },
+      {
+        "name": "GALIOJIMO TERMINAS",
+        "value": "12 mėnesių, po gavimo. Kvepalus laikyti tamsioje vietoje.",
+        "id_feature": "8",
+        "position": "5"
+      }
+    ],
+    "checkedAt": "2026-09-22T12:32:50.040Z"
+  },
+  {
+    "code": "C1",
+    "displayName": "Chance",
+    "name": "Nobren Chance Kvepalai Moterims | C1",
+    "url": "https://nobrenparfum.lt/lt/kvepalai-moterims/-nobren-kvepalai-moterims-c1.html",
+    "image": "https://nobrenparfum.lt/4709-large_default/nobren-kvepalai-moterims-c1.jpg",
+    "price": "21,90 €",
+    "price_amount": 21.9,
+    "attributes": {
+      "1": {
+        "id_attribute": "3",
+        "id_attribute_group": "1",
+        "name": "30ml",
+        "group": "Talpa (ml) ",
+        "reference": "30",
+        "ean13": "",
+        "isbn": "",
+        "upc": "",
+        "mpn": ""
+      },
+      "2": {
+        "id_attribute": "6",
+        "id_attribute_group": "2",
+        "name": "Su buteliuku",
+        "group": "Kvepalai ",
+        "reference": "30",
+        "ean13": "",
+        "isbn": "",
+        "upc": "",
+        "mpn": ""
+      }
+    },
+    "quantity": 51,
+    "available_for_order": "1",
+    "new_bottle": true,
+    "description_short": "EXTRAIT DE PARFUM | PARFUM | KVAPO TIPAS: ŠYPRO/GĖLIŲ | KVAPO PASKIRTIS: DIENINIAI/VAKARINIAI | KVAPO CHARAKTERIS: ŽAISMINGAS, JAUDINANTIS | DOMINUOJANČIOS NATOS: JAZMINAI, MĖLYNŽIEDIS VILKDALGIS, ROŽINIAI PIPIRAI DĖMESIO: ŠĮ AROMATĄ GAUSITE SU NAUJO DIZAINO BUTELIUKAIS",
+    "features": [
+      {
+        "name": "VIRŠUTINĖS NATOS",
+        "value": "Citrina, rausvieji pipirai",
+        "id_feature": "14",
+        "position": "0"
+      },
+      {
+        "name": "VIDURINĖS NATOS",
+        "value": "Hiacintai, jazminai,",
+        "id_feature": "15",
+        "position": "1"
+      },
+      {
+        "name": "PAGRINDINĖS NATOS",
+        "value": "Gintaras, muskusas, vanilė",
+        "id_feature": "16",
+        "position": "2"
+      },
+      {
+        "name": "KVAPO INTENSYVUMAS",
+        "value": "Lengvi kvapai",
+        "id_feature": "21",
+        "position": "3"
+      },
+      {
+        "name": "KVAPO TIPAS",
+        "value": "Šypro/Gėlių ",
+        "id_feature": "10",
+        "position": "4"
+      },
+      {
+        "name": "GALIOJIMO TERMINAS",
+        "value": "12 mėnesių, po gavimo. Kvepalus laikyti tamsioje vietoje.",
+        "id_feature": "8",
+        "position": "5"
+      }
+    ],
+    "checkedAt": "2026-09-22T12:32:50.127Z"
+  },
+  {
+    "code": "A25",
+    "displayName": "Acqua Di Gio Profumo",
+    "name": "Nobren Acqua Di Gio Profumo Kvepalai Vyrams | A25",
+    "url": "https://nobrenparfum.lt/lt/kvepalai-vyrams/-nobren-kvepalai-vyrams-a25.html",
+    "image": "https://nobrenparfum.lt/3306-large_default/nobren-kvepalai-vyrams-a25.jpg",
+    "price": "21,90 €",
+    "price_amount": 21.9,
+    "attributes": {
+      "1": {
+        "id_attribute": "3",
+        "id_attribute_group": "1",
+        "name": "30ml",
+        "group": "Talpa (ml) ",
+        "reference": "30",
+        "ean13": "",
+        "isbn": "",
+        "upc": "",
+        "mpn": ""
+      },
+      "2": {
+        "id_attribute": "6",
+        "id_attribute_group": "2",
+        "name": "Su buteliuku",
+        "group": "Kvepalai ",
+        "reference": "30",
+        "ean13": "",
+        "isbn": "",
+        "upc": "",
+        "mpn": ""
+      }
+    },
+    "quantity": 62,
+    "available_for_order": "1",
+    "new_bottle": false,
+    "description_short": "EAU DE PARFUM | PARFUM | KVAPO TIPAS: AROMATINIAI/VANDENS | KVAPO PASKIRTIS: DIENINIAI/VAKARINIAI | KVAPO CHARAKTERIS: NEPRIEKAIŠTINGAS AROMATINIS ATOGRĄŽŲ KVAPAS | DOMINUOJANČIOS NATOS: JŪROS GAIVA, SMILKALAI, ROZMARINAS",
+    "features": [
+      {
+        "name": "VIRŠUTINĖS NATOS",
+        "value": "Bergamotė, jūros gaiva",
+        "id_feature": "14",
+        "position": "0"
+      },
+      {
+        "name": "VIDURINĖS NATOS",
+        "value": "Snaputis, rozmarinai, kvapusis šalavijas",
+        "id_feature": "15",
+        "position": "1"
+      },
+      {
+        "name": "PAGRINDINĖS NATOS",
+        "value": "Pačiulis, smilkalaI",
+        "id_feature": "16",
+        "position": "2"
+      },
+      {
+        "name": "KVAPO INTENSYVUMAS",
+        "value": "Sunkūs kvapai",
+        "id_feature": "21",
+        "position": "3"
+      },
+      {
+        "name": "KVAPO TIPAS",
+        "value": "Aromatiniai/Vandens",
+        "id_feature": "10",
+        "position": "4"
+      },
+      {
+        "name": "GALIOJIMO TERMINAS",
+        "value": "12 mėnesių, po gavimo. Kvepalus laikyti tamsioje vietoje.",
+        "id_feature": "8",
+        "position": "5"
+      }
+    ],
+    "checkedAt": "2026-09-22T12:32:50.126Z"
+  },
+  {
+    "code": "E4",
+    "displayName": "Stronger With You",
+    "name": "Nobren Stronger With You Kvepalai Vyrams | E4",
+    "url": "https://nobrenparfum.lt/lt/kvepalai-vyrams/-nobren-kvepalai-vyrams-e4.html",
+    "image": "https://nobrenparfum.lt/3809-large_default/nobren-kvepalai-vyrams-e4.jpg",
+    "price": "21,90 €",
+    "price_amount": 21.9,
+    "attributes": {
+      "1": {
+        "id_attribute": "3",
+        "id_attribute_group": "1",
+        "name": "30ml",
+        "group": "Talpa (ml) ",
+        "reference": "30",
+        "ean13": "",
+        "isbn": "",
+        "upc": "",
+        "mpn": ""
+      },
+      "2": {
+        "id_attribute": "6",
+        "id_attribute_group": "2",
+        "name": "Su buteliuku",
+        "group": "Kvepalai ",
+        "reference": "30",
+        "ean13": "",
+        "isbn": "",
+        "upc": "",
+        "mpn": ""
+      }
+    },
+    "quantity": 916,
+    "available_for_order": "1",
+    "new_bottle": false,
+    "description_short": "EAU DE PARFUM | PARFUM | KVAPO TIPAS: AROMATINIAI/PAPARČIŲ | KVAPO PASKIRTIS: DIENINIAI/VAKARINIAI | KVAPO CHARAKTERIS: SPINDULIUOJANTIS JAUNATVIŠKĄ ŽAVESĮ | DOMINUOJANČIOS NATOS: KAŠTAINIS, ŠALAVIJAS, KARDAMONAS, VANILĖ",
+    "features": [
+      {
+        "name": "VIRŠUTINĖS NATOS",
+        "value": "kardamonas, rožiniai pipirai, našlaičių lapai, mėtos",
+        "id_feature": "14",
+        "position": "0"
+      },
+      {
+        "name": "VIDURINĖS NATOS",
+        "value": "šalavijai, melionai, ananasai",
+        "id_feature": "15",
+        "position": "1"
+      },
+      {
+        "name": "PAGRINDINĖS NATOS",
+        "value": "vanilė, kaštainiai, kedras, medžių sakai",
+        "id_feature": "16",
+        "position": "2"
+      },
+      {
+        "name": "KVAPO INTENSYVUMAS",
+        "value": "Vidutiniai kvapai",
+        "id_feature": "21",
+        "position": "3"
+      },
+      {
+        "name": "KVAPO TIPAS",
+        "value": "Aromatiniai/Paparčių",
+        "id_feature": "10",
+        "position": "4"
+      },
+      {
+        "name": "GALIOJIMO TERMINAS",
+        "value": "12 mėnesių, po gavimo. Kvepalus laikyti tamsioje vietoje.",
+        "id_feature": "8",
+        "position": "5"
+      }
+    ],
+    "checkedAt": "2026-09-22T12:32:50.100Z"
+  },
+  {
+    "code": "H21",
+    "displayName": "The Scent Men",
+    "name": "Nobren The Scent Men Kvepalai Vyrams | H21",
+    "url": "https://nobrenparfum.lt/lt/kvepalai-vyrams/-nobren-kvepalai-vyrams-h21.html",
+    "image": "https://nobrenparfum.lt/3804-large_default/nobren-kvepalai-vyrams-h21.jpg",
+    "price": "21,90 €",
+    "price_amount": 21.9,
+    "attributes": {
+      "1": {
+        "id_attribute": "3",
+        "id_attribute_group": "1",
+        "name": "30ml",
+        "group": "Talpa (ml) ",
+        "reference": "30",
+        "ean13": "",
+        "isbn": "",
+        "upc": "",
+        "mpn": ""
+      },
+      "2": {
+        "id_attribute": "6",
+        "id_attribute_group": "2",
+        "name": "Su buteliuku",
+        "group": "Kvepalai ",
+        "reference": "30",
+        "ean13": "",
+        "isbn": "",
+        "upc": "",
+        "mpn": ""
+      }
+    },
+    "quantity": 70,
+    "available_for_order": "1",
+    "new_bottle": false,
+    "description_short": "EAU DE PARFUM | PARFUM | KVAPO TIPAS: PRIESKONIŲ/AROMATINIAI | KVAPO PASKIRTIS: DIENINIAI/VAKARINIAI | KVAPO CHARAKTERIS: UNIKALUS, AISTRINGAS | DOMINUOJANČIOS NATOS: MANINKA, LEVANDOS, ODA",
+    "features": [
+      {
+        "name": "VIRŠUTINĖS NATOS",
+        "value": "imbieras, bergamotė, mandarinas",
+        "id_feature": "14",
+        "position": "0"
+      },
+      {
+        "name": "VIDURINĖS NATOS",
+        "value": "levandos, maninka vaisius",
+        "id_feature": "15",
+        "position": "1"
+      },
+      {
+        "name": "PAGRINDINĖS NATOS",
+        "value": "oda, mediena",
+        "id_feature": "16",
+        "position": "2"
+      },
+      {
+        "name": "KVAPO INTENSYVUMAS",
+        "value": "Vidutiniai kvapai",
+        "id_feature": "21",
+        "position": "3"
+      },
+      {
+        "name": "KVAPO TIPAS",
+        "value": "Aromatiniai/Prieskonių",
+        "id_feature": "10",
+        "position": "4"
+      },
+      {
+        "name": "GALIOJIMO TERMINAS",
+        "value": "12 mėnesių, po gavimo. Kvepalus laikyti tamsioje vietoje.",
+        "id_feature": "8",
+        "position": "5"
+      }
+    ],
+    "checkedAt": "2026-09-22T12:32:50.079Z"
+  }
+]
