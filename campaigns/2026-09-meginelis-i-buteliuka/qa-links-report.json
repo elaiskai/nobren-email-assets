@@ -1,59 +1,59 @@
 {
-  "checkedAt": "2026-09-22T12:42:03.192Z",
+  "checkedAt": "2026-09-22T12:48:45.680Z",
   "images": 9,
   "links": 10,
-  "totalImageBytes": 588177,
+  "totalImageBytes": 590215,
   "checks": [
     {
-      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/380a7ed8722b249b7ecb7b5e6e46a6b7b719c2bc/campaigns/2026-09-meginelis-i-buteliuka/assets/brand/logo-strip-samples.png",
+      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/b12c02edde3050c073e501e6784bc6af1ba290db/campaigns/2026-09-meginelis-i-buteliuka/assets/brand/logo-strip-samples.png",
       "status": 200,
       "bytes": 17485,
       "hashMatch": true
     },
     {
-      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/380a7ed8722b249b7ecb7b5e6e46a6b7b719c2bc/campaigns/2026-09-meginelis-i-buteliuka/assets/hero/hero-final-samples.jpg",
+      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/b12c02edde3050c073e501e6784bc6af1ba290db/campaigns/2026-09-meginelis-i-buteliuka/assets/hero/hero-final-samples.jpg",
       "status": 200,
-      "bytes": 286779,
+      "bytes": 288817,
       "hashMatch": true
     },
     {
-      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/380a7ed8722b249b7ecb7b5e6e46a6b7b719c2bc/campaigns/2026-09-meginelis-i-buteliuka/assets/hero/intro-tail-samples.png",
+      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/b12c02edde3050c073e501e6784bc6af1ba290db/campaigns/2026-09-meginelis-i-buteliuka/assets/hero/intro-tail-samples.png",
       "status": 200,
       "bytes": 8005,
       "hashMatch": true
     },
     {
-      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/380a7ed8722b249b7ecb7b5e6e46a6b7b719c2bc/campaigns/2026-09-meginelis-i-buteliuka/assets/products/c54.jpg",
+      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/b12c02edde3050c073e501e6784bc6af1ba290db/campaigns/2026-09-meginelis-i-buteliuka/assets/products/c54.jpg",
       "status": 200,
       "bytes": 33151,
       "hashMatch": true
     },
     {
-      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/380a7ed8722b249b7ecb7b5e6e46a6b7b719c2bc/campaigns/2026-09-meginelis-i-buteliuka/assets/products/t3.jpg",
+      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/b12c02edde3050c073e501e6784bc6af1ba290db/campaigns/2026-09-meginelis-i-buteliuka/assets/products/t3.jpg",
       "status": 200,
       "bytes": 45796,
       "hashMatch": true
     },
     {
-      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/380a7ed8722b249b7ecb7b5e6e46a6b7b719c2bc/campaigns/2026-09-meginelis-i-buteliuka/assets/products/c1.jpg",
+      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/b12c02edde3050c073e501e6784bc6af1ba290db/campaigns/2026-09-meginelis-i-buteliuka/assets/products/c1.jpg",
       "status": 200,
       "bytes": 33588,
       "hashMatch": true
     },
     {
-      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/380a7ed8722b249b7ecb7b5e6e46a6b7b719c2bc/campaigns/2026-09-meginelis-i-buteliuka/assets/products/a25.jpg",
+      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/b12c02edde3050c073e501e6784bc6af1ba290db/campaigns/2026-09-meginelis-i-buteliuka/assets/products/a25.jpg",
       "status": 200,
       "bytes": 69329,
       "hashMatch": true
     },
     {
-      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/380a7ed8722b249b7ecb7b5e6e46a6b7b719c2bc/campaigns/2026-09-meginelis-i-buteliuka/assets/products/e4.jpg",
+      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/b12c02edde3050c073e501e6784bc6af1ba290db/campaigns/2026-09-meginelis-i-buteliuka/assets/products/e4.jpg",
       "status": 200,
       "bytes": 42393,
       "hashMatch": true
     },
     {
-      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/380a7ed8722b249b7ecb7b5e6e46a6b7b719c2bc/campaigns/2026-09-meginelis-i-buteliuka/assets/products/h21.jpg",
+      "image": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/b12c02edde3050c073e501e6784bc6af1ba290db/campaigns/2026-09-meginelis-i-buteliuka/assets/products/h21.jpg",
       "status": 200,
       "bytes": 51651,
       "hashMatch": true
