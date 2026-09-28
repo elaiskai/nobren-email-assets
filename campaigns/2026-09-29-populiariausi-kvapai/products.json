@@ -1,0 +1,542 @@
+[
+  {
+    "id": "c35",
+    "code": "C35",
+    "displayName": "Aventus",
+    "name": "Nobren Vyriškų Kvepalų Karalius Nišiniai Kvepalai Vyrams | C35",
+    "url": "https://nobrenparfum.lt/lt/nisiniai-kvepalai/-ikvepti-aventus-nisiniai-kvepalai-vyrams-c35.html",
+    "image": "https://nobrenparfum.lt/3863-large_default/ikvepti-aventus-nisiniai-kvepalai-vyrams-c35.jpg",
+    "price": "29,90 €",
+    "price_amount": 29.9,
+    "regular_price": "29,90 €",
+    "regular_price_amount": 29.9,
+    "has_discount": false,
+    "discount_percentage": null,
+    "attributes": {
+      "1": {
+        "id_attribute": "3",
+        "id_attribute_group": "1",
+        "name": "30ml",
+        "group": "Talpa (ml) ",
+        "reference": "30",
+        "ean13": "",
+        "isbn": "",
+        "upc": "",
+        "mpn": ""
+      },
+      "2": {
+        "id_attribute": "6",
+        "id_attribute_group": "2",
+        "name": "Su buteliuku",
+        "group": "Kvepalai ",
+        "reference": "30",
+        "ean13": "",
+        "isbn": "",
+        "upc": "",
+        "mpn": ""
+      }
+    },
+    "quantity": -241,
+    "available_for_order": "1",
+    "allow_oosp": true,
+    "new_bottle": true,
+    "description_short": "EXTRAIT DE PARFUM | PARFUM | KVAPO TIPAS: ŠYPRO/VAISIŲ | KVAPO PASKIRTIS: DIENINIAI/VAKARINIAI | KVAPO CHARAKTERIS: KARAS ARBA TAIKA | DOMINUOJANČIOS NATOS: BERŽAS, MUSKUSAS, ANANASAS DĖMESIO: ŠĮ AROMATĄ GAUSITE SU NAUJO DIZAINO BUTELIUKAIS",
+    "description": "Nemokami mėginėliai už atsiliepimus: Įsigiję ir išbandę ''Nobren'' kvepalus palikite atsiliepimą mūsų el.svetainėje. Prie sekančio užsakymo pastabų įrašykite savo paliktą atsiliepimą ir nurodykite norimą kvapą. Mes už kiekvieną paliktą atsiliepimą jums padovanosime 3ml nemokamą mėginėlį. Atsiliepimas turi būti sudarytas iš 15 žodžių arba daugiau. Žinomi prekių ženklai: tai tik orientacinio pobūdžio informacija, kuri padeda klientui geriau pažinti kvepalus jų neuoščius, tikslas yra suteikti klientui idėja apie kvapo pobūdį, charakterį, o ne suklaidinti ar supainioti klientą. Pabrėžiame, kad ''Nobren'' kvepalai nėra gerai žinomų prekių ženklų gaminiai ir ''Nobrenparfum'' nėra jokiais ryšiais susiję nei su vienu prekės ženklu ir jų kvapų nepardavinėja. ''Nobren'' kvepalai kuriami įkvėpti gerai žinomų aromatų, nesistengiant jų nukopijuoti, todėl mūsų parduotuvė negarantuoja kvapo panašumo, tik klientas ir niekas kitas negali nuspręsti ar mūsų siūlomi kvepalai turi panašumų į gerai žinomų prekių ženklų kvepalus. Visi naudojami pavadinimai yra gamintojų arba dizainerių autorinės teisės. ''Nobrenparfum'' vadovaujasi Europos politikos nuostatais susijusiais su lyginamąja reklama.",
+    "features": [
+      {
+        "name": "VIRŠUTINĖS NATOS",
+        "value": "Juodieji serbentai, ananasas, žalieji obuoliai",
+        "id_feature": "14",
+        "position": "0"
+      },
+      {
+        "name": "VIDURINĖS NATOS",
+        "value": "Beržas, rožės, jazminai, pačiulis",
+        "id_feature": "15",
+        "position": "1"
+      },
+      {
+        "name": "KVAPO INTENSYVUMAS",
+        "value": "Vidutiniai kvapai",
+        "id_feature": "21",
+        "position": "3"
+      },
+      {
+        "name": "KVAPO TIPAS",
+        "value": "Šypro/Vaisių",
+        "id_feature": "10",
+        "position": "4"
+      },
+      {
+        "name": "GALIOJIMO TERMINAS",
+        "value": "12 mėnesių, po gavimo. Kvepalus laikyti tamsioje vietoje.",
+        "id_feature": "8",
+        "position": "5"
+      }
+    ],
+    "checkedAt": "2026-09-28T10:12:49.594Z"
+  },
+  {
+    "id": "p20",
+    "code": "P20*",
+    "displayName": "Delina",
+    "name": "Nobren Delina Nišiniai Kvepalai Moterims | P20*",
+    "url": "https://nobrenparfum.lt/lt/nisiniai-kvepalai/-ikvepti-delina-nisiniai-kvepalai-moterims-p20.html",
+    "image": "https://nobrenparfum.lt/3872-large_default/ikvepti-delina-nisiniai-kvepalai-moterims-p20.jpg",
+    "price": "29,90 €",
+    "price_amount": 29.9,
+    "regular_price": "29,90 €",
+    "regular_price_amount": 29.9,
+    "has_discount": false,
+    "discount_percentage": null,
+    "attributes": {
+      "1": {
+        "id_attribute": "3",
+        "id_attribute_group": "1",
+        "name": "30ml",
+        "group": "Talpa (ml) ",
+        "reference": "30",
+        "ean13": "",
+        "isbn": "",
+        "upc": "",
+        "mpn": ""
+      },
+      "2": {
+        "id_attribute": "6",
+        "id_attribute_group": "2",
+        "name": "Su buteliuku",
+        "group": "Kvepalai ",
+        "reference": "30",
+        "ean13": "",
+        "isbn": "",
+        "upc": "",
+        "mpn": ""
+      }
+    },
+    "quantity": 1441,
+    "available_for_order": "1",
+    "allow_oosp": true,
+    "new_bottle": false,
+    "description_short": "EAU DE PARFUM | PARFUM | KVAPO TIPAS: GĖLIŲ | KVAPO PASKIRTIS: DIENINIAI | KVAPO CHARAKTERIS: MOTERIŠKAS, SUBTILUS, JAUSMINGAS | DOMINUOJANČIOS NATOS: MUSKUSAS, BIJŪNAI, TURKIŠKA ROŽĖ",
+    "description": "Nemokami mėginėliai už atsiliepimus: Įsigiję ir išbandę ''Nobren'' kvepalus palikite atsiliepimą mūsų el.svetainėje. Prie sekančio užsakymo pastabų įrašykite savo paliktą atsiliepimą ir nurodykite norimą kvapą. Mes už kiekvieną paliktą atsiliepimą jums padovanosime 3ml nemokamą mėginėlį. Atsiliepimas turi būti sudarytas iš 15 žodžių arba daugiau. Žinomi prekių ženklai: tai tik orientacinio pobūdžio informacija, kuri padeda klientui geriau pažinti kvepalus jų neuoščius, tikslas yra suteikti klientui idėja apie kvapo pobūdį, charakterį, o ne suklaidinti ar supainioti klientą. Pabrėžiame, kad ''Nobren'' kvepalai nėra gerai žinomų prekių ženklų gaminiai ir ''Nobrenparfum'' nėra jokiais ryšiais susiję nei su vienu prekės ženklu ir jų kvapų nepardavinėja. ''Nobren'' kvepalai kuriami įkvėpti gerai žinomų aromatų, nesistengiant jų nukopijuoti, todėl mūsų parduotuvė negarantuoja kvapo panašumo, tik klientas ir niekas kitas negali nuspręsti ar mūsų siūlomi kvepalai turi panašumų į gerai žinomų prekių ženklų kvepalus. Visi naudojami pavadinimai yra gamintojų arba dizainerių autorinės teisės. ''Nobrenparfum'' vadovaujasi Europos politikos nuostatais susijusiais su lyginamąja reklama.",
+    "features": [
+      {
+        "name": "VIRŠUTINĖS NATOS",
+        "value": "ličiai, rabarbarai, bergemotė, muskato riešutas",
+        "id_feature": "14",
+        "position": "0"
+      },
+      {
+        "name": "VIDURINĖS NATOS",
+        "value": "turkiška rožė, bijūnai, pakalnutės",
+        "id_feature": "15",
+        "position": "1"
+      },
+      {
+        "name": "PAGRINDINĖS NATOS",
+        "value": "kašmyro mediena, smilkalai, vanilė, miško gaiva",
+        "id_feature": "16",
+        "position": "2"
+      },
+      {
+        "name": "KVAPO INTENSYVUMAS",
+        "value": "Lengvi kvapai",
+        "id_feature": "21",
+        "position": "3"
+      },
+      {
+        "name": "KVAPO TIPAS",
+        "value": "Gėlių",
+        "id_feature": "10",
+        "position": "4"
+      },
+      {
+        "name": "GALIOJIMO TERMINAS",
+        "value": "12 mėnesių, po gavimo. Kvepalus laikyti tamsioje vietoje.",
+        "id_feature": "8",
+        "position": "5"
+      }
+    ],
+    "checkedAt": "2026-09-28T10:12:49.659Z"
+  },
+  {
+    "id": "t3",
+    "code": "T3*",
+    "displayName": "Kirke",
+    "name": "Nobren Kirke Nišiniai Kvepalai Unisex | T3*",
+    "url": "https://nobrenparfum.lt/lt/nisiniai-kvepalai/-ikvepti-kirke-nisiniai-kvepalai-unisex-t3.html",
+    "image": "https://nobrenparfum.lt/4822-large_default/ikvepti-kirke-nisiniai-kvepalai-unisex-t3.jpg",
+    "price": "29,90 €",
+    "price_amount": 29.9,
+    "regular_price": "29,90 €",
+    "regular_price_amount": 29.9,
+    "has_discount": false,
+    "discount_percentage": null,
+    "attributes": {
+      "1": {
+        "id_attribute": "3",
+        "id_attribute_group": "1",
+        "name": "30ml",
+        "group": "Talpa (ml) ",
+        "reference": "30",
+        "ean13": "",
+        "isbn": "",
+        "upc": "",
+        "mpn": ""
+      },
+      "2": {
+        "id_attribute": "6",
+        "id_attribute_group": "2",
+        "name": "Su buteliuku",
+        "group": "Kvepalai ",
+        "reference": "30",
+        "ean13": "",
+        "isbn": "",
+        "upc": "",
+        "mpn": ""
+      }
+    },
+    "quantity": 501,
+    "available_for_order": "1",
+    "allow_oosp": true,
+    "new_bottle": false,
+    "description_short": "EAU DE PARFUM | PARFUM | KVAPO TIPAS: ŠYPRO/VAISIŲ | KVAPO PASKIRTIS: DIENINIAI | KVAPO CHARAKTERIS: AISTRINGAS, ENERGINGAS | DOMINUOJANČIOS NATOS: MARAKUJA, ŠALDANČIOS UOGOS, BALTAS MUSKUSAS",
+    "description": "Nemokami mėginėliai už atsiliepimus: Įsigiję ir išbandę ''Nobren'' kvepalus palikite atsiliepimą mūsų el.svetainėje. Prie sekančio užsakymo pastabų įrašykite savo paliktą atsiliepimą ir nurodykite norimą kvapą. Mes už kiekvieną paliktą atsiliepimą jums padovanosime 3ml nemokamą mėginėlį. Atsiliepimas turi būti sudarytas iš 15 žodžių arba daugiau. Žinomi prekių ženklai: tai tik orientacinio pobūdžio informacija, kuri padeda klientui geriau pažinti kvepalus jų neuoščius, tikslas yra suteikti klientui idėja apie kvapo pobūdį, charakterį, o ne suklaidinti ar supainioti klientą. Pabrėžiame, kad ''Nobren'' kvepalai nėra gerai žinomų prekių ženklų gaminiai ir ''Nobrenparfum'' nėra jokiais ryšiais susiję nei su vienu prekės ženklu ir jų kvapų nepardavinėja. ''Nobren'' kvepalai kuriami įkvėpti gerai žinomų aromatų, nesistengiant jų nukopijuoti, todėl mūsų parduotuvė negarantuoja kvapo panašumo, tik klientas ir niekas kitas negali nuspręsti ar mūsų siūlomi kvepalai turi panašumų į gerai žinomų prekių ženklų kvepalus. Visi naudojami pavadinimai yra gamintojų arba dizainerių autorinės teisės. ''Nobrenparfum'' vadovaujasi Europos politikos nuostatais susijusiais su lyginamąja reklama.",
+    "features": [
+      {
+        "name": "VIRŠUTINĖS NATOS",
+        "value": "Marakuja, karštas smėlis, persikas, avietės, juodųjų serbentų lapai, kriaušės",
+        "id_feature": "14",
+        "position": "0"
+      },
+      {
+        "name": "VIDURINĖS NATOS",
+        "value": "Pakalnutės, šaldančios uogos, pasiflora,jūros natos",
+        "id_feature": "15",
+        "position": "1"
+      },
+      {
+        "name": "PAGRINDINĖS NATOS",
+        "value": "Heliotropas, sandalmedis, vanilė, pačiuliai, muskusas",
+        "id_feature": "16",
+        "position": "2"
+      },
+      {
+        "name": "KVAPO INTENSYVUMAS",
+        "value": "Vidutiniai kvapai",
+        "id_feature": "21",
+        "position": "3"
+      },
+      {
+        "name": "KVAPO TIPAS",
+        "value": "Šypro/Vaisių",
+        "id_feature": "10",
+        "position": "4"
+      },
+      {
+        "name": "GALIOJIMO TERMINAS",
+        "value": "12 mėnesių, po gavimo. Kvepalus laikyti tamsioje vietoje.",
+        "id_feature": "8",
+        "position": "5"
+      }
+    ],
+    "checkedAt": "2026-09-28T10:12:49.637Z"
+  },
+  {
+    "id": "i3",
+    "code": "I3 / 13",
+    "displayName": "Side Effect",
+    "name": "Nobren Side effect Nišiniai Kvepalai Unisex | I3 / 13",
+    "url": "https://nobrenparfum.lt/lt/nisiniai-kvepalai/-ikvepti-side-effect-nisiniai-kvepalai-unisex-i3.html",
+    "image": "https://nobrenparfum.lt/4826-large_default/ikvepti-side-effect-nisiniai-kvepalai-unisex-i3.jpg",
+    "price": "29,90 €",
+    "price_amount": 29.9,
+    "regular_price": "29,90 €",
+    "regular_price_amount": 29.9,
+    "has_discount": false,
+    "discount_percentage": null,
+    "attributes": {
+      "1": {
+        "id_attribute": "3",
+        "id_attribute_group": "1",
+        "name": "30ml",
+        "group": "Talpa (ml) ",
+        "reference": "30",
+        "ean13": "",
+        "isbn": "",
+        "upc": "",
+        "mpn": ""
+      },
+      "2": {
+        "id_attribute": "6",
+        "id_attribute_group": "2",
+        "name": "Su buteliuku",
+        "group": "Kvepalai ",
+        "reference": "30",
+        "ean13": "",
+        "isbn": "",
+        "upc": "",
+        "mpn": ""
+      }
+    },
+    "quantity": -550,
+    "available_for_order": "1",
+    "allow_oosp": true,
+    "new_bottle": false,
+    "description_short": "EAU DE PARFUM | PARFUM | KVAPO TIPAS: RYTIETIŠKI | KVAPO PASKIRTIS: INTYMUS | KVAPO CHARAKTERIS: PRABANGA, GALIA, PASITIKĖJIMAS | DOMINUOJANČIOS NATOS: FEROMONAI, ROMAS, TABAKAS,",
+    "description": "Nemokami mėginėliai už atsiliepimus: Įsigiję ir išbandę ''Nobren'' kvepalus palikite atsiliepimą mūsų el.svetainėje. Prie sekančio užsakymo pastabų įrašykite savo paliktą atsiliepimą ir nurodykite norimą kvapą. Mes už kiekvieną paliktą atsiliepimą jums padovanosime 3ml nemokamą mėginėlį. Atsiliepimas turi būti sudarytas iš 15 žodžių arba daugiau. Žinomi prekių ženklai: tai tik orientacinio pobūdžio informacija, kuri padeda klientui geriau pažinti kvepalus jų neuoščius, tikslas yra suteikti klientui idėja apie kvapo pobūdį, charakterį, o ne suklaidinti ar supainioti klientą. Pabrėžiame, kad ''Nobren'' kvepalai nėra gerai žinomų prekių ženklų gaminiai ir ''Nobrenparfum'' nėra jokiais ryšiais susiję nei su vienu prekės ženklu ir jų kvapų nepardavinėja. ''Nobren'' kvepalai kuriami įkvėpti gerai žinomų aromatų, nesistengiant jų nukopijuoti, todėl mūsų parduotuvė negarantuoja kvapo panašumo, tik klientas ir niekas kitas negali nuspręsti ar mūsų siūlomi kvepalai turi panašumų į gerai žinomų prekių ženklų kvepalus. Visi naudojami pavadinimai yra gamintojų arba dizainerių autorinės teisės. ''Nobrenparfum'' vadovaujasi Europos politikos nuostatais susijusiais su lyginamąja reklama.",
+    "features": [
+      {
+        "name": "VIRŠUTINĖS NATOS",
+        "value": "tabakas",
+        "id_feature": "14",
+        "position": "0"
+      },
+      {
+        "name": "VIDURINĖS NATOS",
+        "value": "cinamonas, vanilė, vynuogės",
+        "id_feature": "15",
+        "position": "1"
+      },
+      {
+        "name": "PAGRINDINĖS NATOS",
+        "value": "romas, feromonai",
+        "id_feature": "16",
+        "position": "2"
+      },
+      {
+        "name": "KVAPO INTENSYVUMAS",
+        "value": "Sunkūs kvapai",
+        "id_feature": "21",
+        "position": "3"
+      },
+      {
+        "name": "KVAPO TIPAS",
+        "value": "Rytietiški",
+        "id_feature": "10",
+        "position": "4"
+      },
+      {
+        "name": "GALIOJIMO TERMINAS",
+        "value": "12 mėnesių, po gavimo. Kvepalus laikyti tamsioje vietoje.",
+        "id_feature": "8",
+        "position": "5"
+      }
+    ],
+    "checkedAt": "2026-09-28T10:12:49.561Z"
+  },
+  {
+    "id": "n7",
+    "code": "N7",
+    "displayName": "Fleur Narcotique",
+    "name": "Nobren Fleur Narcotique Nišiniai Kvepalai Moterims | N7",
+    "url": "https://nobrenparfum.lt/lt/nisiniai-kvepalai/-nobren-fle-nisiniai-kvepalai-moterims-n7.html",
+    "image": "https://nobrenparfum.lt/4708-large_default/nobren-fle-nisiniai-kvepalai-moterims-n7.jpg",
+    "price": "29,90 €",
+    "price_amount": 29.9,
+    "regular_price": "29,90 €",
+    "regular_price_amount": 29.9,
+    "has_discount": false,
+    "discount_percentage": null,
+    "attributes": {
+      "1": {
+        "id_attribute": "3",
+        "id_attribute_group": "1",
+        "name": "30ml",
+        "group": "Talpa (ml) ",
+        "reference": "30",
+        "ean13": "",
+        "isbn": "",
+        "upc": "",
+        "mpn": ""
+      },
+      "2": {
+        "id_attribute": "6",
+        "id_attribute_group": "2",
+        "name": "Su buteliuku",
+        "group": "Kvepalai ",
+        "reference": "30",
+        "ean13": "",
+        "isbn": "",
+        "upc": "",
+        "mpn": ""
+      }
+    },
+    "quantity": 832,
+    "available_for_order": "1",
+    "allow_oosp": true,
+    "new_bottle": false,
+    "description_short": "EAU DE PARFUM | PARFUM | KVAPO TIPAS: GĖLIŲ/VAISIŲ | KVAPO PASKIRTIS: DIENINIAI/VAKARINIAI | KVAPO CHARAKTERIS: MODERNUS, ŠILTAS, ŠVIESUS AROMATAS MOTERIMS | DOMINUOJANČIOS NATOS: BIJŪNŲ PUOKŠTĖ, LIČIAI, SAMANOS",
+    "description": "Nemokami mėginėliai už atsiliepimus: Įsigiję ir išbandę ''Nobren'' kvepalus palikite atsiliepimą mūsų el.svetainėje. Prie sekančio užsakymo pastabų įrašykite savo paliktą atsiliepimą ir nurodykite norimą kvapą. Mes už kiekvieną paliktą atsiliepimą jums padovanosime 3ml nemokamą mėginėlį. Atsiliepimas turi būti sudarytas iš 15 žodžių arba daugiau. Žinomi prekių ženklai: tai tik orientacinio pobūdžio informacija, kuri padeda klientui geriau pažinti kvepalus jų neuoščius, tikslas yra suteikti klientui idėja apie kvapo pobūdį, charakterį, o ne suklaidinti ar supainioti klientą. Pabrėžiame, kad ''Nobren'' kvepalai nėra gerai žinomų prekių ženklų gaminiai ir ''Nobrenparfum'' nėra jokiais ryšiais susiję nei su vienu prekės ženklu ir jų kvapų nepardavinėja. ''Nobren'' kvepalai kuriami įkvėpti gerai žinomų aromatų, nesistengiant jų nukopijuoti, todėl mūsų parduotuvė negarantuoja kvapo panašumo, tik klientas ir niekas kitas negali nuspręsti ar mūsų siūlomi kvepalai turi panašumų į gerai žinomų prekių ženklų kvepalus. Visi naudojami pavadinimai yra gamintojų arba dizainerių autorinės teisės. ''Nobrenparfum'' vadovaujasi Europos politikos nuostatais susijusiais su lyginamąja reklama.",
+    "features": [
+      {
+        "name": "VIRŠUTINĖS NATOS",
+        "value": "ličiai, persikai, bergemotė",
+        "id_feature": "14",
+        "position": "0"
+      },
+      {
+        "name": "VIDURINĖS NATOS",
+        "value": "bijūnų puokštė, apelsinų žiedai,  jazminai",
+        "id_feature": "15",
+        "position": "1"
+      },
+      {
+        "name": "PAGRINDINĖS NATOS",
+        "value": "baltasis muskusas, samanos, medienos natos, kanapės",
+        "id_feature": "16",
+        "position": "2"
+      },
+      {
+        "name": "KVAPO INTENSYVUMAS",
+        "value": "Vidutiniai kvapai",
+        "id_feature": "21",
+        "position": "3"
+      },
+      {
+        "name": "KVAPO TIPAS",
+        "value": "Gėlių/Vaisių",
+        "id_feature": "10",
+        "position": "4"
+      },
+      {
+        "name": "GALIOJIMO TERMINAS",
+        "value": "12 mėnesių, po gavimo. Kvepalus laikyti tamsioje vietoje.",
+        "id_feature": "8",
+        "position": "5"
+      }
+    ],
+    "checkedAt": "2026-09-28T10:12:50.016Z"
+  },
+  {
+    "id": "y12",
+    "code": "Y12",
+    "displayName": "MYSLF",
+    "name": "Nobren MYSLF Kvepalai Vyrams | Y12",
+    "url": "https://nobrenparfum.lt/lt/kvepalai-vyrams/-ikvepti-myslf-kvepalai-vyrams-y12.html",
+    "image": "https://nobrenparfum.lt/4811-large_default/ikvepti-myslf-kvepalai-vyrams-y12.jpg",
+    "price": "29,90 €",
+    "price_amount": 29.9,
+    "regular_price": "29,90 €",
+    "regular_price_amount": 29.9,
+    "has_discount": false,
+    "discount_percentage": null,
+    "attributes": {
+      "1": {
+        "id_attribute": "3",
+        "id_attribute_group": "1",
+        "name": "30ml",
+        "group": "Talpa (ml) ",
+        "reference": "30",
+        "ean13": "",
+        "isbn": "",
+        "upc": "",
+        "mpn": ""
+      },
+      "2": {
+        "id_attribute": "6",
+        "id_attribute_group": "2",
+        "name": "Su buteliuku",
+        "group": "Kvepalai ",
+        "reference": "30",
+        "ean13": "",
+        "isbn": "",
+        "upc": "",
+        "mpn": ""
+      }
+    },
+    "quantity": 273,
+    "available_for_order": "1",
+    "allow_oosp": true,
+    "new_bottle": false,
+    "description_short": "EXTRAIT DE PARFUM Kvapo informacija Elegantiškas aromatinis kvapas su švariu, rafinuotu įspūdžiu. Tinka kasdienai ir vakarui. Tipas: Aromatiniai | Paskirtis: Dienai / vakarui | Charakteris: Elegantiškas Dominuojančios natos 🍊 Tuniso apelsinų žiedai • 🌳 Indonezijos pačiulis • 🌿 Aromatiniai akordai",
+    "description": "Extrait de parfum Švarus, elegantiškas aromatas su rafinuotu charakteriu Gaivus citrusinis startas pereina į subtilų žiedų švelnumą ir šiltą modernią bazę. Kvapas sukurtas žmonėms, vertinantiems eleganciją ir išskirtinumą. • 40–45% parfumo koncentracija • Ilgai išliekantis aromatas • Dienai ir vakarui Viršutinės natos Kalabrijos bergamotė • Bergamotės lapas Vidurinės natos Tuniso apelsinų žiedų absoliutas Pagrindinės natos Ambrofix • Indonezijos pačiulis • Medienos natos Pabrėžiame, kad ''Nobren'' kvepalai nėra gerai žinomų prekių ženklų gaminiai ir ''Nobrenparfum'' nėra jokiais ryšiais susiję nei su vienu prekės ženklu ir jų kvapų nepardavinėja. ''Nobren'' kvepalai kuriami įkvėpti gerai žinomų aromatų, nesistengiant jų nukopijuoti, todėl mūsų parduotuvė negarantuoja kvapo panašumo, tik klientas ir niekas kitas negali nuspręsti ar mūsų siūlomi kvepalai turi panašumų į gerai žinomų prekių ženklų kvepalus. Visi naudojami pavadinimai yra gamintojų arba dizainerių autorinės teisės. ''Nobrenparfum'' vadovaujasi Europos politikos nuostatais susijusiais su lyginamąja reklama.",
+    "features": [
+      {
+        "name": "VIRŠUTINĖS NATOS",
+        "value": "Kalabrijos bergamotė Bergamotės lapas, Bergamotės lapas",
+        "id_feature": "14",
+        "position": "0"
+      },
+      {
+        "name": "VIDURINĖS NATOS",
+        "value": "Tuniso apelsinų žiedų absoliutas",
+        "id_feature": "15",
+        "position": "1"
+      },
+      {
+        "name": "PAGRINDINĖS NATOS",
+        "value": "Ambrofix ,Indonezijos pačiulis, medienos natos",
+        "id_feature": "16",
+        "position": "2"
+      },
+      {
+        "name": "KVAPO INTENSYVUMAS",
+        "value": "Vidutiniai kvapai",
+        "id_feature": "21",
+        "position": "3"
+      },
+      {
+        "name": "KVAPO TIPAS",
+        "value": "Aromatiniai",
+        "id_feature": "10",
+        "position": "4"
+      },
+      {
+        "name": "GALIOJIMO TERMINAS",
+        "value": "12 mėnesių, po gavimo. Kvepalus laikyti tamsioje vietoje.",
+        "id_feature": "8",
+        "position": "5"
+      }
+    ],
+    "checkedAt": "2026-09-28T10:12:49.636Z"
+  },
+  {
+    "id": "top10",
+    "code": "TOP 10",
+    "displayName": "TOP 10",
+    "name": "Mėginėlių Rinkinys \"TOP 10\" | 10x5ml",
+    "url": "https://nobrenparfum.lt/lt/dovanu-rinkiniai/--dovanu-rinkinys-idealu-top10.html",
+    "image": "https://nobrenparfum.lt/4800-large_default/-dovanu-rinkinys-idealu-top10.jpg",
+    "price": "44,87 €",
+    "price_amount": 44.87,
+    "regular_price": "49,86 €",
+    "regular_price_amount": 49.860001,
+    "has_discount": true,
+    "discount_percentage": "−10%",
+    "attributes": {
+      "16": {
+        "id_attribute": "134",
+        "id_attribute_group": "16",
+        "name": "Vyrui",
+        "group": "Dovana:",
+        "reference": "001",
+        "ean13": "",
+        "isbn": "",
+        "upc": "",
+        "mpn": ""
+      }
+    },
+    "quantity": -98,
+    "available_for_order": "1",
+    "allow_oosp": true,
+    "new_bottle": false,
+    "description_short": "EXTRAIT DE PARFUM | PARFUM Atraskite kruopščiai atrinktą dešimties populiariausių nišinių aromatų kolekciją, sukurtą tiems, kurie vertina kokybę, išskirtinumą ir charakterį. Šis rinkinys leidžia be rizikos išbandyti skirtingus kvapus ir atrasti tą, kuris taps jūsų asmeniniu parašu. Kiekvienas aromatas pasižymi sodriu, ilgai išliekančiu Extrait de Parfum koncentracijos kvapu.",
+    "description": "EXTRAIT DE PARFUM Nišinių aromatų mėginėlių rinkinys Atraskite išskirtinę 10 populiariausių nišinių aromatų kolekciją , sukurtą tiems, kurie ieško charakterio, gilumo ir ilgai išliekančio kvapo. Kodėl verta rinktis šį rinkinį? Šis mėginėlių rinkinys sukurtas tam, kad galėtumėte be skubėjimo ir be rizikos išbandyti skirtingus nišinius aromatus bei atrasti tą, kuris taps jūsų asmeniniu parašu. Kiekvienas kvapas pasižymi sodriu, išraiškingu charakteriu. Tai idealus pasirinkimas tiek naujokams nišinių kvepalų pasaulyje, tiek patyrusiems kvapų kolekcionieriams. 10 kruopščiai atrinktų nišinių aromatų Ilgai išliekanti Extrait de Parfum koncentracija Patogu išbandyti skirtingomis progomis Puikiai tinka dovanai Prabangus pateikimas Extrait de Parfum – kas tai? Extrait de Parfum – tai viena aukščiausių kvapų koncentracijų, užtikrinanti intensyvų, sodrų ir ilgai išliekantį aromatą. Vos keli papurškimai leidžia kvapui atsiskleisti palaipsniui ir išlikti visą dieną. Ši koncentracija ypač vertinama nišinių kvepalų mėgėjų dėl savo gilumo ir autentiškumo. Puiki dovanos idėja Prabangus dizainas, kokybiški aromatai ir universalumas daro šį rinkinį puikia dovana gimtadieniui, sukakčiai ar ypatingai progai. Nemokamas pristatymas | Nemokamas įpakavimas",
+    "features": [
+      {
+        "name": "GALIOJIMO TERMINAS",
+        "value": "12 mėnesių, po gavimo. Kvepalus laikyti tamsioje vietoje.",
+        "id_feature": "8",
+        "position": "5"
+      },
+      {
+        "name": "DOVANŲ PAKAVIMAS",
+        "value": "Nemokamas nuo 40eur | Įprasta kaina: 3.5eur  (priskaičiuojama prie prekių sumos)",
+        "id_feature": "24",
+        "position": "8"
+      }
+    ],
+    "checkedAt": "2026-09-28T10:12:49.595Z"
+  }
+]

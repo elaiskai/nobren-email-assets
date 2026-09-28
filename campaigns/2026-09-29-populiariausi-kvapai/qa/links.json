@@ -1,0 +1,115 @@
+{
+  "checkedAt": "2026-09-28T10:30:03.682Z",
+  "images": 9,
+  "links": 11,
+  "allPassed": true,
+  "checks": [
+    {
+      "url": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/20f1bf195484710ddd63dec4ad9aecde81ffe20e/campaigns/2026-09-29-populiariausi-kvapai/assets/brand/logo-strip.png",
+      "status": 200,
+      "bytes": 15840,
+      "sha256": "1241beb38dba1e98fe58ca602f2921ae985ef72054b09af2550af0b896978a1d",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/20f1bf195484710ddd63dec4ad9aecde81ffe20e/campaigns/2026-09-29-populiariausi-kvapai/assets/hero/hero-final.jpg",
+      "status": 200,
+      "bytes": 383337,
+      "sha256": "b358a412530ef749611b3747e22d9c715ae839acbb9ecb09955dc1fc11487dd2",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/20f1bf195484710ddd63dec4ad9aecde81ffe20e/campaigns/2026-09-29-populiariausi-kvapai/assets/products/c35.jpg",
+      "status": 200,
+      "bytes": 46694,
+      "sha256": "d9756b2aa2f8b1a421163a7c139de4da74f743095bb908face346c48801020c0",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/20f1bf195484710ddd63dec4ad9aecde81ffe20e/campaigns/2026-09-29-populiariausi-kvapai/assets/products/p20.jpg",
+      "status": 200,
+      "bytes": 38456,
+      "sha256": "96c7d0107f11f22b698c82f89ac90b99b55b7776d5809137866333908c261d4c",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/20f1bf195484710ddd63dec4ad9aecde81ffe20e/campaigns/2026-09-29-populiariausi-kvapai/assets/products/t3.jpg",
+      "status": 200,
+      "bytes": 41314,
+      "sha256": "6b2b7fe66edfabc7d5e15bff3547cdf138255fde9cd3d74e7f65bd4d1801af0f",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/20f1bf195484710ddd63dec4ad9aecde81ffe20e/campaigns/2026-09-29-populiariausi-kvapai/assets/products/i3.jpg",
+      "status": 200,
+      "bytes": 32325,
+      "sha256": "1bd4e290e6c42b8c37ce67ff2fbc4d15005c24c28136a55cd522d148acd01238",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/20f1bf195484710ddd63dec4ad9aecde81ffe20e/campaigns/2026-09-29-populiariausi-kvapai/assets/products/n7.jpg",
+      "status": 200,
+      "bytes": 42972,
+      "sha256": "d1ae243881d2fcf6a0c35607fb0d3f12a6a1743b1a424bb9c87d3b4507e6f089",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/20f1bf195484710ddd63dec4ad9aecde81ffe20e/campaigns/2026-09-29-populiariausi-kvapai/assets/products/y12.jpg",
+      "status": 200,
+      "bytes": 31756,
+      "sha256": "e89a64f249d0615eeadca754f347fd3b4c49573cdd2beb44ab30bb3073f69551",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/20f1bf195484710ddd63dec4ad9aecde81ffe20e/campaigns/2026-09-29-populiariausi-kvapai/assets/closing/top10-final.jpg",
+      "status": 200,
+      "bytes": 165252,
+      "sha256": "52b6052f0ad4515e752638c6a4fbce4a55af3ca282a2307cfd4417fa819e3ba6",
+      "matchesLocal": true
+    },
+    {
+      "url": "https://nobrenparfum.lt/lt/",
+      "status": 200
+    },
+    {
+      "url": "https://nobrenparfum.lt/lt/populiariausi-kvepalai",
+      "status": 200
+    },
+    {
+      "url": "https://nobrenparfum.lt/lt/nisiniai-kvepalai/-ikvepti-aventus-nisiniai-kvepalai-vyrams-c35.html",
+      "status": 200
+    },
+    {
+      "url": "https://nobrenparfum.lt/lt/nisiniai-kvepalai/-ikvepti-delina-nisiniai-kvepalai-moterims-p20.html",
+      "status": 200
+    },
+    {
+      "url": "https://nobrenparfum.lt/lt/nisiniai-kvepalai/-ikvepti-kirke-nisiniai-kvepalai-unisex-t3.html",
+      "status": 200
+    },
+    {
+      "url": "https://nobrenparfum.lt/lt/nisiniai-kvepalai/-ikvepti-side-effect-nisiniai-kvepalai-unisex-i3.html",
+      "status": 200
+    },
+    {
+      "url": "https://nobrenparfum.lt/lt/nisiniai-kvepalai/-nobren-fle-nisiniai-kvepalai-moterims-n7.html",
+      "status": 200
+    },
+    {
+      "url": "https://nobrenparfum.lt/lt/kvepalai-vyrams/-ikvepti-myslf-kvepalai-vyrams-y12.html",
+      "status": 200
+    },
+    {
+      "url": "https://nobrenparfum.lt/lt/dovanu-rinkiniai/--dovanu-rinkinys-idealu-top10.html",
+      "status": 200
+    },
+    {
+      "url": "https://nobrenparfum.lt/lt/parduotuves",
+      "status": 200
+    },
+    {
+      "url": "https://nobrenparfum.lt/lt/info/privatumo-politika",
+      "status": 200
+    }
+  ]
+}

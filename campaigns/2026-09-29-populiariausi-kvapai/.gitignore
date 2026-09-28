@@ -1,0 +1,7 @@
+# Local crops and duplicate local-asset renders; hosted previews are published.
+/preview-desktop.png
+/preview-mobile*.png
+/preview-hero-*.png
+/preview-products-*.png
+/preview-offer-*.png
+.DS_Store

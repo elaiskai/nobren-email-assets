@@ -1,0 +1,125 @@
+{
+  "image": "/Users/kiprastinfavicius/.codex/visualizations/2026/09/13/01a09a8e-0878-7760-bdc8-29958c59f024/nobren-publishing/campaigns/2026-09-29-populiariausi-kvapai/assets/hero/hero-final.jpg",
+  "size": [
+    1200,
+    1380
+  ],
+  "band": 24,
+  "tolerance": 2,
+  "edges": {
+    "top": {
+      "mean": [
+        23.0,
+        63.0,
+        55.0
+      ],
+      "min": [
+        23,
+        63,
+        55
+      ],
+      "max": [
+        23,
+        63,
+        55
+      ],
+      "spread": [
+        0,
+        0,
+        0
+      ]
+    },
+    "bottom": {
+      "mean": [
+        23.0,
+        63.0,
+        55.0
+      ],
+      "min": [
+        23,
+        63,
+        55
+      ],
+      "max": [
+        23,
+        63,
+        55
+      ],
+      "spread": [
+        0,
+        0,
+        0
+      ]
+    },
+    "left": {
+      "mean": [
+        47.582,
+        72.434,
+        62.867
+      ],
+      "min": [
+        0,
+        3,
+        0
+      ],
+      "max": [
+        255,
+        252,
+        248
+      ],
+      "spread": [
+        255,
+        249,
+        248
+      ]
+    },
+    "right": {
+      "mean": [
+        13.105,
+        44.397,
+        36.875
+      ],
+      "min": [
+        0,
+        14,
+        6
+      ],
+      "max": [
+        250,
+        233,
+        203
+      ],
+      "spread": [
+        250,
+        219,
+        197
+      ]
+    }
+  },
+  "checks": {
+    "top_target": {
+      "target": [
+        23,
+        63,
+        56
+      ],
+      "max_channel_delta": 1,
+      "pass": true
+    },
+    "bottom_target": {
+      "target": [
+        23,
+        63,
+        56
+      ],
+      "max_channel_delta": 1,
+      "pass": true
+    },
+    "source_width": {
+      "required": 1200,
+      "actual": 1200,
+      "pass": true
+    }
+  },
+  "pass": true
+}

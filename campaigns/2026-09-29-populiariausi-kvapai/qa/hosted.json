@@ -1,0 +1,347 @@
+[
+  {
+    "name": "desktop",
+    "width": 820,
+    "container": 600,
+    "height": 4237,
+    "images": [
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/20f1bf195484710ddd63dec4ad9aecde81ffe20e/campaigns/2026-09-29-populiariausi-kvapai/assets/brand/logo-strip.png",
+        "w": 1200,
+        "h": 150
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/20f1bf195484710ddd63dec4ad9aecde81ffe20e/campaigns/2026-09-29-populiariausi-kvapai/assets/hero/hero-final.jpg",
+        "w": 1200,
+        "h": 1380
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/20f1bf195484710ddd63dec4ad9aecde81ffe20e/campaigns/2026-09-29-populiariausi-kvapai/assets/products/c35.jpg",
+        "w": 600,
+        "h": 680
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/20f1bf195484710ddd63dec4ad9aecde81ffe20e/campaigns/2026-09-29-populiariausi-kvapai/assets/products/p20.jpg",
+        "w": 600,
+        "h": 680
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/20f1bf195484710ddd63dec4ad9aecde81ffe20e/campaigns/2026-09-29-populiariausi-kvapai/assets/products/t3.jpg",
+        "w": 600,
+        "h": 680
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/20f1bf195484710ddd63dec4ad9aecde81ffe20e/campaigns/2026-09-29-populiariausi-kvapai/assets/products/i3.jpg",
+        "w": 600,
+        "h": 680
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/20f1bf195484710ddd63dec4ad9aecde81ffe20e/campaigns/2026-09-29-populiariausi-kvapai/assets/products/n7.jpg",
+        "w": 600,
+        "h": 680
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/20f1bf195484710ddd63dec4ad9aecde81ffe20e/campaigns/2026-09-29-populiariausi-kvapai/assets/products/y12.jpg",
+        "w": 600,
+        "h": 680
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/20f1bf195484710ddd63dec4ad9aecde81ffe20e/campaigns/2026-09-29-populiariausi-kvapai/assets/closing/top10-final.jpg",
+        "w": 1200,
+        "h": 800
+      }
+    ],
+    "productInfo": [
+      {
+        "title": "Aventus",
+        "price": "29,90 €",
+        "volume": "30 ml · su buteliuku",
+        "url": "https://nobrenparfum.lt/lt/nisiniai-kvepalai/-ikvepti-aventus-nisiniai-kvepalai-vyrams-c35.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_09_29_populiariausi_kvapai&utm_content=c35_cta",
+        "descriptionGap": 12
+      },
+      {
+        "title": "Delina",
+        "price": "29,90 €",
+        "volume": "30 ml · su buteliuku",
+        "url": "https://nobrenparfum.lt/lt/nisiniai-kvepalai/-ikvepti-delina-nisiniai-kvepalai-moterims-p20.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_09_29_populiariausi_kvapai&utm_content=p20_cta",
+        "descriptionGap": 12
+      },
+      {
+        "title": "Kirke",
+        "price": "29,90 €",
+        "volume": "30 ml · su buteliuku",
+        "url": "https://nobrenparfum.lt/lt/nisiniai-kvepalai/-ikvepti-kirke-nisiniai-kvepalai-unisex-t3.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_09_29_populiariausi_kvapai&utm_content=t3_cta",
+        "descriptionGap": 12
+      },
+      {
+        "title": "Side Effect",
+        "price": "29,90 €",
+        "volume": "30 ml · su buteliuku",
+        "url": "https://nobrenparfum.lt/lt/nisiniai-kvepalai/-ikvepti-side-effect-nisiniai-kvepalai-unisex-i3.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_09_29_populiariausi_kvapai&utm_content=i3_cta",
+        "descriptionGap": 12
+      },
+      {
+        "title": "Fleur Narcotique",
+        "price": "29,90 €",
+        "volume": "30 ml · su buteliuku",
+        "url": "https://nobrenparfum.lt/lt/nisiniai-kvepalai/-nobren-fle-nisiniai-kvepalai-moterims-n7.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_09_29_populiariausi_kvapai&utm_content=n7_cta",
+        "descriptionGap": 12
+      },
+      {
+        "title": "MYSLF",
+        "price": "29,90 €",
+        "volume": "30 ml · su buteliuku",
+        "url": "https://nobrenparfum.lt/lt/kvepalai-vyrams/-ikvepti-myslf-kvepalai-vyrams-y12.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_09_29_populiariausi_kvapai&utm_content=y12_cta",
+        "descriptionGap": 12
+      }
+    ],
+    "alignment": [
+      [
+        1786,
+        1786
+      ],
+      [
+        2400,
+        2400
+      ],
+      [
+        3014,
+        3014
+      ]
+    ],
+    "overflow": [],
+    "presentationTables": true,
+    "offer": "DAUGIAU PAŽINČIŲ SU KVAPAIS\n\nNerandi vieno?\nPradėk nuo dešimties.\n\nTOP 10 mėginėlių rinkinys · 10 × 5 ml\n\n\n\n\n\n\n−10 % TOP 10 RINKINIUI\n\n49,86 €\n\n44,87 €\n\nIšbandyk skirtingus aromatus ant savo odos ir atrask, prie kurio norisi sugrįžti.\n\nPERŽIŪRĖTI PREKĘ  ↗\n\nRinkinio variantą vyrui arba moteriai pasirink prekės puslapyje.\n\n\n\nnobrenparfum.lt\n\nMB „Nobren parfum“\nGintaro g. 56, Vydmantai\n© 2026 Nobren Parfum\n\n\tKontaktai  ·  Privatumas\nAtsisakyti prenumeratos",
+    "footerColor": "rgb(23, 63, 56)"
+  },
+  {
+    "name": "mobile",
+    "width": 390,
+    "container": 390,
+    "height": 3632,
+    "images": [
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/20f1bf195484710ddd63dec4ad9aecde81ffe20e/campaigns/2026-09-29-populiariausi-kvapai/assets/brand/logo-strip.png",
+        "w": 1200,
+        "h": 150
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/20f1bf195484710ddd63dec4ad9aecde81ffe20e/campaigns/2026-09-29-populiariausi-kvapai/assets/hero/hero-final.jpg",
+        "w": 1200,
+        "h": 1380
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/20f1bf195484710ddd63dec4ad9aecde81ffe20e/campaigns/2026-09-29-populiariausi-kvapai/assets/products/c35.jpg",
+        "w": 600,
+        "h": 680
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/20f1bf195484710ddd63dec4ad9aecde81ffe20e/campaigns/2026-09-29-populiariausi-kvapai/assets/products/p20.jpg",
+        "w": 600,
+        "h": 680
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/20f1bf195484710ddd63dec4ad9aecde81ffe20e/campaigns/2026-09-29-populiariausi-kvapai/assets/products/t3.jpg",
+        "w": 600,
+        "h": 680
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/20f1bf195484710ddd63dec4ad9aecde81ffe20e/campaigns/2026-09-29-populiariausi-kvapai/assets/products/i3.jpg",
+        "w": 600,
+        "h": 680
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/20f1bf195484710ddd63dec4ad9aecde81ffe20e/campaigns/2026-09-29-populiariausi-kvapai/assets/products/n7.jpg",
+        "w": 600,
+        "h": 680
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/20f1bf195484710ddd63dec4ad9aecde81ffe20e/campaigns/2026-09-29-populiariausi-kvapai/assets/products/y12.jpg",
+        "w": 600,
+        "h": 680
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/20f1bf195484710ddd63dec4ad9aecde81ffe20e/campaigns/2026-09-29-populiariausi-kvapai/assets/closing/top10-final.jpg",
+        "w": 1200,
+        "h": 800
+      }
+    ],
+    "productInfo": [
+      {
+        "title": "Aventus",
+        "price": "29,90 €",
+        "volume": "30 ml · su buteliuku",
+        "url": "https://nobrenparfum.lt/lt/nisiniai-kvepalai/-ikvepti-aventus-nisiniai-kvepalai-vyrams-c35.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_09_29_populiariausi_kvapai&utm_content=c35_cta",
+        "descriptionGap": 30
+      },
+      {
+        "title": "Delina",
+        "price": "29,90 €",
+        "volume": "30 ml · su buteliuku",
+        "url": "https://nobrenparfum.lt/lt/nisiniai-kvepalai/-ikvepti-delina-nisiniai-kvepalai-moterims-p20.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_09_29_populiariausi_kvapai&utm_content=p20_cta",
+        "descriptionGap": 12
+      },
+      {
+        "title": "Kirke",
+        "price": "29,90 €",
+        "volume": "30 ml · su buteliuku",
+        "url": "https://nobrenparfum.lt/lt/nisiniai-kvepalai/-ikvepti-kirke-nisiniai-kvepalai-unisex-t3.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_09_29_populiariausi_kvapai&utm_content=t3_cta",
+        "descriptionGap": 12
+      },
+      {
+        "title": "Side Effect",
+        "price": "29,90 €",
+        "volume": "30 ml · su buteliuku",
+        "url": "https://nobrenparfum.lt/lt/nisiniai-kvepalai/-ikvepti-side-effect-nisiniai-kvepalai-unisex-i3.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_09_29_populiariausi_kvapai&utm_content=i3_cta",
+        "descriptionGap": 30
+      },
+      {
+        "title": "Fleur Narcotique",
+        "price": "29,90 €",
+        "volume": "30 ml · su buteliuku",
+        "url": "https://nobrenparfum.lt/lt/nisiniai-kvepalai/-nobren-fle-nisiniai-kvepalai-moterims-n7.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_09_29_populiariausi_kvapai&utm_content=n7_cta",
+        "descriptionGap": 30
+      },
+      {
+        "title": "MYSLF",
+        "price": "29,90 €",
+        "volume": "30 ml · su buteliuku",
+        "url": "https://nobrenparfum.lt/lt/kvepalai-vyrams/-ikvepti-myslf-kvepalai-vyrams-y12.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_09_29_populiariausi_kvapai&utm_content=y12_cta",
+        "descriptionGap": 12
+      }
+    ],
+    "alignment": [
+      [
+        1408,
+        1408
+      ],
+      [
+        1930,
+        1930
+      ],
+      [
+        2468,
+        2468
+      ]
+    ],
+    "overflow": [],
+    "presentationTables": true,
+    "offer": "DAUGIAU PAŽINČIŲ SU KVAPAIS\n\nNerandi vieno?\nPradėk nuo dešimties.\n\nTOP 10 mėginėlių rinkinys · 10 × 5 ml\n\n\n\n\n\n\n−10 % TOP 10 RINKINIUI\n\n49,86 €\n\n44,87 €\n\nIšbandyk skirtingus aromatus ant savo odos ir atrask, prie kurio norisi sugrįžti.\n\nPERŽIŪRĖTI PREKĘ  ↗\n\nRinkinio variantą vyrui arba moteriai pasirink prekės puslapyje.\n\n\n\nnobrenparfum.lt\n\nMB „Nobren parfum“\nGintaro g. 56, Vydmantai\n© 2026 Nobren Parfum\n\nKontaktai  ·  Privatumas\nAtsisakyti prenumeratos",
+    "footerColor": "rgb(23, 63, 56)"
+  },
+  {
+    "name": "mobile-320",
+    "width": 320,
+    "container": 320,
+    "height": 3448,
+    "images": [
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/20f1bf195484710ddd63dec4ad9aecde81ffe20e/campaigns/2026-09-29-populiariausi-kvapai/assets/brand/logo-strip.png",
+        "w": 1200,
+        "h": 150
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/20f1bf195484710ddd63dec4ad9aecde81ffe20e/campaigns/2026-09-29-populiariausi-kvapai/assets/hero/hero-final.jpg",
+        "w": 1200,
+        "h": 1380
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/20f1bf195484710ddd63dec4ad9aecde81ffe20e/campaigns/2026-09-29-populiariausi-kvapai/assets/products/c35.jpg",
+        "w": 600,
+        "h": 680
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/20f1bf195484710ddd63dec4ad9aecde81ffe20e/campaigns/2026-09-29-populiariausi-kvapai/assets/products/p20.jpg",
+        "w": 600,
+        "h": 680
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/20f1bf195484710ddd63dec4ad9aecde81ffe20e/campaigns/2026-09-29-populiariausi-kvapai/assets/products/t3.jpg",
+        "w": 600,
+        "h": 680
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/20f1bf195484710ddd63dec4ad9aecde81ffe20e/campaigns/2026-09-29-populiariausi-kvapai/assets/products/i3.jpg",
+        "w": 600,
+        "h": 680
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/20f1bf195484710ddd63dec4ad9aecde81ffe20e/campaigns/2026-09-29-populiariausi-kvapai/assets/products/n7.jpg",
+        "w": 600,
+        "h": 680
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/20f1bf195484710ddd63dec4ad9aecde81ffe20e/campaigns/2026-09-29-populiariausi-kvapai/assets/products/y12.jpg",
+        "w": 600,
+        "h": 680
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/20f1bf195484710ddd63dec4ad9aecde81ffe20e/campaigns/2026-09-29-populiariausi-kvapai/assets/closing/top10-final.jpg",
+        "w": 1200,
+        "h": 800
+      }
+    ],
+    "productInfo": [
+      {
+        "title": "Aventus",
+        "price": "29,90 €",
+        "volume": "30 ml · su buteliuku",
+        "url": "https://nobrenparfum.lt/lt/nisiniai-kvepalai/-ikvepti-aventus-nisiniai-kvepalai-vyrams-c35.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_09_29_populiariausi_kvapai&utm_content=c35_cta",
+        "descriptionGap": 12
+      },
+      {
+        "title": "Delina",
+        "price": "29,90 €",
+        "volume": "30 ml · su buteliuku",
+        "url": "https://nobrenparfum.lt/lt/nisiniai-kvepalai/-ikvepti-delina-nisiniai-kvepalai-moterims-p20.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_09_29_populiariausi_kvapai&utm_content=p20_cta",
+        "descriptionGap": 12
+      },
+      {
+        "title": "Kirke",
+        "price": "29,90 €",
+        "volume": "30 ml · su buteliuku",
+        "url": "https://nobrenparfum.lt/lt/nisiniai-kvepalai/-ikvepti-kirke-nisiniai-kvepalai-unisex-t3.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_09_29_populiariausi_kvapai&utm_content=t3_cta",
+        "descriptionGap": 12
+      },
+      {
+        "title": "Side Effect",
+        "price": "29,90 €",
+        "volume": "30 ml · su buteliuku",
+        "url": "https://nobrenparfum.lt/lt/nisiniai-kvepalai/-ikvepti-side-effect-nisiniai-kvepalai-unisex-i3.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_09_29_populiariausi_kvapai&utm_content=i3_cta",
+        "descriptionGap": 30
+      },
+      {
+        "title": "Fleur Narcotique",
+        "price": "29,90 €",
+        "volume": "30 ml · su buteliuku",
+        "url": "https://nobrenparfum.lt/lt/nisiniai-kvepalai/-nobren-fle-nisiniai-kvepalai-moterims-n7.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_09_29_populiariausi_kvapai&utm_content=n7_cta",
+        "descriptionGap": 12
+      },
+      {
+        "title": "MYSLF",
+        "price": "29,90 €",
+        "volume": "30 ml · su buteliuku",
+        "url": "https://nobrenparfum.lt/lt/kvepalai-vyrams/-ikvepti-myslf-kvepalai-vyrams-y12.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_09_29_populiariausi_kvapai&utm_content=y12_cta",
+        "descriptionGap": 12
+      }
+    ],
+    "alignment": [
+      [
+        1319,
+        1319
+      ],
+      [
+        1838,
+        1838
+      ],
+      [
+        2340,
+        2340
+      ]
+    ],
+    "overflow": [],
+    "presentationTables": true,
+    "offer": "DAUGIAU PAŽINČIŲ SU KVAPAIS\n\nNerandi vieno?\nPradėk nuo dešimties.\n\nTOP 10 mėginėlių rinkinys · 10 × 5 ml\n\n\n\n\n\n\n−10 % TOP 10 RINKINIUI\n\n49,86 €\n\n44,87 €\n\nIšbandyk skirtingus aromatus ant savo odos ir atrask, prie kurio norisi sugrįžti.\n\nPERŽIŪRĖTI PREKĘ  ↗\n\nRinkinio variantą vyrui arba moteriai pasirink prekės puslapyje.\n\n\n\nnobrenparfum.lt\n\nMB „Nobren parfum“\nGintaro g. 56, Vydmantai\n© 2026 Nobren Parfum\n\nKontaktai  ·  Privatumas\nAtsisakyti prenumeratos",
+    "footerColor": "rgb(23, 63, 56)"
+  }
+]

@@ -1,0 +1,125 @@
+{
+  "image": "/Users/kiprastinfavicius/.codex/visualizations/2026/09/13/01a09a8e-0878-7760-bdc8-29958c59f024/nobren-publishing/campaigns/2026-09-29-populiariausi-kvapai/assets/closing/top10-final.jpg",
+  "size": [
+    1200,
+    800
+  ],
+  "band": 24,
+  "tolerance": 2,
+  "edges": {
+    "top": {
+      "mean": [
+        23.0,
+        63.0,
+        55.0
+      ],
+      "min": [
+        23,
+        63,
+        55
+      ],
+      "max": [
+        23,
+        63,
+        55
+      ],
+      "spread": [
+        0,
+        0,
+        0
+      ]
+    },
+    "bottom": {
+      "mean": [
+        23.0,
+        63.0,
+        55.0
+      ],
+      "min": [
+        23,
+        63,
+        55
+      ],
+      "max": [
+        23,
+        63,
+        55
+      ],
+      "spread": [
+        0,
+        0,
+        0
+      ]
+    },
+    "left": {
+      "mean": [
+        25.629,
+        61.897,
+        52.971
+      ],
+      "min": [
+        18,
+        49,
+        39
+      ],
+      "max": [
+        45,
+        77,
+        62
+      ],
+      "spread": [
+        27,
+        28,
+        23
+      ]
+    },
+    "right": {
+      "mean": [
+        22.7,
+        56.624,
+        49.146
+      ],
+      "min": [
+        3,
+        22,
+        18
+      ],
+      "max": [
+        103,
+        64,
+        61
+      ],
+      "spread": [
+        100,
+        42,
+        43
+      ]
+    }
+  },
+  "checks": {
+    "top_target": {
+      "target": [
+        23,
+        63,
+        56
+      ],
+      "max_channel_delta": 1,
+      "pass": true
+    },
+    "bottom_target": {
+      "target": [
+        23,
+        63,
+        56
+      ],
+      "max_channel_delta": 1,
+      "pass": true
+    },
+    "source_width": {
+      "required": 1200,
+      "actual": 1200,
+      "pass": true
+    }
+  },
+  "pass": true
+}

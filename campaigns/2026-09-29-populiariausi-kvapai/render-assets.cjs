@@ -1,0 +1,5 @@
+const {chromium}=require('playwright'),sharp=require('sharp'),path=require('path');const {pathToFileURL}=require('url');
+(async()=>{const browser=await chromium.launch({headless:true,executablePath:'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'});try{
+for(const [name,width,height,file]of[['hero',1200,1380,'assets/hero/hero-final.jpg'],['brand',1200,150,'assets/brand/logo-strip.png'],['closing',1200,800,'assets/closing/top10-final.jpg']]){
+const page=await browser.newPage({viewport:{width,height},deviceScaleFactor:1,colorScheme:'light'});await page.goto(pathToFileURL(path.join(__dirname,name+'-compose.html')).href);await page.waitForFunction(()=>[...document.images].every(i=>i.complete&&i.naturalWidth));const buffer=await page.locator('.'+name).screenshot();let output=sharp(buffer).removeAlpha().toColourspace('srgb');if(file.endsWith('.jpg'))output=output.jpeg({quality:93,mozjpeg:true,chromaSubsampling:'4:4:4'});else output=output.png();await output.toFile(path.join(__dirname,file));await page.close();console.log(file);
+}}finally{await browser.close();}})().catch(e=>{console.error(e);process.exit(1)});
