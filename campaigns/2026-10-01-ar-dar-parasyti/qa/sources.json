@@ -1,0 +1,26 @@
+[
+  {
+    "url": "https://nobrenparfum.lt/lt/nauji-kvapai",
+    "status": 200,
+    "title": "Nauji kvapai",
+    "madam": false,
+    "top10": true,
+    "checkedAt": "2026-09-30T15:34:34.277Z"
+  },
+  {
+    "url": "https://nobrenparfum.lt/lt/nisiniai-kvepalai/-nobren-nisiniai-kvepalai-unisex-a5.html",
+    "status": 200,
+    "title": "Nobren Madam Madawi Gold Unisex kvepalai | A5",
+    "madam": true,
+    "top10": false,
+    "checkedAt": "2026-09-30T15:34:34.210Z"
+  },
+  {
+    "url": "https://nobrenparfum.lt/lt/dovanu-rinkiniai/--dovanu-rinkinys-idealu-top10.html",
+    "status": 200,
+    "title": "Mėginėlių Rinkinys &quot;TOP 10&quot; | 10x5ml",
+    "madam": false,
+    "top10": true,
+    "checkedAt": "2026-09-30T15:34:34.148Z"
+  }
+]

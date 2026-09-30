@@ -1,0 +1,59 @@
+[
+  {
+    "name": "desktop",
+    "width": 820,
+    "height": 777,
+    "container": 600,
+    "overflow": [],
+    "buttonText": "TAIP, NORIU GAUTI LAIŠKUS",
+    "buttonHeight": 52,
+    "href": "{% update_property_link 'nobren_keep_emails_20261001' 'yes' 'https://nobrenparfum.lt/lt/nauji-kvapai' %}",
+    "unsubscribe": "{% unsubscribe_link %}",
+    "allPresentation": true,
+    "images": [
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/04dae649b7df440800fb0f9ecf3263bc555b0eca/campaigns/2026-10-01-ar-dar-parasyti/assets/logo-strip.png",
+        "width": 1200
+      }
+    ],
+    "text": "\n\n\nTRUMPA ŽINUTĖ NUO NOBREN\n\nAr dar parašyti?\n\nLabas,\n\nNorime dalintis kvapų naujienomis, kurios tau įdomios. Tad šiandien turime vieną klausimą: ar dar nori gauti Nobren laiškus?\n\nKAS NAUJO?\n\nPristatėme „Madam A5“ su vaisių, tonkos ir vanilės natomis. O ieškantiems savo favorito — TOP 10 mėginėlių rinkinys.\n\nTAIP, NORIU GAUTI LAIŠKUS\n\nVienas paspaudimas — ir liekame ryšyje.\n\nJei į šį laišką nesureaguosi, daugiau naujienlaiškių nebesiųsime.\n\nNorisi atsisveikinti? Atsisakyti laiškų.\n\nIki kito kvapo,\nNobren komanda\n\n\n\n\nMB „Nobren parfum“ · Gintaro g. 56, Vydmantai\n© 2026 Nobren Parfum"
+  },
+  {
+    "name": "mobile",
+    "width": 390,
+    "height": 758,
+    "container": 390,
+    "overflow": [],
+    "buttonText": "TAIP, NORIU GAUTI LAIŠKUS",
+    "buttonHeight": 52,
+    "href": "{% update_property_link 'nobren_keep_emails_20261001' 'yes' 'https://nobrenparfum.lt/lt/nauji-kvapai' %}",
+    "unsubscribe": "{% unsubscribe_link %}",
+    "allPresentation": true,
+    "images": [
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/04dae649b7df440800fb0f9ecf3263bc555b0eca/campaigns/2026-10-01-ar-dar-parasyti/assets/logo-strip.png",
+        "width": 1200
+      }
+    ],
+    "text": "\n\n\nTRUMPA ŽINUTĖ NUO NOBREN\n\nAr dar parašyti?\n\nLabas,\n\nNorime dalintis kvapų naujienomis, kurios tau įdomios. Tad šiandien turime vieną klausimą: ar dar nori gauti Nobren laiškus?\n\nKAS NAUJO?\n\nPristatėme „Madam A5“ su vaisių, tonkos ir vanilės natomis. O ieškantiems savo favorito — TOP 10 mėginėlių rinkinys.\n\nTAIP, NORIU GAUTI LAIŠKUS\n\nVienas paspaudimas — ir liekame ryšyje.\n\nJei į šį laišką nesureaguosi, daugiau naujienlaiškių nebesiųsime.\n\nNorisi atsisveikinti? Atsisakyti laiškų.\n\nIki kito kvapo,\nNobren komanda\n\n\n\n\nMB „Nobren parfum“ · Gintaro g. 56, Vydmantai\n© 2026 Nobren Parfum"
+  },
+  {
+    "name": "mobile-320",
+    "width": 320,
+    "height": 778,
+    "container": 320,
+    "overflow": [],
+    "buttonText": "TAIP, NORIU GAUTI LAIŠKUS",
+    "buttonHeight": 52,
+    "href": "{% update_property_link 'nobren_keep_emails_20261001' 'yes' 'https://nobrenparfum.lt/lt/nauji-kvapai' %}",
+    "unsubscribe": "{% unsubscribe_link %}",
+    "allPresentation": true,
+    "images": [
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/04dae649b7df440800fb0f9ecf3263bc555b0eca/campaigns/2026-10-01-ar-dar-parasyti/assets/logo-strip.png",
+        "width": 1200
+      }
+    ],
+    "text": "\n\n\nTRUMPA ŽINUTĖ NUO NOBREN\n\nAr dar parašyti?\n\nLabas,\n\nNorime dalintis kvapų naujienomis, kurios tau įdomios. Tad šiandien turime vieną klausimą: ar dar nori gauti Nobren laiškus?\n\nKAS NAUJO?\n\nPristatėme „Madam A5“ su vaisių, tonkos ir vanilės natomis. O ieškantiems savo favorito — TOP 10 mėginėlių rinkinys.\n\nTAIP, NORIU GAUTI LAIŠKUS\n\nVienas paspaudimas — ir liekame ryšyje.\n\nJei į šį laišką nesureaguosi, daugiau naujienlaiškių nebesiųsime.\n\nNorisi atsisveikinti? Atsisakyti laiškų.\n\nIki kito kvapo,\nNobren komanda\n\n\n\n\nMB „Nobren parfum“ · Gintaro g. 56, Vydmantai\n© 2026 Nobren Parfum"
+  }
+]

@@ -1,0 +1,25 @@
+Subject: Ar dar parašyti?
+Preview line: Trumpai apie Nobren naujienas ir vienas klausimas tau.
+
+AR DAR PARAŠYTI?
+
+Labas,
+
+Norime dalintis kvapų naujienomis, kurios tau įdomios. Tad šiandien turime vieną klausimą: ar dar nori gauti Nobren laiškus?
+
+KAS NAUJO?
+Pristatėme „Madam A5“ su vaisių, tonkos ir vanilės natomis. O ieškantiems savo favorito — TOP 10 mėginėlių rinkinys.
+
+TAIP, NORIU GAUTI LAIŠKUS: {% update_property_link 'nobren_keep_emails_20261001' 'yes' 'https://nobrenparfum.lt/lt/nauji-kvapai' %}
+Vienas paspaudimas — ir liekame ryšyje.
+
+Jei į šį laišką nesureaguosi, daugiau naujienlaiškių nebesiųsime.
+
+Norisi atsisveikinti? Atsisakyti laiškų: {% unsubscribe_link %}
+
+Iki kito kvapo,
+Nobren komanda
+
+MB „Nobren parfum“
+Gintaro g. 56, Vydmantai
+© 2026 Nobren Parfum
