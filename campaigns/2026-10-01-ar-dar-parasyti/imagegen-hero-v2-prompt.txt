@@ -1,0 +1,20 @@
+Use case: ads-marketing.
+Create a polished finished email HERO POSTER for NOBREN, including ALL headline, supporting copy and CTA typography IN THE IMAGE. Portrait 4:5 aspect ratio, intended to be shown 600 px wide, legible even at 320 px wide. This replaces a basic room photo plus separate HTML text with one coherent art-directed advertising composition.
+
+Reference image 1: official Amber Expresso home reed diffuser packshot. Reference image 2: official Velvet Dust home reed diffuser packshot. Preserve the exact shared product identity: deep navy rounded rectangular 50 ml glass diffuser, black neck collar, four slender full-length black reeds, delicate gold NP signature and NOBREN lettering. Show exactly two diffusers, no perfume spray bottles, no new package designs.
+
+Creative direction: "A welcome back, with something worth discovering." Rich oxblood/burgundy architectural alcove, warm terracotta curved wall, sculptural dark cherry lacquer shelf and one amber translucent glass plinth. Premium modern fragrance editorial, confident and tactile, not a generic living room. Soft golden autumn sunlight creates one graceful curved shadow. Foreground a few coffee beans and a small amber stone by the left diffuser, a small piece of wood and moss by the right diffuser; very restrained props. Photorealistic glass reflections, gold packaging detail, elegant depth, beautiful material contrast. Two diffusers in the lower middle, one in front on the left, the other a little higher on the right. Full reeds never cropped. Do not obscure typography with reeds or props.
+
+TYPOGRAPHIC COMPOSITION: large warm-white contemporary bold sans-serif headline, high contrast, centered in the upper third, dominant and confidently typeset. Generous clear space around it. Supporting copy directly below, also warm white, large enough for phone reading. No small labels or tiny footnotes. Products occupy the central/lower scene. A substantial light-cream rectangular CTA with burgundy bold text sits below the products with comfortable padding. All copy is designed INTO the photographic poster and perfectly spelled in Lithuanian. No extra English copy.
+EXACT HEADLINE on two lines:
+"Seniai matėmės.
+Turime naujienų."
+EXACT SUPPORTING COPY on two lines:
+"6 nauji kvapai tavo namams.
+Likime ryšyje."
+EXACT CTA, one line:
+"TAIP, NORIU GAUTI LAIŠKUS"
+
+Headline approximately 9% of image width per line height; supporting copy approximately 4.3% of width; CTA type approximately 3.7% of width. Keep headline on exactly two lines. All typography and CTA safely inset 6% from sides. Prioritize flawless Lithuanian diacritics: ė, ų, š. The CTA is the only button in the poster.
+
+EMAIL EDGE CONTRACT: a solid warm ivory #FFFDF9 band across the entire first and last 32 pixels; blend the first into the burgundy scene over a short soft 90px transition, and blend the bottom of scene to ivory before the final band. Keep CTA and all products safely above bottom transition. Do not wash out the central image or text. Left and right scene edges remain deep burgundy. No white rounded card framing. No logo beyond original bottle branding, no watermark, no other text. This is final artwork with all copy; do not leave text placeholders.
