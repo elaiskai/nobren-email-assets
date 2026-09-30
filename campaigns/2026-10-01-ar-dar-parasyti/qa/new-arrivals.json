@@ -1,0 +1,19 @@
+{
+  "url": "https://nobrenparfum.lt/lt/nauji-kvapai",
+  "status": 200,
+  "checkedAt": "2026-09-30T17:22:56.178Z",
+  "products": [
+    {
+      "id": "amber-expresso",
+      "url": "https://nobrenparfum.lt/lt/namu-kvapai/--amber-expresso-namu-kvapas.html",
+      "inCurrentNewArrivals": true,
+      "newFlag": "Nauja"
+    },
+    {
+      "id": "velvet-dust",
+      "url": "https://nobrenparfum.lt/lt/namu-kvapai/--velvet-dust-namu-kvapas.html",
+      "inCurrentNewArrivals": true,
+      "newFlag": "Nauja"
+    }
+  ]
+}

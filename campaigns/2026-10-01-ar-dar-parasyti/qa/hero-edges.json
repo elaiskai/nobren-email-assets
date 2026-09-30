@@ -1,0 +1,125 @@
+{
+  "image": "/Users/kiprastinfavicius/.codex/visualizations/2026/09/13/01a09a8e-0878-7760-bdc8-29958c59f024/nobren-publishing/campaigns/2026-10-01-ar-dar-parasyti/assets/hero/hero-home-v1.jpg",
+  "size": [
+    1200,
+    800
+  ],
+  "band": 24,
+  "tolerance": 2,
+  "edges": {
+    "top": {
+      "mean": [
+        254.0,
+        253.0,
+        249.0
+      ],
+      "min": [
+        254,
+        253,
+        249
+      ],
+      "max": [
+        254,
+        253,
+        249
+      ],
+      "spread": [
+        0,
+        0,
+        0
+      ]
+    },
+    "bottom": {
+      "mean": [
+        254.0,
+        253.0,
+        249.0
+      ],
+      "min": [
+        254,
+        253,
+        249
+      ],
+      "max": [
+        254,
+        253,
+        249
+      ],
+      "spread": [
+        0,
+        0,
+        0
+      ]
+    },
+    "left": {
+      "mean": [
+        101.821,
+        65.487,
+        64.216
+      ],
+      "min": [
+        35,
+        7,
+        9
+      ],
+      "max": [
+        254,
+        253,
+        249
+      ],
+      "spread": [
+        219,
+        246,
+        240
+      ]
+    },
+    "right": {
+      "mean": [
+        172.099,
+        112.255,
+        93.469
+      ],
+      "min": [
+        6,
+        0,
+        0
+      ],
+      "max": [
+        255,
+        254,
+        250
+      ],
+      "spread": [
+        249,
+        254,
+        250
+      ]
+    }
+  },
+  "checks": {
+    "top_target": {
+      "target": [
+        255,
+        253,
+        249
+      ],
+      "max_channel_delta": 1,
+      "pass": true
+    },
+    "bottom_target": {
+      "target": [
+        255,
+        253,
+        249
+      ],
+      "max_channel_delta": 1,
+      "pass": true
+    },
+    "source_width": {
+      "required": 1200,
+      "actual": 1200,
+      "pass": true
+    }
+  },
+  "pass": true
+}

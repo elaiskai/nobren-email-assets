@@ -1,0 +1,49 @@
+{
+  "checkedAt": "2026-09-30T17:35:30.326Z",
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/61df4a17ddd2445f90fa8b2022ad5db4b713dbf6/campaigns/2026-10-01-ar-dar-parasyti/assets/logo-strip.png",
+      "status": 200,
+      "bytes": 15756,
+      "sha256": "31889416cd48280455835987587739d6fe1b332e1177dc876d643ef06af181fe"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/61df4a17ddd2445f90fa8b2022ad5db4b713dbf6/campaigns/2026-10-01-ar-dar-parasyti/assets/hero/hero-home-v1.jpg",
+      "status": 200,
+      "bytes": 286363,
+      "sha256": "02461efbc36b3fcbc313852e76ed154d3450c3c1c6d4e72bb93df607390bc8c5"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/61df4a17ddd2445f90fa8b2022ad5db4b713dbf6/campaigns/2026-10-01-ar-dar-parasyti/assets/products/amber-expresso.jpg",
+      "status": 200,
+      "bytes": 30152,
+      "sha256": "5668eb5c5242db2d977491cc284797becb5e7f5173785b626e789ad1bd9e7183"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/61df4a17ddd2445f90fa8b2022ad5db4b713dbf6/campaigns/2026-10-01-ar-dar-parasyti/assets/products/velvet-dust.jpg",
+      "status": 200,
+      "bytes": 32886,
+      "sha256": "e7ba2a6db09a06f9c074fb7f8c24c02e39b6e85ca6a7037b771efc6fb0cf8fb0"
+    }
+  ],
+  "links": [
+    {
+      "url": "https://nobrenparfum.lt/lt/nauji-kvapai",
+      "status": 200,
+      "title": "Nauji kvapai",
+      "checkedAt": "2026-09-30T17:35:30.326Z"
+    },
+    {
+      "url": "https://nobrenparfum.lt/lt/namu-kvapai/--amber-expresso-namu-kvapas.html",
+      "status": 200,
+      "title": "- Amber Expresso Namų Kvapas | 50ml",
+      "checkedAt": "2026-09-30T17:35:29.081Z"
+    },
+    {
+      "url": "https://nobrenparfum.lt/lt/namu-kvapai/--velvet-dust-namu-kvapas.html",
+      "status": 200,
+      "title": "- Velvet Dust Namų Kvapas | 50ml",
+      "checkedAt": "2026-09-30T17:35:29.094Z"
+    }
+  ]
+}

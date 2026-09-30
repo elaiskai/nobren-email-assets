@@ -1,20 +1,26 @@
 Subject: Ar dar parašyti?
-Preview line: Trumpai apie Nobren naujienas ir vienas klausimas tau.
+Preview line: Nauji kvapai tavo namams. Ar dar nori Nobren naujienų?
 
-AR DAR PARAŠYTI?
+NAUJI KVAPAI. TAVO NAMAMS.
 
-Labas,
-
-Norime dalintis kvapų naujienomis, kurios tau įdomios. Tad šiandien turime vieną klausimą: ar dar nori gauti Nobren laiškus?
-
-KAS NAUJO?
-Pristatėme „Madam A5“ su vaisių, tonkos ir vanilės natomis. O ieškantiems savo favorito — TOP 10 mėginėlių rinkinys.
+Ar dar parašyti?
+„Nobren“ naujienų lentynoje — kvapai namams. Jei nori apie mūsų atradimus girdėti ir toliau, likime ryšyje.
 
 TAIP, NORIU GAUTI LAIŠKUS: {% update_property_link 'nobren_keep_emails_20261001' 'yes' 'https://nobrenparfum.lt/lt/nauji-kvapai' %}
 Vienas paspaudimas — ir liekame ryšyje.
 
-Jei į šį laišką nesureaguosi, daugiau naujienlaiškių nebesiųsime.
+DVI NAUJOS PAŽINTYS
+Amber Expresso
+50 ml · namų kvapas · 18,90 €
+Šilta kava ir švelni ambra jaukiam namų fonui.
+Peržiūrėti prekę: https://nobrenparfum.lt/lt/namu-kvapai/--amber-expresso-namu-kvapas.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_10_01_ar_dar_parasyti&utm_content=amber-expresso_cta
 
+Velvet Dust
+50 ml · namų kvapas · 18,90 €
+Oda, agarmedis ir šilta, kreminė mediena.
+Peržiūrėti prekę: https://nobrenparfum.lt/lt/namu-kvapai/--velvet-dust-namu-kvapas.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_10_01_ar_dar_parasyti&utm_content=velvet-dust_cta
+
+Jei į šį laišką nesureaguosi, daugiau naujienlaiškių nebesiųsime.
 Norisi atsisveikinti? Atsisakyti laiškų: {% unsubscribe_link %}
 
 Iki kito kvapo,

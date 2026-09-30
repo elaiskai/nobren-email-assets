@@ -2,7 +2,7 @@
   {
     "name": "desktop",
     "width": 820,
-    "height": 777,
+    "height": 1575,
     "container": 600,
     "overflow": [],
     "buttonText": "TAIP, NORIU GAUTI LAIŠKUS",
@@ -10,18 +10,48 @@
     "href": "{% update_property_link 'nobren_keep_emails_20261001' 'yes' 'https://nobrenparfum.lt/lt/nauji-kvapai' %}",
     "unsubscribe": "{% unsubscribe_link %}",
     "allPresentation": true,
-    "images": [
+    "products": [
       {
-        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/04dae649b7df440800fb0f9ecf3263bc555b0eca/campaigns/2026-10-01-ar-dar-parasyti/assets/logo-strip.png",
-        "width": 1200
+        "name": "Amber Expresso",
+        "price": "18,90 €",
+        "descriptionGap": 11,
+        "buttonY": 1252.921875,
+        "button": "PERŽIŪRĖTI PREKĘ",
+        "url": "https://nobrenparfum.lt/lt/namu-kvapai/--amber-expresso-namu-kvapas.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_10_01_ar_dar_parasyti&utm_content=amber-expresso_cta"
+      },
+      {
+        "name": "Velvet Dust",
+        "price": "18,90 €",
+        "descriptionGap": 31,
+        "buttonY": 1252.921875,
+        "button": "PERŽIŪRĖTI PREKĘ",
+        "url": "https://nobrenparfum.lt/lt/namu-kvapai/--velvet-dust-namu-kvapas.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_10_01_ar_dar_parasyti&utm_content=velvet-dust_cta"
       }
     ],
-    "text": "\n\n\nTRUMPA ŽINUTĖ NUO NOBREN\n\nAr dar parašyti?\n\nLabas,\n\nNorime dalintis kvapų naujienomis, kurios tau įdomios. Tad šiandien turime vieną klausimą: ar dar nori gauti Nobren laiškus?\n\nKAS NAUJO?\n\nPristatėme „Madam A5“ su vaisių, tonkos ir vanilės natomis. O ieškantiems savo favorito — TOP 10 mėginėlių rinkinys.\n\nTAIP, NORIU GAUTI LAIŠKUS\n\nVienas paspaudimas — ir liekame ryšyje.\n\nJei į šį laišką nesureaguosi, daugiau naujienlaiškių nebesiųsime.\n\nNorisi atsisveikinti? Atsisakyti laiškų.\n\nIki kito kvapo,\nNobren komanda\n\n\n\n\nMB „Nobren parfum“ · Gintaro g. 56, Vydmantai\n© 2026 Nobren Parfum"
+    "images": [
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/61df4a17ddd2445f90fa8b2022ad5db4b713dbf6/campaigns/2026-10-01-ar-dar-parasyti/assets/logo-strip.png",
+        "width": 1200
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/61df4a17ddd2445f90fa8b2022ad5db4b713dbf6/campaigns/2026-10-01-ar-dar-parasyti/assets/hero/hero-home-v1.jpg",
+        "width": 1200
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/61df4a17ddd2445f90fa8b2022ad5db4b713dbf6/campaigns/2026-10-01-ar-dar-parasyti/assets/products/amber-expresso.jpg",
+        "width": 600
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/61df4a17ddd2445f90fa8b2022ad5db4b713dbf6/campaigns/2026-10-01-ar-dar-parasyti/assets/products/velvet-dust.jpg",
+        "width": 600
+      }
+    ],
+    "text": "\n\n\n\nAr dar parašyti?\n\n„Nobren“ naujienų lentynoje — kvapai namams. Jei nori apie mūsų atradimus girdėti ir toliau, likime ryšyje.\n\nTAIP, NORIU GAUTI LAIŠKUS\n\nVienas paspaudimas — ir liekame ryšyje.\n\n\n\n\nNAMŲ KVAPŲ NAUJIENOS\n\nDvi naujos pažintys.\n\n\n\t \t\n\n\nAmber Expresso\n\t \t\nVelvet Dust\n\n\n\n50 ml · namų kvapas\n\n\t \t\n\n50 ml · namų kvapas\n\n\n\n\nŠilta kava ir švelni ambra jaukiam namų fonui.\n\n\t \t\n\nOda, agarmedis ir šilta, kreminė mediena.\n\n\n\n\n18,90 €\n\n\t \t\n\n18,90 €\n\n\n\nPERŽIŪRĖTI PREKĘ\n\t \t\nPERŽIŪRĖTI PREKĘ\n\n\n\nJei į šį laišką nesureaguosi, daugiau naujienlaiškių nebesiųsime.\n\nNorisi atsisveikinti? Atsisakyti laiškų.\n\nIki kito kvapo,\nNobren komanda\n\n\n\n\nMB „Nobren parfum“ · Gintaro g. 56, Vydmantai\n© 2026 Nobren Parfum"
   },
   {
     "name": "mobile",
     "width": 390,
-    "height": 758,
+    "height": 1309,
     "container": 390,
     "overflow": [],
     "buttonText": "TAIP, NORIU GAUTI LAIŠKUS",
@@ -29,18 +59,48 @@
     "href": "{% update_property_link 'nobren_keep_emails_20261001' 'yes' 'https://nobrenparfum.lt/lt/nauji-kvapai' %}",
     "unsubscribe": "{% unsubscribe_link %}",
     "allPresentation": true,
-    "images": [
+    "products": [
       {
-        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/04dae649b7df440800fb0f9ecf3263bc555b0eca/campaigns/2026-10-01-ar-dar-parasyti/assets/logo-strip.png",
-        "width": 1200
+        "name": "Amber Expresso",
+        "price": "18,90 €",
+        "descriptionGap": 11,
+        "buttonY": 994.328125,
+        "button": "PERŽIŪRĖTI PREKĘ",
+        "url": "https://nobrenparfum.lt/lt/namu-kvapai/--amber-expresso-namu-kvapas.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_10_01_ar_dar_parasyti&utm_content=amber-expresso_cta"
+      },
+      {
+        "name": "Velvet Dust",
+        "price": "18,90 €",
+        "descriptionGap": 11,
+        "buttonY": 994.328125,
+        "button": "PERŽIŪRĖTI PREKĘ",
+        "url": "https://nobrenparfum.lt/lt/namu-kvapai/--velvet-dust-namu-kvapas.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_10_01_ar_dar_parasyti&utm_content=velvet-dust_cta"
       }
     ],
-    "text": "\n\n\nTRUMPA ŽINUTĖ NUO NOBREN\n\nAr dar parašyti?\n\nLabas,\n\nNorime dalintis kvapų naujienomis, kurios tau įdomios. Tad šiandien turime vieną klausimą: ar dar nori gauti Nobren laiškus?\n\nKAS NAUJO?\n\nPristatėme „Madam A5“ su vaisių, tonkos ir vanilės natomis. O ieškantiems savo favorito — TOP 10 mėginėlių rinkinys.\n\nTAIP, NORIU GAUTI LAIŠKUS\n\nVienas paspaudimas — ir liekame ryšyje.\n\nJei į šį laišką nesureaguosi, daugiau naujienlaiškių nebesiųsime.\n\nNorisi atsisveikinti? Atsisakyti laiškų.\n\nIki kito kvapo,\nNobren komanda\n\n\n\n\nMB „Nobren parfum“ · Gintaro g. 56, Vydmantai\n© 2026 Nobren Parfum"
+    "images": [
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/61df4a17ddd2445f90fa8b2022ad5db4b713dbf6/campaigns/2026-10-01-ar-dar-parasyti/assets/logo-strip.png",
+        "width": 1200
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/61df4a17ddd2445f90fa8b2022ad5db4b713dbf6/campaigns/2026-10-01-ar-dar-parasyti/assets/hero/hero-home-v1.jpg",
+        "width": 1200
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/61df4a17ddd2445f90fa8b2022ad5db4b713dbf6/campaigns/2026-10-01-ar-dar-parasyti/assets/products/amber-expresso.jpg",
+        "width": 600
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/61df4a17ddd2445f90fa8b2022ad5db4b713dbf6/campaigns/2026-10-01-ar-dar-parasyti/assets/products/velvet-dust.jpg",
+        "width": 600
+      }
+    ],
+    "text": "\n\n\n\nAr dar parašyti?\n\n„Nobren“ naujienų lentynoje — kvapai namams. Jei nori apie mūsų atradimus girdėti ir toliau, likime ryšyje.\n\nTAIP, NORIU GAUTI LAIŠKUS\n\nVienas paspaudimas — ir liekame ryšyje.\n\n\n\n\nNAMŲ KVAPŲ NAUJIENOS\n\nDvi naujos pažintys.\n\n\n\t \t\n\n\nAmber Expresso\n\t \t\nVelvet Dust\n\n\n\n50 ml · namų kvapas\n\n\t \t\n\n50 ml · namų kvapas\n\n\n\n\nŠilta kava ir švelni ambra jaukiam namų fonui.\n\n\t \t\n\nOda, agarmedis ir šilta, kreminė mediena.\n\n\n\n\n18,90 €\n\n\t \t\n\n18,90 €\n\n\n\nPERŽIŪRĖTI PREKĘ\n\t \t\nPERŽIŪRĖTI PREKĘ\n\n\n\nJei į šį laišką nesureaguosi, daugiau naujienlaiškių nebesiųsime.\n\nNorisi atsisveikinti? Atsisakyti laiškų.\n\nIki kito kvapo,\nNobren komanda\n\n\n\n\nMB „Nobren parfum“ · Gintaro g. 56, Vydmantai\n© 2026 Nobren Parfum"
   },
   {
     "name": "mobile-320",
     "width": 320,
-    "height": 778,
+    "height": 1231,
     "container": 320,
     "overflow": [],
     "buttonText": "TAIP, NORIU GAUTI LAIŠKUS",
@@ -48,12 +108,42 @@
     "href": "{% update_property_link 'nobren_keep_emails_20261001' 'yes' 'https://nobrenparfum.lt/lt/nauji-kvapai' %}",
     "unsubscribe": "{% unsubscribe_link %}",
     "allPresentation": true,
-    "images": [
+    "products": [
       {
-        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/04dae649b7df440800fb0f9ecf3263bc555b0eca/campaigns/2026-10-01-ar-dar-parasyti/assets/logo-strip.png",
-        "width": 1200
+        "name": "Amber Expresso",
+        "price": "18,90 €",
+        "descriptionGap": 11,
+        "buttonY": 916.25,
+        "button": "PERŽIŪRĖTI PREKĘ",
+        "url": "https://nobrenparfum.lt/lt/namu-kvapai/--amber-expresso-namu-kvapas.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_10_01_ar_dar_parasyti&utm_content=amber-expresso_cta"
+      },
+      {
+        "name": "Velvet Dust",
+        "price": "18,90 €",
+        "descriptionGap": 11,
+        "buttonY": 916.25,
+        "button": "PERŽIŪRĖTI PREKĘ",
+        "url": "https://nobrenparfum.lt/lt/namu-kvapai/--velvet-dust-namu-kvapas.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_10_01_ar_dar_parasyti&utm_content=velvet-dust_cta"
       }
     ],
-    "text": "\n\n\nTRUMPA ŽINUTĖ NUO NOBREN\n\nAr dar parašyti?\n\nLabas,\n\nNorime dalintis kvapų naujienomis, kurios tau įdomios. Tad šiandien turime vieną klausimą: ar dar nori gauti Nobren laiškus?\n\nKAS NAUJO?\n\nPristatėme „Madam A5“ su vaisių, tonkos ir vanilės natomis. O ieškantiems savo favorito — TOP 10 mėginėlių rinkinys.\n\nTAIP, NORIU GAUTI LAIŠKUS\n\nVienas paspaudimas — ir liekame ryšyje.\n\nJei į šį laišką nesureaguosi, daugiau naujienlaiškių nebesiųsime.\n\nNorisi atsisveikinti? Atsisakyti laiškų.\n\nIki kito kvapo,\nNobren komanda\n\n\n\n\nMB „Nobren parfum“ · Gintaro g. 56, Vydmantai\n© 2026 Nobren Parfum"
+    "images": [
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/61df4a17ddd2445f90fa8b2022ad5db4b713dbf6/campaigns/2026-10-01-ar-dar-parasyti/assets/logo-strip.png",
+        "width": 1200
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/61df4a17ddd2445f90fa8b2022ad5db4b713dbf6/campaigns/2026-10-01-ar-dar-parasyti/assets/hero/hero-home-v1.jpg",
+        "width": 1200
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/61df4a17ddd2445f90fa8b2022ad5db4b713dbf6/campaigns/2026-10-01-ar-dar-parasyti/assets/products/amber-expresso.jpg",
+        "width": 600
+      },
+      {
+        "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/61df4a17ddd2445f90fa8b2022ad5db4b713dbf6/campaigns/2026-10-01-ar-dar-parasyti/assets/products/velvet-dust.jpg",
+        "width": 600
+      }
+    ],
+    "text": "\n\n\n\nAr dar parašyti?\n\n„Nobren“ naujienų lentynoje — kvapai namams. Jei nori apie mūsų atradimus girdėti ir toliau, likime ryšyje.\n\nTAIP, NORIU GAUTI LAIŠKUS\n\nVienas paspaudimas — ir liekame ryšyje.\n\n\n\n\nNAMŲ KVAPŲ NAUJIENOS\n\nDvi naujos pažintys.\n\n\n\t \t\n\n\nAmber Expresso\n\t \t\nVelvet Dust\n\n\n\n50 ml · namų kvapas\n\n\t \t\n\n50 ml · namų kvapas\n\n\n\n\nŠilta kava ir švelni ambra jaukiam namų fonui.\n\n\t \t\n\nOda, agarmedis ir šilta, kreminė mediena.\n\n\n\n\n18,90 €\n\n\t \t\n\n18,90 €\n\n\n\nPERŽIŪRĖTI PREKĘ\n\t \t\nPERŽIŪRĖTI PREKĘ\n\n\n\nJei į šį laišką nesureaguosi, daugiau naujienlaiškių nebesiųsime.\n\nNorisi atsisveikinti? Atsisakyti laiškų.\n\nIki kito kvapo,\nNobren komanda\n\n\n\n\nMB „Nobren parfum“ · Gintaro g. 56, Vydmantai\n© 2026 Nobren Parfum"
   }
 ]
