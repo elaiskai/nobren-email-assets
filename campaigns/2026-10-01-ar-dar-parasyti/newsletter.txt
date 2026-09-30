@@ -1,49 +1,48 @@
-Subject: Ar dar parašyti?
-Preview line: 6 nauji kvapai tavo namams. Likime ryšyje.
+Subject: 6 nauji kvapai tavo namams
+Preview line: Nuo šiltos kavos iki gaivaus eukalipto — atrask savo favoritą.
 
-Seniai matėmės. Turime naujienų.
-6 nauji kvapai tavo namams. Likime ryšyje.
+Namų nuotaika prasideda kvapu.
+6 nauji aromatai. Atrask savo favoritą.
 
-TAIP, NORIU GAUTI LAIŠKUS: {% update_property_link 'nobren_keep_emails_20261001' 'yes' 'https://nobrenparfum.lt/lt/nauji-kvapai' %}
-Vienas paspaudimas — ir liekame ryšyje.
+PERŽIŪRĖTI NAUJIENAS: https://nobrenparfum.lt/lt/nauji-kvapai?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_10_01_namu_kvapu_naujienos&utm_content=hero
 
 ATRASK SAVO FAVORITĄ.
 Amber Expresso
 50 ml · namų kvapas · 18,90 €
 Šilta kava ir švelni ambra jaukiems namams.
-Peržiūrėti prekę: https://nobrenparfum.lt/lt/namu-kvapai/--amber-expresso-namu-kvapas.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_10_01_ar_dar_parasyti&utm_content=amber-expresso_cta
+Peržiūrėti prekę: https://nobrenparfum.lt/lt/namu-kvapai/--amber-expresso-namu-kvapas.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_10_01_namu_kvapu_naujienos&utm_content=amber-expresso_cta
 
 Velvet Dust
 50 ml · namų kvapas · 18,90 €
 Gilūs odos ir agarmedžio tonai su kremine mediena.
-Peržiūrėti prekę: https://nobrenparfum.lt/lt/namu-kvapai/--velvet-dust-namu-kvapas.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_10_01_ar_dar_parasyti&utm_content=velvet-dust_cta
+Peržiūrėti prekę: https://nobrenparfum.lt/lt/namu-kvapai/--velvet-dust-namu-kvapas.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_10_01_namu_kvapu_naujienos&utm_content=velvet-dust_cta
 
 Aphrodisiac
 135 ml · namų kvapas · 27,90 €
 Švelnus saldumas, kašmyro šiluma ir kreminis jaukumas.
-Peržiūrėti prekę: https://nobrenparfum.lt/lt/namu-kvapai/--aphrodisiac-namu-kvapas.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_10_01_ar_dar_parasyti&utm_content=aphrodisiac_cta
+Peržiūrėti prekę: https://nobrenparfum.lt/lt/namu-kvapai/--aphrodisiac-namu-kvapas.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_10_01_namu_kvapu_naujienos&utm_content=aphrodisiac_cta
 
 Sultan Rituals
 50 ml · namų kvapas · 18,90 €
 Gaivus eukaliptas ir žolelės — tarsi SPA namuose.
-Peržiūrėti prekę: https://nobrenparfum.lt/lt/namu-kvapai/--sultan-rituals-namu-kvapas.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_10_01_ar_dar_parasyti&utm_content=sultan-rituals_cta
+Peržiūrėti prekę: https://nobrenparfum.lt/lt/namu-kvapai/--sultan-rituals-namu-kvapas.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_10_01_namu_kvapu_naujienos&utm_content=sultan-rituals_cta
 
 Palangos Kerai
 50 ml · namų kvapas · 18,90 €
 Ananasai ir hiacintai — šviesus pajūrio gaivumas.
-Peržiūrėti prekę: https://nobrenparfum.lt/lt/namu-kvapai/--palangos-kerai-namu-kvapas.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_10_01_ar_dar_parasyti&utm_content=palangos-kerai_cta
+Peržiūrėti prekę: https://nobrenparfum.lt/lt/namu-kvapai/--palangos-kerai-namu-kvapas.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_10_01_namu_kvapu_naujienos&utm_content=palangos-kerai_cta
 
 Tonka Divine
 50 ml · namų kvapas · 18,90 €
 Sodrus, šiltas aromatas jaukiems namų ritualams.
-Peržiūrėti prekę: https://nobrenparfum.lt/lt/namu-kvapai/--tonka-divine-namu-kvapas.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_10_01_ar_dar_parasyti&utm_content=tonka-divine_cta
+Peržiūrėti prekę: https://nobrenparfum.lt/lt/namu-kvapai/--tonka-divine-namu-kvapas.html?utm_source=klaviyo&utm_medium=email&utm_campaign=2026_10_01_namu_kvapu_naujienos&utm_content=tonka-divine_cta
 
-Jei į šį laišką nesureaguosi, daugiau naujienlaiškių nebesiųsime.
-Norisi atsisveikinti? Atsisakyti laiškų: {% unsubscribe_link %}
+Išsirink kvapą, kuris namams suteiks tavo norimą nuotaiką.
 
-Iki kito kvapo,
+Jaukių atradimų,
 Nobren komanda
 
 MB „Nobren parfum“
 Gintaro g. 56, Vydmantai
 © 2026 Nobren Parfum
+Atsisakyti laiškų: {% unsubscribe_link %}

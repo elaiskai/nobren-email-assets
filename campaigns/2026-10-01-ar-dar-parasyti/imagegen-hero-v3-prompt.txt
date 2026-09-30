@@ -1,0 +1,17 @@
+Use case: text-localization / precise-object-edit.
+Edit the supplied NOBREN finished email hero. This is a TEXT-ONLY creative adaptation from a re-engagement message to an ordinary new-products campaign for active customers.
+Preserve the exact portrait composition, both Nobren diffuser bottles and their gold logos, all reeds, photography, burgundy and terracotta alcove, amber plinth, coffee/wood props, sunlight, shadows, cream top/bottom edges, and cream CTA rectangle. Do not redesign the scene or add any product. Maintain the same bold white typography, centered alignment, visual hierarchy and phone readability. Replace ALL three text groups, with the exact Lithuanian text below. Render all new copy directly INTO the image.
+
+1. Replace the large two-line headline with exactly:
+"Namų nuotaika
+prasideda kvapu."
+
+2. Replace the smaller supporting text with exactly two lines:
+"6 nauji aromatai.
+Atrask savo favoritą."
+
+3. Replace the text inside the bottom cream button with exactly:
+"PERŽIŪRĖTI NAUJIENAS"
+
+Use correct Lithuanian diacritics, especially ų, ė, ū, š, į, ą. Keep the new headline in exactly two lines, adjusting typography just enough to fit the existing clear space above the reeds. Do not overlap the products. The button remains the same size and position.
+Remove every trace of the previous wording: no "Seniai matėmės", no "Turime naujienų", no "Likime ryšyje", no "TAIP, NORIU GAUTI LAIŠKUS". No extra text, badges, prices or logos. Preserve the original aspect ratio and the seamless ivory #FFFDF9 edge bands. Only the stated text changes.
