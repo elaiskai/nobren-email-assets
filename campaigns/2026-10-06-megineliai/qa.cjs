@@ -1,0 +1,13 @@
+const fs=require('fs'),path=require('path'),crypto=require('crypto');const {chromium}=require('playwright');const {pathToFileURL}=require('url');
+const root=__dirname,base='https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/';
+const hash=s=>crypto.createHash('sha256').update(s).digest('hex');
+(async()=>{const html=fs.readFileSync(path.join(root,'newsletter.html'));const b=await chromium.launch({headless:true,executablePath:'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'});const runs=[];
+for(const stripped of [false,true])for(const width of [600,320,390,430]){const p=await b.newPage({viewport:{width,height:900},deviceScaleFactor:1});
+await p.route(base+'assets/**',r=>r.fulfill({path:path.join(root,'assets',r.request().url().split('/').pop())}));
+await p.goto(pathToFileURL(path.join(root,'newsletter.html')).href);if(stripped)await p.locator('head style,head link').evaluateAll(es=>es.forEach(e=>e.remove()));await p.evaluate(()=>document.fonts.ready);
+const name=width+(stripped?'-stripped':'');await p.screenshot({path:path.join(root,`preview-${name}.png`),fullPage:true});
+const result=await p.evaluate(()=>({width:innerWidth,scroll:document.documentElement.scrollWidth,images:[...document.images].map(i=>({src:i.src,loaded:i.naturalWidth>0})),ctas:[...document.querySelectorAll('[data-cta]')].map(a=>({label:a.textContent,height:a.getBoundingClientRect().height})),products:[...document.querySelectorAll('h3')].map(e=>e.textContent),reviews:[...document.querySelectorAll('a')].filter(a=>a.textContent==='Atsiliepimo ištrauka').length,dashes:document.body.innerText.replace(/\{\{[^}]+\}\}/g,'').match(/[-–—−]/g)}));
+if(result.scroll>width||result.images.some(i=>!i.loaded)||result.ctas.some(a=>a.height<44)||result.dashes||result.products.length!==7||result.reviews!==7)throw Error(JSON.stringify(result));
+runs.push({stripped,...result});await p.close();}
+await b.close();const assets=Object.fromEntries(fs.readdirSync(path.join(root,'assets')).map(f=>[f,hash(fs.readFileSync(path.join(root,'assets',f)))]));
+fs.writeFileSync(path.join(root,'qa-report.json'),JSON.stringify({sha256:hash(html),fragmentSha256:hash(fs.readFileSync(path.join(root,'klaviyo-block.html'))),assets,testedAt:new Date().toISOString(),assetMode:'Before publishing, exact hosted asset URLs intercepted and fulfilled with staged local asset bytes; public HTTP checked separately after push.',runs,visualReview:'Pending',emailClientDelivery:'Not tested in Klaviyo or Gmail'},null,2));console.log('PASS eight variants, 7 sets, 7 reviews, CTA heights, images, widths, no dashes');})().catch(e=>{console.error(e);process.exit(1)});

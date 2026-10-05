@@ -1,0 +1,5 @@
+Tool: built-in image_gen, editing original tray-source.png with user reference.
+Request: integrate all six side labels directly into the image. Preserve photo subject, five silver sample atomizers, tray, hand and lighting. White side areas, warm beige center stripe. Square image, black bold sans serif labels, legible at mobile width. No added heading, claims or logos.
+Exact text: SKIRTINGI AROMATAI; PO 5 ML IŠBANDYMUI; PATOGU PASIIMTI; BANDYKITE ANT ODOS; PALYGINKITE KVAPUS; ATRASKITE FAVORITĄ.
+Output: assets/benefits-text-v2-source.png, assets/benefits-text-v2.jpg.
+Replaces previous HTML side labels and central image. Main section heading remains live HTML. New image is clickable and has descriptive alt text carrying all six messages. Original tray image retained for recovery.

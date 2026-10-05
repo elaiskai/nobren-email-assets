@@ -1,0 +1,7 @@
+2026-10-05 typography audit
+Official website CSS https://nobrenparfum.lt/themes/PRS030064/assets/cache/theme-f0ffb0588.css:
+body Roboto 400; editorial headings Oswald 400/500; prices Oswald; decorative titles Sacramento.
+GitHub campaigns/c08/c08-nuolaida-megineliams.html: Oswald headings, Roboto body, Caveat decorative copy.
+Latest September 29 and October 1 campaigns use Arial. Archive is not uniform.
+Decision: align live HTML heading typography to website and prior sample campaign using Oswald, body and CTA Roboto. Remove Georgia offer typography. Fallback Arial, Helvetica, sans-serif when custom fonts unavailable. No decorative script needed for this layout. Existing approved image typography is rasterized, not a verified font file, and was not regenerated in this edit.
+Client questionnaire does not specify exact fonts. This is an evidence-based continuity choice, not a client brandbook mandate.

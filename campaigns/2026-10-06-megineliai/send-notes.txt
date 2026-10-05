@@ -1,0 +1,12 @@
+Nobren, 2026-10-06
+Tema: Mėginėlių rinkiniams 10 % nuolaida
+Preheader: Visi 7 mėginėlių rinkiniai su 10 % nuolaida. Išsirinkite savo kvapų kryptį.
+
+newsletter.html: full document with hosted HTTPS assets.
+klaviyo-block.txt and .html: fragment for HTML block.
+preview-local.html: offline asset preview, not for sending.
+
+7 sample sets, individual current prices and genuine review excerpts. TOP 10 availability requires checking. Full-size fragrances omitted until set contents are confirmed.
+Public research is limited to product facts and chosen public review excerpts; no client questionnaire, account data or full shop session payloads included.
+Original image sources retained. Custom fonts Oswald/Roboto, Arial fallback.
+Browser QA is not a Klaviyo/Gmail delivery test. Send a platform test and verify unsubscribe/address rendering before campaign delivery. No sending or scheduling performed.

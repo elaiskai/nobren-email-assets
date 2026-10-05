@@ -1,0 +1,826 @@
+{
+  "sha256": "0fbe9bbfcd3d01b675c9c077a507854eca09d805a7283ffb5262235c6d07b854",
+  "fragmentSha256": "5d9fc81a007bb8eeee5acffcedb1d4bebb93c3006489452379337fe6a2f8b2c6",
+  "assets": {
+    "benefits-text-v2-source.png": "9dd04530287eeb8134cc7694c1caf494d53a1448cb3beb0dad9c0a14a5e30f6c",
+    "benefits-text-v2.jpg": "87a340a6b87a04d2268b272b3c86ccc3c0b291fc1bc204bdba9abb31df51aed6",
+    "gaivus.jpg": "8dfec811ae377c1b8b626c61bb7bb421f9f4ac88bb726afd9d1e1487577fec87",
+    "hero-source.png": "c6c5aeff7000718b6c4ccb1ffc365fb1483dd115bf4e3488a852deb37cd2a3e9",
+    "hero.jpg": "34b56d8f746c6ecf0ba3f644546aee750fafc2f650ebfd43d7870b601000215f",
+    "logo.png": "e520c3214100726303ecb13be8902905364d26ac2622e045bf8bbd820ff1b004",
+    "prabanga.jpg": "701cacaeac3004e1bf314bbfbe130e66ce32aac86fe716757baa855d2083d3d9",
+    "rekomenduoja.jpg": "6616d0c41ba8f4dc4131db2df217574537512367ed36b0c56862e9874d3773ab",
+    "saldus.jpg": "c228eaa0187ca788836d4aea4a61155b918765fd00b5a9edb5bd116205344206",
+    "stiprus.jpg": "ab262a3ed61558edb3c498467cb6975bb7d800757610c499080e16f28854e8c7",
+    "top10.jpg": "6df3a31aa3ec395a6ddd6fc76535b09931afa3abb4031f9680ad43bf4dab6e21",
+    "tray-source.png": "76c104ee55f8added2d8565aa8624231eca7a215cba57e6c74cf52b30413aa2b",
+    "tray.jpg": "40aabc310e096a46e5d4c6cab8e1b58ae15d004ef8131972307d59acbe5e5112",
+    "virsune.jpg": "9122737b946c31992672536fd380427dfbc5a085dae00fe18f9aebbd12e897c1"
+  },
+  "testedAt": "2026-10-05T12:40:24.787Z",
+  "assetMode": "Before publishing, exact hosted asset URLs intercepted and fulfilled with staged local asset bytes; public HTTP checked separately after push.",
+  "runs": [
+    {
+      "stripped": false,
+      "width": 600,
+      "scroll": 600,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/logo.png",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/hero.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/benefits-text-v2.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/saldus.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/gaivus.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/stiprus.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/prabanga.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/virsune.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/rekomenduoja.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/top10.jpg",
+          "loaded": true
+        }
+      ],
+      "ctas": [
+        {
+          "label": "ATRASKITE MĖGINĖLIŲ RINKINIUS",
+          "height": 52
+        },
+        {
+          "label": "IŠBANDYKITE SU 10 % NUOLAIDA",
+          "height": 52
+        },
+        {
+          "label": "RENKUOSI SALDŽIUS",
+          "height": 52
+        },
+        {
+          "label": "RENKUOSI GAIVIUS",
+          "height": 52
+        },
+        {
+          "label": "RENKUOSI STIPRIUS",
+          "height": 52
+        },
+        {
+          "label": "ATRASKITE PRABANGĄ",
+          "height": 52
+        },
+        {
+          "label": "PERŽIŪRĖTI RINKINĮ",
+          "height": 52
+        },
+        {
+          "label": "ATRASKITE ATRINKTUS KVAPUS",
+          "height": 52
+        },
+        {
+          "label": "PATIKRINTI PRIEINAMUMĄ",
+          "height": 52
+        },
+        {
+          "label": "IŠSIRINKTI RINKINĮ SU NUOLAIDA",
+          "height": 52
+        }
+      ],
+      "products": [
+        "TOP SALDŪS",
+        "TOP GAIVŪS",
+        "TOP STIPRŪS",
+        "TOP PRABANGA",
+        "TOP VIRŠŪNĖ",
+        "NOBREN REKOMENDUOJA",
+        "TOP 10"
+      ],
+      "reviews": 7,
+      "dashes": null
+    },
+    {
+      "stripped": false,
+      "width": 320,
+      "scroll": 320,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/logo.png",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/hero.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/benefits-text-v2.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/saldus.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/gaivus.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/stiprus.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/prabanga.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/virsune.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/rekomenduoja.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/top10.jpg",
+          "loaded": true
+        }
+      ],
+      "ctas": [
+        {
+          "label": "ATRASKITE MĖGINĖLIŲ RINKINIUS",
+          "height": 70
+        },
+        {
+          "label": "IŠBANDYKITE SU 10 % NUOLAIDA",
+          "height": 70
+        },
+        {
+          "label": "RENKUOSI SALDŽIUS",
+          "height": 52
+        },
+        {
+          "label": "RENKUOSI GAIVIUS",
+          "height": 52
+        },
+        {
+          "label": "RENKUOSI STIPRIUS",
+          "height": 52
+        },
+        {
+          "label": "ATRASKITE PRABANGĄ",
+          "height": 52
+        },
+        {
+          "label": "PERŽIŪRĖTI RINKINĮ",
+          "height": 52
+        },
+        {
+          "label": "ATRASKITE ATRINKTUS KVAPUS",
+          "height": 52
+        },
+        {
+          "label": "PATIKRINTI PRIEINAMUMĄ",
+          "height": 52
+        },
+        {
+          "label": "IŠSIRINKTI RINKINĮ SU NUOLAIDA",
+          "height": 52
+        }
+      ],
+      "products": [
+        "TOP SALDŪS",
+        "TOP GAIVŪS",
+        "TOP STIPRŪS",
+        "TOP PRABANGA",
+        "TOP VIRŠŪNĖ",
+        "NOBREN REKOMENDUOJA",
+        "TOP 10"
+      ],
+      "reviews": 7,
+      "dashes": null
+    },
+    {
+      "stripped": false,
+      "width": 390,
+      "scroll": 390,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/logo.png",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/hero.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/benefits-text-v2.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/saldus.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/gaivus.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/stiprus.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/prabanga.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/virsune.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/rekomenduoja.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/top10.jpg",
+          "loaded": true
+        }
+      ],
+      "ctas": [
+        {
+          "label": "ATRASKITE MĖGINĖLIŲ RINKINIUS",
+          "height": 52
+        },
+        {
+          "label": "IŠBANDYKITE SU 10 % NUOLAIDA",
+          "height": 52
+        },
+        {
+          "label": "RENKUOSI SALDŽIUS",
+          "height": 52
+        },
+        {
+          "label": "RENKUOSI GAIVIUS",
+          "height": 52
+        },
+        {
+          "label": "RENKUOSI STIPRIUS",
+          "height": 52
+        },
+        {
+          "label": "ATRASKITE PRABANGĄ",
+          "height": 52
+        },
+        {
+          "label": "PERŽIŪRĖTI RINKINĮ",
+          "height": 52
+        },
+        {
+          "label": "ATRASKITE ATRINKTUS KVAPUS",
+          "height": 52
+        },
+        {
+          "label": "PATIKRINTI PRIEINAMUMĄ",
+          "height": 52
+        },
+        {
+          "label": "IŠSIRINKTI RINKINĮ SU NUOLAIDA",
+          "height": 52
+        }
+      ],
+      "products": [
+        "TOP SALDŪS",
+        "TOP GAIVŪS",
+        "TOP STIPRŪS",
+        "TOP PRABANGA",
+        "TOP VIRŠŪNĖ",
+        "NOBREN REKOMENDUOJA",
+        "TOP 10"
+      ],
+      "reviews": 7,
+      "dashes": null
+    },
+    {
+      "stripped": false,
+      "width": 430,
+      "scroll": 430,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/logo.png",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/hero.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/benefits-text-v2.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/saldus.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/gaivus.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/stiprus.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/prabanga.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/virsune.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/rekomenduoja.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/top10.jpg",
+          "loaded": true
+        }
+      ],
+      "ctas": [
+        {
+          "label": "ATRASKITE MĖGINĖLIŲ RINKINIUS",
+          "height": 52
+        },
+        {
+          "label": "IŠBANDYKITE SU 10 % NUOLAIDA",
+          "height": 52
+        },
+        {
+          "label": "RENKUOSI SALDŽIUS",
+          "height": 52
+        },
+        {
+          "label": "RENKUOSI GAIVIUS",
+          "height": 52
+        },
+        {
+          "label": "RENKUOSI STIPRIUS",
+          "height": 52
+        },
+        {
+          "label": "ATRASKITE PRABANGĄ",
+          "height": 52
+        },
+        {
+          "label": "PERŽIŪRĖTI RINKINĮ",
+          "height": 52
+        },
+        {
+          "label": "ATRASKITE ATRINKTUS KVAPUS",
+          "height": 52
+        },
+        {
+          "label": "PATIKRINTI PRIEINAMUMĄ",
+          "height": 52
+        },
+        {
+          "label": "IŠSIRINKTI RINKINĮ SU NUOLAIDA",
+          "height": 52
+        }
+      ],
+      "products": [
+        "TOP SALDŪS",
+        "TOP GAIVŪS",
+        "TOP STIPRŪS",
+        "TOP PRABANGA",
+        "TOP VIRŠŪNĖ",
+        "NOBREN REKOMENDUOJA",
+        "TOP 10"
+      ],
+      "reviews": 7,
+      "dashes": null
+    },
+    {
+      "stripped": true,
+      "width": 600,
+      "scroll": 600,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/logo.png",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/hero.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/benefits-text-v2.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/saldus.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/gaivus.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/stiprus.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/prabanga.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/virsune.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/rekomenduoja.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/top10.jpg",
+          "loaded": true
+        }
+      ],
+      "ctas": [
+        {
+          "label": "ATRASKITE MĖGINĖLIŲ RINKINIUS",
+          "height": 52
+        },
+        {
+          "label": "IŠBANDYKITE SU 10 % NUOLAIDA",
+          "height": 52
+        },
+        {
+          "label": "RENKUOSI SALDŽIUS",
+          "height": 52
+        },
+        {
+          "label": "RENKUOSI GAIVIUS",
+          "height": 52
+        },
+        {
+          "label": "RENKUOSI STIPRIUS",
+          "height": 52
+        },
+        {
+          "label": "ATRASKITE PRABANGĄ",
+          "height": 52
+        },
+        {
+          "label": "PERŽIŪRĖTI RINKINĮ",
+          "height": 52
+        },
+        {
+          "label": "ATRASKITE ATRINKTUS KVAPUS",
+          "height": 52
+        },
+        {
+          "label": "PATIKRINTI PRIEINAMUMĄ",
+          "height": 52
+        },
+        {
+          "label": "IŠSIRINKTI RINKINĮ SU NUOLAIDA",
+          "height": 52
+        }
+      ],
+      "products": [
+        "TOP SALDŪS",
+        "TOP GAIVŪS",
+        "TOP STIPRŪS",
+        "TOP PRABANGA",
+        "TOP VIRŠŪNĖ",
+        "NOBREN REKOMENDUOJA",
+        "TOP 10"
+      ],
+      "reviews": 7,
+      "dashes": null
+    },
+    {
+      "stripped": true,
+      "width": 320,
+      "scroll": 320,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/logo.png",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/hero.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/benefits-text-v2.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/saldus.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/gaivus.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/stiprus.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/prabanga.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/virsune.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/rekomenduoja.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/top10.jpg",
+          "loaded": true
+        }
+      ],
+      "ctas": [
+        {
+          "label": "ATRASKITE MĖGINĖLIŲ RINKINIUS",
+          "height": 70
+        },
+        {
+          "label": "IŠBANDYKITE SU 10 % NUOLAIDA",
+          "height": 70
+        },
+        {
+          "label": "RENKUOSI SALDŽIUS",
+          "height": 52
+        },
+        {
+          "label": "RENKUOSI GAIVIUS",
+          "height": 52
+        },
+        {
+          "label": "RENKUOSI STIPRIUS",
+          "height": 52
+        },
+        {
+          "label": "ATRASKITE PRABANGĄ",
+          "height": 52
+        },
+        {
+          "label": "PERŽIŪRĖTI RINKINĮ",
+          "height": 52
+        },
+        {
+          "label": "ATRASKITE ATRINKTUS KVAPUS",
+          "height": 52
+        },
+        {
+          "label": "PATIKRINTI PRIEINAMUMĄ",
+          "height": 52
+        },
+        {
+          "label": "IŠSIRINKTI RINKINĮ SU NUOLAIDA",
+          "height": 70
+        }
+      ],
+      "products": [
+        "TOP SALDŪS",
+        "TOP GAIVŪS",
+        "TOP STIPRŪS",
+        "TOP PRABANGA",
+        "TOP VIRŠŪNĖ",
+        "NOBREN REKOMENDUOJA",
+        "TOP 10"
+      ],
+      "reviews": 7,
+      "dashes": null
+    },
+    {
+      "stripped": true,
+      "width": 390,
+      "scroll": 390,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/logo.png",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/hero.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/benefits-text-v2.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/saldus.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/gaivus.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/stiprus.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/prabanga.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/virsune.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/rekomenduoja.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/top10.jpg",
+          "loaded": true
+        }
+      ],
+      "ctas": [
+        {
+          "label": "ATRASKITE MĖGINĖLIŲ RINKINIUS",
+          "height": 52
+        },
+        {
+          "label": "IŠBANDYKITE SU 10 % NUOLAIDA",
+          "height": 52
+        },
+        {
+          "label": "RENKUOSI SALDŽIUS",
+          "height": 52
+        },
+        {
+          "label": "RENKUOSI GAIVIUS",
+          "height": 52
+        },
+        {
+          "label": "RENKUOSI STIPRIUS",
+          "height": 52
+        },
+        {
+          "label": "ATRASKITE PRABANGĄ",
+          "height": 52
+        },
+        {
+          "label": "PERŽIŪRĖTI RINKINĮ",
+          "height": 52
+        },
+        {
+          "label": "ATRASKITE ATRINKTUS KVAPUS",
+          "height": 52
+        },
+        {
+          "label": "PATIKRINTI PRIEINAMUMĄ",
+          "height": 52
+        },
+        {
+          "label": "IŠSIRINKTI RINKINĮ SU NUOLAIDA",
+          "height": 52
+        }
+      ],
+      "products": [
+        "TOP SALDŪS",
+        "TOP GAIVŪS",
+        "TOP STIPRŪS",
+        "TOP PRABANGA",
+        "TOP VIRŠŪNĖ",
+        "NOBREN REKOMENDUOJA",
+        "TOP 10"
+      ],
+      "reviews": 7,
+      "dashes": null
+    },
+    {
+      "stripped": true,
+      "width": 430,
+      "scroll": 430,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/logo.png",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/hero.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/benefits-text-v2.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/saldus.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/gaivus.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/stiprus.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/prabanga.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/virsune.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/rekomenduoja.jpg",
+          "loaded": true
+        },
+        {
+          "src": "https://raw.githubusercontent.com/elaiskai/nobren-email-assets/main/campaigns/2026-10-06-megineliai/assets/top10.jpg",
+          "loaded": true
+        }
+      ],
+      "ctas": [
+        {
+          "label": "ATRASKITE MĖGINĖLIŲ RINKINIUS",
+          "height": 52
+        },
+        {
+          "label": "IŠBANDYKITE SU 10 % NUOLAIDA",
+          "height": 52
+        },
+        {
+          "label": "RENKUOSI SALDŽIUS",
+          "height": 52
+        },
+        {
+          "label": "RENKUOSI GAIVIUS",
+          "height": 52
+        },
+        {
+          "label": "RENKUOSI STIPRIUS",
+          "height": 52
+        },
+        {
+          "label": "ATRASKITE PRABANGĄ",
+          "height": 52
+        },
+        {
+          "label": "PERŽIŪRĖTI RINKINĮ",
+          "height": 52
+        },
+        {
+          "label": "ATRASKITE ATRINKTUS KVAPUS",
+          "height": 52
+        },
+        {
+          "label": "PATIKRINTI PRIEINAMUMĄ",
+          "height": 52
+        },
+        {
+          "label": "IŠSIRINKTI RINKINĮ SU NUOLAIDA",
+          "height": 52
+        }
+      ],
+      "products": [
+        "TOP SALDŪS",
+        "TOP GAIVŪS",
+        "TOP STIPRŪS",
+        "TOP PRABANGA",
+        "TOP VIRŠŪNĖ",
+        "NOBREN REKOMENDUOJA",
+        "TOP 10"
+      ],
+      "reviews": 7,
+      "dashes": null
+    }
+  ],
+  "visualReview": "PASS: reviewed all eight fresh previews of this exact HTML hash. Desktop 600 and mobile 320/390/430, with and without head styles/font imports. Readable text widths and intact names; natural image proportions; consistent spacing; image and CTA associated after stacking; fully clickable CTA >=44px. Product/review content unchanged from prior detailed native-resolution review. Public asset HTTP availability checked separately after upload. This is browser QA, not an actual email-client delivery test.",
+  "emailClientDelivery": "Not tested in Klaviyo or Gmail"
+}

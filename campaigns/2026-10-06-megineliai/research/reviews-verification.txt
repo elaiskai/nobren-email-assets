@@ -1,0 +1,5 @@
+Checked 2026-10-05 against live Nobren product review data. All seven sets have text reviews.
+Total published reviews shown by site: rekomenduoja 11, top10 12, gaivus 14, prabanga 23, saldus 6, stiprus 1, virsune 30. First page sufficient for selected excerpts; not all pages downloaded.
+Selected excerpts in selected-reviews.json. Full source review objects in individual product reviews JSON files. Product URLs in all-products.json. Build checks exact substring match, correct product entity ID, and absence of dash punctuation.
+Authors: Kristina, Eugenija, Evelina, Vitalijus, Edita, Lina, Mindaugas. Quotes preserve original spelling. Labelled as excerpts, no invented aggregate rating or verified purchase badge. Some website reviewers are not marked as verified buyers, so email does not make that claim.
+This supersedes earlier campaign notes naming only Kristina and Eugenija. Current email has one genuine sourced excerpt under every set.
